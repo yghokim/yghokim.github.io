@@ -1,0 +1,68 @@
+---
+  overview:
+    This page showcases my out-of-research activities, hobbies, or past activities I engaged in before I became an HCI researcher.
+  projects:
+    -
+      title: Logos & Typefaces for Research Software Prototypes
+      content:
+        -
+          type: text
+          content: >
+            My research usually involve software prototypes (e.g., apps and webs) that are deployed and used by study participants.
+            As a starting point of each research project, I design a logo or typeface for my research prototype. I use it for spash screens, icons, or even for presentation slides. I do it mostly for fun, but it also improves the originality and professionality of the design.
+        -
+          type: gallery
+          grid_hor: 2
+          images: ["/files/images/fun/logos/timeaware.png", "/files/images/fun/logos/omnitrack.png", "/files/images/fun/logos/o4r.png", "/files/images/fun/logos/data-at-hand.png"]
+
+    -
+      title: Academic Branding Design
+      content:
+        -
+          type: text
+          content: >
+            Since I have a design background, during my PhD I was involved in a couple of branding projects for academic entities such as university departments and academic conferences. I designed identities, websites, posters, or proceeding books.
+            
+            
+            Examples:
+
+            - [IEEE Pacific Vis 2017 website](http://pacificvis.snu.ac.kr/)
+
+            - [Computer Science department website at Seoul National University](https://cse.snu.ac.kr/en)
+
+            - [Computing Research Forum at Seoul National University website](https://cse.snu.ac.kr/snucompforum)
+
+            - [Website for HCI lab at Seoul National University](http://hcil.snu.ac.kr/)
+        -
+          type: gallery
+          grid_hor: 4
+          images: ["/files/images/fun/academic/pacificvis.jpg", "/files/images/fun/academic/snucse.jpg", "/files/images/fun/academic/crf.jpg", "/files/images/fun/academic/snuhci.jpg"]
+        
+
+    -
+      title: 3D Graphic Works for Mechanical Things 
+      content: 
+        -
+          type: text
+          content: >
+            I started 3D modelling since I was 14. I am also a big fan of robots like Transformers, and mechanical concepts like Steam Punk. Here are some old works that I did in the past. All designs are my original.
+        -
+          type: gallery
+          thumbnail_type: "square"
+          grid_hor: 5
+          images:
+            - /files/images/fun/3d/dreadnaught_all.jpg
+            - /files/images/fun/3d/dreadnaught_korean.jpg
+            - /files/images/fun/3d/dreadnaught_korean2.jpg
+            - /files/images/fun/3d/dreadnaught_britain.jpg
+            - /files/images/fun/3d/dreadnaught_chinese.jpg
+            - /files/images/fun/3d/dreadnaught_steamrider_korean.jpg
+            - /files/images/fun/3d/steamrider_korean.jpg
+            - /files/images/fun/3d/steamrider_korean2.jpg
+            - /files/images/fun/3d/steamrider_britain.jpg
+            - /files/images/fun/3d/steamrider_britain2.jpg
+            - /files/images/fun/3d/steamrider_chinese.jpg
+            - /files/images/fun/3d/steamrider_chinese2.jpg
+            - /files/images/fun/3d/lostvalley_1.jpg
+            - /files/images/fun/3d/lostvalley_2.jpg
+            - /files/images/fun/3d/lostvalley_3.png

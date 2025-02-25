@@ -1,0 +1,1289 @@
+---
+  updated: 2025-02
+  store:
+    Archived Manuscripts:
+      - 
+        key: PlanFitting-Arxiv23
+        year: 2023
+        month: 9
+        selected: true
+        primary: true
+        type: full
+        title: "PlanFitting: Tailoring Personalized Exercise Plans with Large Language Models"
+        authors: [Donghoon Shin, Gary Hsieh, Young-Ho Kim]
+        venue: arXiv
+        pdf: planfitting-arxiv23.pdf
+        thumbnail: [planfitting/thumb-1.jpg, planfitting/thumb-2.jpg]
+        links:
+          - 
+            label: arXiv
+            url: https://arxiv.org/abs/2309.12555
+    Peer-reviewed Conferences and Journals:
+      -
+        key: AACessTalk-CHI25
+        year: 2025
+        month: 4
+        selected: true
+        primary: true
+        type: full
+        title: "AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation"
+        authors: [Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, Young-Ho Kim]
+        venue: ACM CHI 2025
+        thumbnail: aacesstalk/aacesstalk-thumb-animated.gif
+        pdf: aacesstalk-chi25.pdf
+        links:
+          -
+            label: Web
+            url: https://naver-ai.github.io/aacesstalk
+          -
+            label: Demo Video (Eng)
+            url: https://www.youtube.com/watch?v=sw5GOatm-uQ
+          -
+            label: Demo Video (Kor)
+            url: https://www.youtube.com/watch?v=CERRq286e2g
+          - 
+            label: arXiv
+            url: https://doi.org/10.48550/arXiv.2409.09641
+          -
+            label: GitHub
+            url: https://github.com/naver-ai/aacesstalk-monorepo
+        bibtex: >
+          @inproceedings{choi2025aacesstalk,
+            title={AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation},
+            author={Dasom Choi and SoHyun Park and Kyungah Lee and Hwajung Hong and Young-Ho Kim},
+            year = {2025},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3706598.3713792},
+            doi = {10.1145/3706598.3713792},
+            booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+            location = {Yokohama, Japan},
+            series = {CHI '25}
+          }
+        featured:
+          video: aacesstalk-demo_loop.mp4
+          shorttitle: "AACessTalk: AI-guided Communication Mediation for Minimally Verbal Autistic Children and Parents"
+          
+      -
+        key: ELMI-CHI25
+        year: 2025
+        month: 4
+        selected: true
+        primary: true
+        type: full
+        title: "ELMI: Interactive and Intelligent Sign Language Translation of Lyrics for Song Signing"
+        authors: [Suhyeon Yoo, Khai N. Truong, Young-Ho Kim]
+        venue: ACM CHI 2025
+        thumbnail: elmi_demo_loop_square.gif
+        pdf: elmi-chi25.pdf
+        links:
+          -
+            label: Web
+            url: https://naver-ai.github.io/elmi
+          -
+            label: Demo Video
+            url: https://youtu.be/OOkBsG1A6p0
+          - 
+            label: arXiv
+            url: https://doi.org/10.48550/arXiv.2409.09760
+          -
+            label: GitHub
+            url: https://github.com/naver-ai/elmi-monorepo
+        bibtex: >
+          @inproceedings{yoo2025elmi,
+            author = {Yoo, Suhyeon and Truong, Khai N and Kim, Young-Ho},
+            title = {ELMI: Interactive and Intelligent Sign Language Translation of Lyrics for Song Signing},
+            year = {2025},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3706598.3713973},
+            doi = {10.1145/3706598.3713973},
+            booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+            location = {Yokohama, Japan},
+            series = {CHI '25}
+          }
+        featured:
+          video: elmi-demo_loop.mp4
+
+      -
+        key: ExploreSelf-CHI25
+        year: 2025
+        month: 4
+        selected: true
+        primary: true
+        type: full
+        title: "ExploreSelf: Fostering User-driven Exploration and Reflection on Personal Challenges with Adaptive Guidance by Large Language Models"
+        authors: [Inhwa Song, SoHyun Park, Sachin R. Pendse, Jessica Lee Schleider, Munmun De Choudhury, Young-Ho Kim]
+        venue: ACM CHI 2025
+        thumbnail: [exploreself-demo-loop-gif-square.gif]
+        pdf: exploreself-chi25.pdf
+        links:
+          -
+            label: Web
+            url: https://naver-ai.github.io/exploreself
+          -
+            label: Demo Video
+            url: https://youtu.be/HtgrL8Fo7tg?si=vz3fHp_tJ5_qDLtD
+          - 
+            label: arXiv
+            url: https://doi.org/10.48550/arXiv.2409.09662
+          -
+            label: GitHub
+            url: https://github.com/naver-ai/exploreself-monorepo
+        bibtex: >
+          @inproceedings{song2025exploreself,
+            author = {Inhwa Song and SoHyun Park and Sachin R. Pendse and Jessica Lee Schleider and Munmun De Choudhury and Young-Ho Kim},
+            title = {ExploreSelf: Fostering User-driven Exploration and Reflection on Personal Challenges with Adaptive Guidance by Large Language Models},
+            year = {2025},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3706598.3713883},
+            doi = {10.1145/3706598.3713883},
+            booktitle = {Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems},
+            location = {Yokohama, Japan},
+            series = {CHI '25}
+          }
+        featured:
+          video: exploreself-demo-loop.mp4
+          shorttitle: "ExploreSelf: AI-guided & User-driven Exploration of Personal Challenges"
+      -  
+        key: CareCallStakeholder-CHI25
+        year: 2025
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "Understanding Public Agencies' Expectations and Realities of AI-Driven Chatbots for Public Health Monitoring"
+        authors: [Eunkyung Jo, Young-Ho Kim, Sang-Houn Ok, Daniel A. Epstein]
+        venue: ACM CHI 2025
+        pdf: carecall-stakeholders-chi25.pdf
+      -  
+        key: ARCH-CHI25
+        year: 2025
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "Enhancing Pediatric Communication: The Role of an AI-Driven Chatbot in Facilitating Child-Parent-Provider Interaction"
+        authors: [Woosuk Seo, Young-Ho Kim, Ji Eun Kim, Megan Tao Fan, Mark S. Ackerman, Sung Won Choi, Sun Young Park]
+        venue: ACM CHI 2025
+        pdf: arch-chi25.pdf
+      -
+        key: Textoshop-CHI25
+        year: 2025
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "Textoshop: Interactions Inspired by Drawing Software to Facilitate Text Editing"
+        authors: [Damien Masson, Young-Ho Kim, Fanny Chevalier]
+        venue: ACM CHI 2025
+        thumbnail: [textoshop.jpg]
+        pdf: masson-textoshop-chi25.pdf
+        links:
+          - 
+            label: arXiv
+            url: https://doi.org/10.48550/arXiv.2409.17088
+          -
+            label: Demo
+            url: https://damienmasson.com/Textoshop/
+          -
+            label: GitHub
+            url: https://github.com/m-damien/Textoshop
+      -
+        key: WriterTools-CHI25
+        year: 2025
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "Making the Write Connections: Linking Writing Support Tools with Writer Needs"
+        authors: [Zixin Zhao, Damien Masson, Young-Ho Kim, Gerald Penn, Fanny Chevalier]
+        venue: ACM CHI 2025
+        pdf: zhao-writing-survey-chi25.pdf
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2502.13320
+          -
+            label: Web
+            url: https://thewriteconnection.github.io/
+      -
+        key: Sexism-CHI25
+        year: 2025
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "\"They Didn't Mean To\": Leveraging The Diversity of Perspectives In LLM-Enhanced Subjective Decision-Making"
+        authors: [Paula Akemi Aoyagui, Kelsey Stemmler, Sharon A. Ferguson, Young-Ho Kim, Anastasia Kuzminykh]
+        venue: ACM CHI 2025
+        pdf: aoyagui-perspectives-chi25.pdf
+      
+      -
+        key: explanation-CSCW24
+        year: 2024
+        month: 10
+        type: full
+        title: "The Explanation That Hits Home: The Characteristics of Verbal Explanations That Affect Human Perception in Subjective Decision-Making"
+        authors: [Sharon Ferguson, Paula Akemi Aoyagui, Rimsha Rizvi, Young-Ho Kim, Anastasia Kuzminykh]
+        venue: PACM HCI (CSCW 2024)
+        doi: https://dl.acm.org/doi/10.1145/3687056
+        pdf: ferguson-explanation-cscw24.pdf
+        bibtex: >
+          @article{ferguson2024explanation,
+            author = {Ferguson, Sharon and Aoyagui, Paula Akemi and Rizvi, Rimsha and Kim, Young-Ho and Kuzminykh, Anastasia},
+            title = {The Explanation That Hits Home: The Characteristics of Verbal Explanations That Affect Human Perception in Subjective Decision-Making},
+            year = {2024},
+            issue_date = {November 2024},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            volume = {8},
+            number = {CSCW2},
+            url = {https://doi.org/10.1145/3687056},
+            doi = {10.1145/3687056},
+            journal = {Proc. ACM Hum.-Comput. Interact.},
+            month = nov,
+            articleno = {517},
+            numpages = {37},
+          }
+
+
+
+      -
+        key: ChaCha-CHI24
+        year: 2024
+        month: 5
+        selected: true
+        primary: true
+        type: full
+        title: "ChaCha: Leveraging Large Language Models to Prompt Children to Share Their Emotions about Personal Events"
+        authors: [Woosuk Seo, Chanmo Yang, Young-Ho Kim]
+        venue: ACM CHI 2024
+        pdf: chacha-chi24-preprint-240219.pdf
+        doi: https://dl.acm.org/doi/10.1145/3613904.3642152
+        thumbnail: chacha/thumb-1.jpg
+        links:
+          - 
+            label: arXiv
+            url: https://arxiv.org/abs/2309.12244
+          -
+            label: Web
+            url: https://naver-ai.github.io/chacha
+          -
+            label: Demo Video
+            url: https://youtu.be/qjgHS6sb578
+          -
+            label: GitHub
+            url: https://github.com/naver-ai/chacha-chatbot
+        bibtex: >
+          @inproceedings{seo2024chacha,
+            author = {Seo, Woosuk and Yang, Chanmo and Kim, Young-Ho},
+            title = {ChaCha: Leveraging Large Language Models to Prompt Children to Share Their Emotions about Personal Events},
+            year = {2024},
+            isbn = {9798400703300},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3613904.3642152},
+            doi = {10.1145/3613904.3642152},
+            booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+            articleno = {903},
+            numpages = {20},
+            location = {Honolulu, HI, USA},
+            series = {CHI '24}
+          }
+        featured:
+          video: chacha-demo-reel.mp4
+          shorttitle: "ChaCha: an LLM-driven Chatbot for Children to Share Emotions and Events"
+        
+      - 
+        key: MindfulDiary-CHI24
+        selected: true
+        primary: true
+        year: 2024
+        month: 5
+        type: full
+        title: "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling"
+        authors: [Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim]
+        groups: [[[Young-Ho Kim, Chanmo Yang], "co-corresponding"]]
+        venue: ACM CHI 2024
+        thumbnail: [mindfuldiary/thumb-1.jpg, mindfuldiary/thumb-2.jpg, mindfuldiary/thumb-3.jpg]
+        pdf: kim_mindfuldiary_chi24_preprint_240222.pdf
+        doi: https://dl.acm.org/doi/10.1145/3613904.3642937
+        links:
+          - 
+            label: arXiv
+            url: https://arxiv.org/abs/2310.05231
+        bibtex: >
+          @inproceedings{kim2024mindfuldiary,
+            author = {Kim, Taewan and Bae, Seolyeong and Kim, Hyun Ah and Lee, Su-Woo and Hong, Hwajung and Yang, Chanmo and Kim, Young-Ho},
+            title = {MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling},
+            year = {2024},
+            isbn = {9798400703300},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3613904.3642937},
+            doi = {10.1145/3613904.3642937},
+            booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+            articleno = {701},
+            numpages = {20},
+            location = {Honolulu, HI, USA},
+            series = {CHI '24}
+          }
+        featured:
+          video: mindfuldiary-demo.mp4
+          shortitle: "MindfulDiary: LLM-driven Conversational Journaling for Psychiatric Patients"
+
+      - 
+        key: CareCallLTM-CHI24
+        selected: true
+        primary: true
+        year: 2024
+        month: 5
+        type: full
+        title: "Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention"
+        authors: [Eunkyung Jo, Yuin Jeong, SoHyun Park, Daniel A. Epstein, Young-Ho Kim]
+        venue: ACM CHI 2024
+        thumbnail: [carecall/thumb-ltm.png]
+        pdf: carecall-ltm-chi24-preprint-240216.pdf
+        doi: https://dl.acm.org/doi/10.1145/3613904.3642420
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2402.11353
+        bibtex: >
+          @inproceedings{jo2024carecall_ltm,
+            author = {Jo, Eunkyung and Jeong, Yuin and Park, Sohyun and Epstein, Daniel A. and Kim, Young-Ho},
+            title = {Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention},
+            year = {2024},
+            isbn = {9798400703300},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3613904.3642420},
+            doi = {10.1145/3613904.3642420},
+            booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+            articleno = {440},
+            numpages = {21},
+            location = {Honolulu, HI, USA},
+            series = {CHI '24}
+          }
+      -
+        key: DiaryMate-CHI24
+        year: 2024
+        month: 5
+        selected: false
+        primary: false
+        type: full
+        title: "DiaryMate: Understanding User Perceptions and Experience in Human-AI Collaboration for Personal Journaling"
+        authors: [Taewan Kim, Donghoon Shin, Young-Ho Kim, Hwajung Hong]
+        thumbnail: [diarymate/thumb-1.jpg, diarymate/thumb-2.jpg]
+        venue: ACM CHI 2024
+        pdf: diarymate-chi24.pdf
+        doi: https://dl.acm.org/doi/10.1145/3613904.3642693
+        bibtex: >
+          @inproceedings{kim2024diarymate,
+            author = {Kim, Taewan and Shin, Donghoon and Kim, Young-Ho and Hong, Hwajung},
+            title = {DiaryMate: Understanding User Perceptions and Experience in Human-AI Collaboration for Personal Journaling},
+            year = {2024},
+            isbn = {9798400703300},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3613904.3642693},
+            doi = {10.1145/3613904.3642693},
+            booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+            articleno = {1046},
+            numpages = {15},
+            location = {Honolulu, HI, USA},
+            series = {CHI '24}
+          }
+      - 
+        key: GenQuery-CHI24
+        year: 2024
+        month: 5
+        type: full
+        title: "GenQuery: Supporting Expressive Visual Search with Generative Models"
+        authors: [Kihoon Son, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Juho Kim]
+        venue: ACM CHI 2024
+        thumbnail: [genquery/thumb-1.jpg, genquery/thumb-2.jpg]
+        pdf: genquery-chi24.pdf
+        doi: https://dl.acm.org/doi/10.1145/3613904.3642847
+        links:
+          - 
+            label: arXiv
+            url: https://arxiv.org/abs/2310.01287      
+          -
+            label: Web
+            url: https://genquery.kixlab.org/
+        bibtex: >
+          @inproceedings{10.1145/3613904.3642847,
+            author = {Son, Kihoon and Choi, DaEun and Kim, Tae Soo and Kim, Young-Ho and Kim, Juho},
+            title = {GenQuery: Supporting Expressive Visual Search with Generative Models},
+            year = {2024},
+            isbn = {9798400703300},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3613904.3642847},
+            doi = {10.1145/3613904.3642847},
+            booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+            articleno = {180},
+            numpages = {19},
+            location = {Honolulu, HI, USA},
+            series = {CHI '24}
+          }
+      
+      - 
+        key: EvalLM-CHI24
+        year: 2024
+        month: 5
+        type: full
+        title: "EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria"
+        authors: [Tae Soo Kim, Yoonjoo Lee, Jamin Shin, Young-Ho Kim, Juho Kim]
+        venue: ACM CHI 2024
+        thumbnail: [evallm/thumb_evallm_1.jpg, evallm/thumb_evallm_2.jpg, evallm/thumb_evallm_3.jpg]
+        pdf: evallm-chi24.pdf
+        doi: https://dl.acm.org/doi/10.1145/3613904.3642216
+        links:
+          - 
+            label: arXiv
+            url: https://arxiv.org/abs/2309.13633
+          -
+            label: Web
+            url: https://evallm.kixlab.org/
+        bibtex: >
+          @inproceedings{kim2024evallm,
+            author = {Kim, Tae Soo and Lee, Yoonjoo and Shin, Jamin and Kim, Young-Ho and Kim, Juho},
+            title = {EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria},
+            year = {2024},
+            isbn = {9798400703300},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3613904.3642216},
+            doi = {10.1145/3613904.3642216},
+            booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+            articleno = {306},
+            numpages = {21},
+            location = {Honolulu, HI, USA},
+            series = {CHI '24}
+          }
+      -
+        key: Redefining-CHI24
+        year: 2024
+        month: 5
+        selected: false
+        primary: false
+        type: full
+        title: "Redefining Activity Tracking Through Older Adults' Reflections on Meaningful Activities"
+        authors: [Yiwen Wang, Mengying Li, Young-Ho Kim, Bongshin Lee, Margaret Danilovich, Amanda Lazar, David E Conroy, Hernisa Kacorri, Eun Kyoung Choe]
+        venue: ACM CHI 2024
+        pdf: older-adults-tracking-chi24.pdf
+        doi: https://dl.acm.org/doi/10.1145/3613904.3642170
+        bibtex: >
+          @inproceedings{wang2024redefining,
+            author = {Wang, Yiwen and Li, Mengying and Kim, Young-Ho and Lee, Bongshin and Danilovich, Margaret and Lazar, Amanda and Conroy, David E and Kacorri, Hernisa and Choe, Eun Kyoung},
+            title = {Redefining Activity Tracking Through Older Adults' Reflections on Meaningful Activities},
+            year = {2024},
+            isbn = {9798400703300},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3613904.3642170},
+            doi = {10.1145/3613904.3642170},
+            booktitle = {Proceedings of the CHI Conference on Human Factors in Computing Systems},
+            articleno = {465},
+            numpages = {15},
+            location = {Honolulu, HI, USA},
+            series = {CHI '24}
+          }
+
+      -
+        key: LLM-Chatbot-CSCW24
+        year: 2024
+        month: 4
+        selected: true
+        primary: true
+        type: full
+        title: "Leveraging Large Language Models to Power Chatbots for Collecting User Self-Reported Data"
+        authors: [Jing Wei, Sungdong Kim, Hyunhoon Jung, Young-Ho Kim]
+        venue: PACM HCI (CSCW 2024)
+        thumbnail: gpt-chatbot/thumb-1.jpg
+        pdf: wei-chatbot-cscw24.pdf
+        doi: https://doi.org/10.1145/3637364
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2301.05843
+          -
+            label: Interactive Demo
+            url: https://naver-ai.github.io/llm-chatbot/  
+        bibtex: >
+          @article{wei2024leveraging,
+            title={Leveraging Large Language Models to Power Chatbots for Collecting User Self-Reported Data}, 
+            author={Jing Wei and Sungdong Kim and Hyunhoon Jung and Young-Ho Kim},
+            year = {2024},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            volume = {8},
+            number = {CSCW1},
+            url = {https://doi.org/10.1145/3637364},
+            doi = {10.1145/3637364},
+            journal = {Proc. ACM Hum.-Comput. Interact.},
+            month = {apr},
+            articleno = {87},
+            numpages = {35}
+          }
+      -
+        key: ConvArch-CUI23
+        year: 2023
+        month: 7
+        type: full
+        title: "The Bot on Speaking Terms: The Effects of Conversation Architecture on Perceptions of Conversational Agents"
+        authors: [Christina Wei, Young-Ho Kim, Anastasia Kuzminykh]
+        venue: ACM CUI 2023
+        pdf: bot-on-speaking-terms-wei-cui-2023.pdf
+        doi: https://dl.acm.org/doi/10.1145/3571884.3597139
+        bibtex: >
+          @inproceedings{wei2023bot_on_speaking_terms,
+            author = {Wei, Christina Ziying and Kim, Young-Ho and Kuzminykh, Anastasia},
+            title = {The Bot on Speaking Terms: The Effects of Conversation Architecture on Perceptions of Conversational Agents},
+            year = {2023},
+            isbn = {9798400700149},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3571884.3597139},
+            doi = {10.1145/3571884.3597139},
+            booktitle = {Proceedings of the 5th International Conference on Conversational User Interfaces},
+            articleno = {18},
+            numpages = {16},
+            location = {Eindhoven, Netherlands},
+            series = {CUI '23}
+          }
+      -
+        key: DeepFuse-CSCW23
+        year: 2023
+        month: 4
+        type: full
+        title: "Designing a Direct Feedback Loop between Humans and Convolutional Neural Networks through Local Explanations"
+        authors: [Tong Sun, Yuyang Gao, Shubham Khaladkar, Sijia Liu, Liang Zhao, Young-Ho Kim, Sungsoo Ray Hong]
+        venue: PACM HCI (CSCW 2023)
+        pdf: deepfuse_sun_cscw2023.pdf
+        doi: https://doi.org/10.1145/3610187
+        thumbnail: [deepfuse/thumb-1.jpg, deepfuse/thumb-2.jpg, deepfuse/thumb-3.jpg]
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2307.04036
+        bibtex: >
+          @article{sun2023deepfuse,
+            author = {Sun, Tong Steven and Gao, Yuyang and Khaladkar, Shubham and Liu, Sijia and Zhao, Liang and Kim, Young-Ho and Hong, Sungsoo Ray},
+            title = {Designing a Direct Feedback Loop between Humans and Convolutional Neural Networks through Local Explanations},
+            year = {2023},
+            issue_date = {October 2023},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            volume = {7},
+            number = {CSCW2},
+            url = {https://doi.org/10.1145/3610187},
+            doi = {10.1145/3610187},
+            journal = {Proc. ACM Hum.-Comput. Interact.},
+            month = {oct},
+            articleno = {338},
+            numpages = {32},d
+          }
+      -
+        key: CareCall-CHI23
+        year: 2023
+        month: 4
+        selected: true
+        primary: true
+        research: carecall-intreview
+        type: full
+        award: Best Paper Award
+        title: Understanding the Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention
+        authors: [Eunkyung Jo, Daniel A. Epstein, Hyunhoon Jung, Young-Ho Kim]
+        venue: ACM CHI 2023
+        pdf: jo-carecall-chi2023.pdf
+        doi: https://dl.acm.org/doi/10.1145/3544548.3581503
+        links:
+          -
+            label: 10-min Talk
+            url: https://www.youtube.com/watch?v=_vP3FaAmHLc
+        bibtex: >
+          @inproceedings{jo2023understanding,
+            author = {Jo, Eunkyung and Epstein, Daniel A. and Jung, Hyunhoon and Kim, Young-Ho},
+            title = {Understanding the Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention},
+            year = {2023},
+            isbn = {9781450394215},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3544548.3581503},
+            doi = {10.1145/3544548.3581503},
+            booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+            articleno = {18},
+            numpages = {16},
+            location = {Hamburg, Germany},
+            series = {CHI '23}
+          }
+
+      -
+        key: AVscript-CHI23
+        year: 2023
+        month: 4
+        selected: false
+        type: full
+        research: avscript
+        title: "AVscript: Accessible Video Editing with Audio-Visual Scripts"
+        authors: [Mina Huh, Saelyne Yang, Yi-Hao Peng, Xiang 'Anthony' Chen, Young-Ho Kim, Amy Pavel]
+        venue: ACM CHI 2023
+        pdf: huh-avscript-chi2023.pdf
+        doi: https://dl.acm.org/doi/10.1145/3544548.3581494
+        thumbnail: avscript/thumb-1.jpg
+        links: 
+          -
+            label: 10-min Talk
+            url: https://www.youtube.com/watch?v=Hj9sQrULzw4
+        bibtex: >
+          @inproceedings{huh2023avscript,
+            author = {Huh, Mina and Yang, Saelyne and Peng, Yi-Hao and Chen, Xiang 'Anthony' and Kim, Young-Ho and Pavel, Amy},
+            title = {AVscript: Accessible Video Editing with Audio-Visual Scripts},
+            year = {2023},
+            isbn = {9781450394215},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3544548.3581494},
+            doi = {10.1145/3544548.3581494},
+            booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+            articleno = {796},
+            numpages = {17},
+            location = {Hamburg, Germany},
+            series = {CHI '23}
+          }
+
+      -
+        key: DataHalo-CHI23
+        year: 2023
+        month: 4
+        selected: false
+        primary: true
+        type: full
+        title: "DataHalo: A Customizable Notification Visualization System for Personalized and Longitudinal Interactions"
+        authors: [Guhyun Han, Jaehun Jung, Young-Ho Kim, Jinwook Seo]
+        groups: [[[Young-Ho Kim, Jinwook Seo], "co-corresponding"]]
+        venue: ACM CHI 2023
+        pdf: han-datahalo-chi2023.pdf
+        doi: https://dl.acm.org/doi/10.1145/3544548.3580828
+        thumbnail: datahalo-thumb-1.jpg
+        links:
+          -
+            label: 10-min Talk
+            url: https://www.youtube.com/watch?v=Z2UgYkVeRaI
+        bibtex: >
+          @inproceedings{han2023datahalo,
+            author = {Han, Guhyun and Jung, Jaehun and Kim, Young-Ho and Seo, Jinwook},
+            title = {DataHalo: A Customizable Notification Visualization System for Personalized and Longitudinal Interactions},
+            year = {2023},
+            isbn = {9781450394215},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3544548.3580828},
+            doi = {10.1145/3544548.3580828},
+            booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+            articleno = {648},
+            numpages = {21},
+            location = {Hamburg, Germany},
+            series = {CHI '23}
+          }
+
+      -
+        key: NoteWordy-ISS22
+        year: 2022
+        month: 11
+        selected: false
+        type: article
+        award: Honorable Mention Award
+        title: "NoteWordy: Investigating Touch and Speech Input on Smartphones for Personal Data Capture"
+        authors: [Yuhan Luo, Bongshin Lee, Young-Ho Kim, Eun Kyoung Choe]
+        venue: PACM HCI (ISS 2022)
+        doi: https://dl.acm.org/doi/10.1145/3567734
+        pdf: notewordy-luo.pdf
+        links:
+          -
+            label: Demo Video
+            url: https://www.youtube.com/watch?v=O-sAhDnr81Q
+        bibtex: >
+          @article{luo2022notewordy,
+            author = {Luo, Yuhan and Lee, Bongshin and Kim, Young-Ho and Choe, Eun Kyoung},
+            title = {NoteWordy: Investigating Touch and Speech Input on Smartphones for Personal Data Capture},
+            year = {2022},
+            issue_date = {December 2022},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            volume = {6},
+            number = {ISS},
+            url = {https://doi.org/10.1145/3567734},
+            doi = {10.1145/3567734},
+            journal = {Proc. ACM Hum.-Comput. Interact.},
+            month = {nov},
+            articleno = {581},
+            numpages = {24}
+          }
+      
+      -
+        key: mri-omnitrack-schezo2022
+        year: 2022
+        month: 10
+        selected: false
+        type: article
+        title: "Understanding the Consequences of Moment-by-Moment Fluctuations in Mood and Social Experience for Paranoid Ideation in Psychotic Disorders"
+        authors: [Ryan D. Orth, Juyoen Hur, Anyela M. Jacome, Christina L. G. Savage, Shannon E. Grogans, Young-Ho Kim, Eun Kyoung Choe, Alexander J. Shackman, Jack J. Blanchard]
+        groups: [[[Ryan D. Orth, Juyoen Hur], "co-first"]]
+        venue: Schizophrenia Bulletin Open (Oct 2022)
+        doi: https://doi.org/10.1093/schizbullopen/sgac064
+        bibtex: >
+          @article{orth2022schizophrenia,
+            author = {Orth, Ryan D and Hur, Juyoen and Jacome, Anyela M and Savage, Christina L G and Grogans, Shannon E and Kim, Young-Ho and Choe, Eun Kyoung and Shackman, Alexander J and Blanchard, Jack J},
+            title = "{Understanding the Consequences of Moment-by-Moment Fluctuations in Mood and Social Experience for Paranoid Ideation in Psychotic Disorders}",
+            journal = {Schizophrenia Bulletin Open},
+            volume = {3},
+            number = {1},
+            pages = {sgac064},
+            year = {2022},
+            month = {10},
+            issn = {2632-7899},
+            doi = {10.1093/schizbullopen/sgac064},
+            url = {https://doi.org/10.1093/schizbullopen/sgac064},
+            eprint = {https://academic.oup.com/schizbullopen/article-pdf/3/1/sgac064/46872128/sgac064.pdf},
+          }
+
+      -
+        key: MyMove-CHI22
+        year: 2022
+        month: 5
+        selected: true
+        primary: true
+        research: mymove
+        type: full
+        title: "MyMove: Facilitating Older Adults to Collect In-Situ Activity Labels on a Smartwatch with Speech"
+        authors: [Young-Ho Kim, Diana Chou, Bongshin Lee, Margaret Danilovich, Amanda Lazar, David E. Conroy, Hernisa Kacorri, Eun Kyoung Choe]
+        venue: ACM CHI 2022
+        doi: https://doi.org/10.1145/3491102.3517457
+        pdf: mymove-chi22-preprint.pdf
+        thumbnail: mymove-loop.gif
+        links:
+          -
+            label: Demo Video
+            url: https://youtu.be/2I8vvP4hdfs
+          -
+            label: Web
+            url: https://mymove-collective.github.io/chi2022
+          -
+            label: 8-min Talk
+            url: https://www.youtube.com/watch?v=9VnfcXIaQ8M
+        bibtex: >
+          @inproceedings{kim2022mymove,
+            author = {Kim, Young-Ho and Chou, Diana and Lee, Bongshin and Danilovich, Margaret and Lazar, Amanda and Conroy, David E. and Kacorri, Hernisa and Choe, Eun Kyoung},
+            title = {MyMove: Facilitating Older Adults to Collect In-Situ Activity Labels on a Smartwatch with Speech},
+            year = {2022},
+            isbn = {9781450391573},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3491102.3517457},
+            doi = {10.1145/3491102.3517457},
+            booktitle = {Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems},
+            articleno = {416},
+            numpages = {21},
+            location = {New Orleans, LA, USA},
+            series = {CHI '22}
+          }
+
+      -
+        key: FoodScrap-DIS21
+        year: 2021
+        month: 10
+        selected: false 
+        type: full
+        title: "FoodScrap: Promoting Rich Data Capture and Reflective Food Journaling Through Speech Input"
+        authors: [Yuhan Luo, Young-Ho Kim, Bongshin Lee, Naeemul Hassan, Eun Kyoung Choe]
+        venue: ACM DIS 2021
+        doi: https://dl.acm.org/doi/10.1145/3461778.3462074
+        pdf: foodscrap-luo.pdf
+        links:
+          -
+            label: Medium
+            url: https://medium.com/hcil-at-umd/foodscrap-speech-enabled-food-journaling-5ef12e3eaf40
+        bibtex: >
+          @inproceedings{luo2021foodscrap,
+            author = {Luo, Yuhan and Kim, Young-Ho and Lee, Bongshin and Hassan, Naeemul and Choe, Eun Kyoung},
+            title = {FoodScrap: Promoting Rich Data Capture and Reflective Food Journaling Through Speech Input},
+            year = {2021},
+            isbn = {9781450384766},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3461778.3462074},
+            doi = {10.1145/3461778.3462074},
+            booktitle = {Proceedings of the 2021 ACM Designing Interactive Systems Conference},
+            pages = {606–618},
+            numpages = {13},
+            location = {Virtual Event, USA},
+            series = {DIS '21}
+          }
+      -
+        key: Data@Hand-CHI21
+        year: 2021
+        month: 5
+        selected: true
+        primary: true
+        type: full
+        title: "Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction"
+        authors: [Young-Ho Kim, Bongshin Lee, Arjun Srinivasan, Eun Kyoung Choe]
+        venue: ACM CHI 2021
+        award: Honorable Mention Award
+        doi: https://dl.acm.org/doi/10.1145/3411764.3445421
+        pdf: data-at-hand-kim.pdf
+        research: data-at-hand
+        thumbnail: data-at-hand-teaser-loop.gif
+        links:
+          -
+            label: GitHub
+            url: https://github.com/umdsquare/data-at-hand-mobile
+          -
+            label: Web
+            url: https://data-at-hand.github.io/
+          -
+            label: Video
+            url: https://www.youtube.com/watch?v=ct2s29n-mJM&t=13s
+          -
+            label: 5-min Talk
+            url: https://www.youtube.com/watch?v=KAjCiMAKf4I
+          -
+            label: Medium
+            url: https://medium.com/hcil-at-umd/data-hand-combining-speech-and-touch-for-data-exploration-on-smartphone-e2149cff3ff4
+        bibtex: >
+          @inproceedings{kim2021data@hand,
+            author = {Kim, Young-Ho and Lee, Bongshin and Srinivasan, Arjun and Choe, Eun Kyoung},
+            title = {Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction},
+            year = {2021},
+            isbn = {9781450380966},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3411764.3445421},
+            doi = {10.1145/3411764.3445421},
+            booktitle = {Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems},
+            articleno = {462},
+            numpages = {17},
+            location = {Yokohama, Japan},
+            series = {CHI '21}
+          }
+        featured:
+          video: data-at-hand-demo-loop.mp4
+          shorttitle: "Data@Hand: Visual Exploration of Personal Data on Smartphones with Speech and Touch"
+
+      -
+        key: propagation-pacificvis2021
+        year: 2021
+        month: 4
+        selected: false
+        type: short
+        title: "Visualization Support for Multi-criteria Decision Making in Software Issue Propagation"
+        authors: [Youngtaek Kim, Hyeon Jeon, Young-Ho Kim, Yuhoon Ki, Hyunjoo Song, Jinwook Seo]
+        venue: IEEE PacificVis 2021
+        doi: https://doi.org/10.1109/PacificVis52677.2021.00018
+        pdf: pacificvis-kim.pdf
+        bibtex: >
+          @INPROCEEDINGS{kim2021multicriteria,
+            author={Kim, Youngtaek and Jeon, Hyeon and Kim, Young-Ho and Ki, Yuhoon and Song, Hyunjoo and Seo, Jinwook},
+            booktitle={2021 IEEE 14th Pacific Visualization Symposium (PacificVis)}, 
+            title={Visualization Support for Multi-criteria Decision Making in Software Issue Propagation}, 
+            year={2021},
+            volume={},
+            number={},
+            pages={81-85},
+            doi={10.1109/PacificVis52677.2021.00018}
+          }
+      -
+        key: githru-vis2020
+        year: 2020
+        month: 10
+        type: article
+        title: "Githru: Visual Analytics for Understanding Software Development History Through Git Metadata Analysis"
+        authors: [Youngtaek Kim, Jaeyoung Kim, Hyeon Jeon, Young-Ho Kim, Hyunjoo Song, Bohyoung Kim, Jinwook Seo]
+        venue: IEEE TVCG (VAST 2020)
+        doi: https://doi.org/10.1109/TVCG.2020.3030414
+        pdf: githru-kim.pdf
+        thumbnail: githru-thumb.jpg
+        links:
+          -
+            label: Demo/source
+            url: https://githru.github.io/demo/
+        bibtex: >
+          @article{kim2020githru,
+            author={Kim, Youngtaek and Kim, Jaeyoung and Jeon, Hyeon and Kim, Young-Ho and Song, Hyunjoo and Kim, Bohyoung and Seo, Jinwook},
+            journal={IEEE Transactions on Visualization and Computer Graphics}, 
+            title={Githru: Visual Analytics for Understanding Software Development History Through Git Metadata Analysis}, 
+            year={2021},
+            volume={27},
+            number={2},
+            pages={656-666},
+            doi={10.1109/TVCG.2020.3030414}
+          }
+
+      -
+        key: Productivity-CHI19
+        year: 2019
+        month: 5
+        selected: true
+        primary: true
+        type: full
+        title: "Understanding Personal Productivity: How Knowledge Workers Define, Evaluate, and Reflect on Their Productivity"
+        authors: [Young-Ho Kim, Eun Kyoung Choe, Bongshin Lee, Jinwook Seo]
+        venue: ACM CHI 2019
+        doi: https://dl.acm.org/doi/10.1145/3290605.3300845
+        pdf: productivity-kim.pdf
+        research: productivity-diary
+        links:
+          -
+            label: Medium
+            url: https://medium.com/acm-chi/understanding-personal-productivity-how-knowledge-workers-define-evaluate-and-reflect-on-their-241bc36b60b4
+        bibtex: >
+          @inproceedings{kim2019productivity,
+            author = {Kim, Young-Ho and Choe, Eun Kyoung and Lee, Bongshin and Seo, Jinwook},
+            title = {Understanding Personal Productivity: How Knowledge Workers Define, Evaluate, and Reflect on Their Productivity},
+            year = {2019},
+            isbn = {9781450359702},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3290605.3300845},
+            doi = {10.1145/3290605.3300845},
+            booktitle = {Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems},
+            pages = {1–12},
+            numpages = {12},
+            location = {Glasgow, Scotland Uk},
+            series = {CHI '19}
+          }
+      - 
+        key: betterself-pervasive2019
+        year: 2019
+        month: 4
+        type: full
+        title: "Toward Becoming a Better Self: Understanding Self-Tracking Experiences of Adolescents with Autism Spectrum Disorder Using Custom Trackers"
+        authors: [Sung-In Kim, Eunkyung Jo, Myeonghan Ryu, Inha Cha, Young-Ho Kim, Heejeong Yoo, Hwajung Hong]
+        venue: EAI PervasiveHealth 2019
+        doi: https://dl.acm.org/doi/10.1145/3329189.3329209
+        pdf: better-self-kim
+        bibtex: >
+          @inproceedings{kim2019betterself,
+            author = {Kim, Sung-In and Jo, Eunkyung and Ryu, Myeonghan and Cha, Inha and Kim, Young-Ho and Yoo, Heejung and Hong, Hwajung},
+            title = {Toward Becoming a Better Self: Understanding Self-Tracking Experiences of Adolescents with Autism Spectrum Disorder Using Custom Trackers},
+            year = {2019},
+            isbn = {9781450361262},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3329189.3329209},
+            doi = {10.1145/3329189.3329209},
+            booktitle = {Proceedings of the 13th EAI International Conference on Pervasive Computing Technologies for Healthcare},
+            pages = {169–178},
+            numpages = {10},
+            location = {Trento, Italy},
+            series = {PervasiveHealth'19}
+          }
+      -
+        key: OmniTrack-UbiComp17
+        year: 2017
+        month: 10
+        selected: true
+        primary: true
+        type: article
+        title: "OmniTrack: A Flexible Self-Tracking Approach Leveraging Semi-Automated Tracking"
+        authors: [Young-Ho Kim, Jae Ho Jeon, Bongshin Lee, Eun Kyoung Choe, Jinwook Seo]
+        venue: PACM IMWUT (UbiComp 2017)
+        doi: https://dl.acm.org/doi/10.1145/3130930
+        pdf: omnitrack-kim.pdf
+        research: omnitrack
+        thumbnail: omnitrack/anim_app_tracker_field_composition.gif
+        links:
+          -
+            label: Web
+            url: https://omnitrack.github.io
+          -
+            label: Video
+            url: https://www.youtube.com/watch?v=zRIuENNRjEM
+        bibtex: >
+          @article{kim2017omnitrack,
+            author = {Kim, Young-Ho and Jeon, Jae Ho and Lee, Bongshin and Choe, Eun Kyoung and Seo, Jinwook},
+            title = {OmniTrack: A Flexible Self-Tracking Approach Leveraging Semi-Automated Tracking},
+            year = {2017},
+            issue_date = {September 2017},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            volume = {1},
+            number = {3},
+            url = {https://doi.org/10.1145/3130930},
+            doi = {10.1145/3130930},
+            journal = {Proc. ACM Interact. Mob. Wearable Ubiquitous Technol.},
+            month = {sep},
+            articleno = {67},
+            numpages = {28}
+          }
+      -
+        key: TimeAware-CHI16
+        year: 2016
+        selected: true
+        primary: true
+        type: full
+        title: "TimeAware: Leveraging Framing Effects to Enhance Personal Productivity"
+        authors: [Young-Ho Kim, Jae Ho Jeon, Eun Kyoung Choe, Bongshin Lee, KwonHyun Kim, Jinwook Seo]
+        venue: ACM CHI 2016
+        doi: https://dl.acm.org/doi/10.1145/2858036.2858428
+        pdf: timeaware-kim.pdf
+        research: timeaware
+        thumbnail: timeaware-loop.gif
+        bibtex: >
+          @inproceedings{kim2016timeaware,
+            author = {Kim, Young-Ho and Jeon, Jae Ho and Choe, Eun Kyoung and Lee, Bongshin and Kim, KwonHyun and Seo, Jinwook},
+            title = {TimeAware: Leveraging Framing Effects to Enhance Personal Productivity},
+            year = {2016},
+            isbn = {9781450333627},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/2858036.2858428},
+            doi = {10.1145/2858036.2858428},
+            booktitle = {Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems},
+            pages = {272–283},
+            numpages = {12},
+            location = {San Jose, California, USA},
+            series = {CHI '16}
+          }
+    
+    Lightly Peer-reviewed Extended Abstracts:
+      -
+        key: Open-goal-chatbot-ACL24-Ws
+        year: 2024
+        month: 8
+        selected: false
+        type: short
+        title: "Revealing User Familiarity Bias in Task-Oriented Dialogue via Interactive Evaluation"
+        authors: [Takyoung Kim, Jamin Shin, Young-Ho Kim, Sanghwan Bae, Sungdong Kim]
+        venue: ACL 2024 Workshop on NLP for Conversational AI
+        pdf: open-goal-kim-arxiv.pdf
+        award: Best Paper
+        links:
+          - 
+            label: arXiv
+            url: https://arxiv.org/abs/2305.13857
+      -
+        key: ChaCha-CHI24-Ws
+        primary: true
+        year: 2024
+        month: 5
+        type: ea
+        title: "Towards Designing a Safe and Reliable LLM-driven Chatbot for Children"
+        authors: [Woosuk Seo, Sun Young Park, Mark Ackerman, Chan-Mo Yang, Young-Ho Kim]
+        venue: "CHI 2024 Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL@CHI'24)"
+        pdf: chacha-seo-heal24.pdf
+        links:
+          -
+            label: Workshop
+            url: https://heal-workshop.github.io/#agenda
+
+      -
+        key: Mindfuldiary-CHI24-Ws
+        primary: true
+        year: 2024
+        month: 5
+        type: ea
+        title: "Evaluating and Auditing LLM-Driven Chatbots for Psychiatric Patients in Clinical Mental Health Settings"
+        authors: [Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim]
+        groups: [[[Young-Ho Kim, Chanmo Yang], "co-corresponding"]]
+        venue: "CHI 2024 Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL@CHI'24)"
+        pdf: mindfuldiary-kim-heal24.pdf
+        links:
+          -
+            label: Workshop
+            url: https://heal-workshop.github.io/#agenda
+
+      -
+        key: CareCallLTM-CHI24-Ws
+        primary: true
+        year: 2024
+        month: 5
+        type: ea
+        title: "Incorporating Multi-Stakeholder Perspectives in Evaluating and Auditing of Health Chatbots"
+        authors: [Eunkyung Jo, Young-Ho Kim, Yuin Jeong, SoHyun Park, Daniel Epstein]
+        venue: "CHI 2024 Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL@CHI'24)"
+        award: Highlight Paper
+        pdf: carecallltm-jo-heal24.pdf
+        links:
+          -
+            label: Workshop
+            url: https://heal-workshop.github.io/#agenda
+
+      -
+        key: EvalLM-CHI24-Ws
+        year: 2024
+        month: 5
+        type: ea
+        title: "EvalLM: Interactive Evaluation of Large Language Model Prompts on User-Defined Criteria (Encore)"
+        authors: [Tae Soo Kim, Yoonjoo Lee, Jamin Shin, Young-Ho Kim, Juho Kim]
+        venue: "CHI 2024 Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL@CHI'24)"
+        pdf: evallm-kim-heal24.pdf
+        links:
+          -
+            label: Workshop
+            url: https://heal-workshop.github.io/#agenda
+
+      -
+        key: XAI-CHI24-Ws
+        year: 2024
+        month: 5
+        type: ea
+        title: "Just Like Me: The Role of Opinions and Personal Experiences in The Perception of Explanations in Subjective Decision-Making"
+        authors: [Sharon Ferguson, Paula Aoyagui, Young-Ho Kim and Anastasia Kuzminykh]
+        venue: "CHI 2024 Workshop on Trust and Reliance in Evolving Human-AI Workflows (TREW@CHI'24)"
+        pdf: just-ferguson-trew24.pdf
+        links:
+          -
+            label: Workshop
+            url: https://chi-trew.github.io/#/2024/schedule
+      
+      -
+        key: WebAgent-CHI24-Ws
+        year: 2024
+        month: 5
+        type: ea
+        title: "Unveiling Disparities in Web Task Handling Between Human and Web Agents"
+        authors: [Kihoon Son, Jinhyeon Kwon, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun, Juho Kim]
+        venue: "CHI 2024 Workshop on Computational User Interface"
+        links:
+          -
+            label: Workshop
+            url: https://sites.google.com/view/computational-uichi24
+
+      -
+        key: UIConsistency-ICML23-Ws
+        year: 2023
+        month: 7
+        type: ea
+        title: "Computational Approaches for App-to-App Retrieval and Design Consistency Check"
+        authors: [Seokhyeon Park, Wonjae Kim, Young-Ho Kim, Jinwook Seo]
+        groups: [[[Seokhyeon Park, Wonjae Kim], "equal contribution"]]
+        venue: "ICML 2023 Workshop on Artificial Intelligence & Human Computer Interaction"
+      -
+        key: AIWriter-CHI23-Ws
+        year: 2023
+        month: 4
+        type: ea
+        title: "Can AI Support Fiction Writers Without Writing For Them?"
+        authors: [Jessi Stark, Anthony Tang, Young-Ho Kim, Joonsuk Park, Daniel Wigdor]
+        venue: CHI 2023 Workshop on Intelligent and Interactive Writing Assistants (In2Writing)
+      
+      -
+        key: DiaryMate-CHI23-Ws
+        year: 2023
+        month: 4
+        type: ea
+        title: "DiaryMate: Exploring the Roles of Large Language Models in Facilitating AI-mediated Journaling"
+        authors: [Taewan Kim, Donghoon Shin, Young-Ho Kim, Hwajung Hong]
+        venue: CHI 2023 Workshop on Intelligent and Interactive Writing Assistants (In2Writing)
+
+      -
+        key: NAACL22-Ws
+        year: 2022
+        month: 7
+        selected: true
+        primary: true
+        type: short
+        title: Leveraging Pre-Trained Language Models to Streamline Natural Language Interaction for Self-Tracking
+        authors: [Young-Ho Kim, Sungdong Kim, Minsuk Chang, Sang-Woo Lee]
+        venue: NAACL 2022 Workshop on "Bridging HCI and NLP"
+        pdf: workshop-llm-tracking-kim-naacl.pdf
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2205.15503
+          -
+            label: 10-min talk
+            url: https://youtu.be/XmaPNBPbLAg
+          -
+            label: Workshop
+            url: https://sites.google.com/view/hciandnlp/accepted-papers
+        bibtex: >
+          @inproceedings{kim2022llmtracking,
+            author    = {Kim, Young-Ho and Kim, Sungdong and Chang, Minsuk and Lee, Sang-Woo},
+            booktitle = {NAACL '22 The 2nd Workshop on Bridging Human-Computer Interaction and Natural Language Processing},
+            title     = {Leveraging Pre-Trained Language Models to Streamline Natural Language Interaction for Self-Tracking},
+            year      = {2022},
+            doi       = {10.48550/ARXIV.2205.15503},
+            url       = {https://arxiv.org/abs/2205.15503},
+          }
+
+      -
+        key: CareCall-CHI22-Ws
+        year: 2022
+        month: 5
+        type: ea
+        title: Examining the Role of Conversational AI in Personal Informatics Systems for Collaborative Health Work and Care
+        authors: [Eunkyung Jo, Young-Ho Kim, Yuin Jeong, Hyeri Kim, Hyun Jung Park, Daniel A. Epstein]
+        venue: ACM CHI 2022 Workshop on "Grand Challenges for Personal Informatics and AI"
+        pdf: workshop-carecall-jo-chi22.pdf
+        links:
+          -
+            label: Workshop
+            url: https://piandaichi2022.weebly.com/
+
+    Organized Workshops and Tutorials:
+      -
+        key: ISS22-Tut
+        year: 2022
+        month: 11
+        type: ea
+        title: Design and Prototype Conversational Agents for Research Data Collection
+        authors: [Jing Wei, Young-Ho Kim, Samantha W. T. Chan, Tilman Dingler]
+        venue: "ACM ISS 2022 Tutorial"
+        pdf: wei-chatbot-tutorial-iss22.pdf
+        doi: https://doi.org/10.1145/3532104.3571467
+        bibtex: >
+          @inproceedings{wei2022designca,
+            author = {Wei, Jing and Kim, Young-Ho and Chan, Samantha W. T. and Dingler, Tilman},
+            title = {Design and Prototype Conversational Agents for Research Data Collection},
+            year = {2022},
+            isbn = {9781450393560},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3532104.3571467},
+            doi = {10.1145/3532104.3571467},
+            booktitle = {Companion Proceedings of the 2022 Conference on Interactive Surfaces and Spaces},
+            pages = {57–58},
+            numpages = {2},
+            location = {Wellington, New Zealand},
+            series = {ISS '22}
+          }
+
+  #  Domestic (Lightly peer-reviewed):
+  #    -
+  #      type: poster
+  #      title: "Designing a Flexible Self-Tracking Mobile Application"
+  #      authors: [Young-Ho Kim, Jae Ho Jeon, Bongshin Lee, Eun Kyoung Choe, Jinwook Seo]
+  #      venue: Korea Software Congress 2016 Winter
+  #    -
+  #      type: poster
+  #      title: "Ensemble Box – A Digital Orgel Supporting Drawing Melodies in Various Timbres"
+  #      authors: [Young-Ho Kim, Jeongin Hwang, Jinwook Seo]
+  #      venue: Korea Software Congress 2016 Summer
+  #    -
+  #      type: short
+  #      title: "Design and Development of Visual Analytic Tools in SRC-STAT"
+  #      authors: [GuHyun Han, Young-Ho Kim, DongHwa Shin, Young Jo Lee, Jinwook Seo]
+  #      venue: HCI Korea 2014
+  #    -
+  #      type: short
+  #      title: "AntHouse : A Novel Visualization Interface about Exploring Social Relationship from E-Mail History"
+  #      authors: [Young-Ho Kim, Jae Ho Jeon, Jinwook Seo]
+  #      venue: HCI Korea 2014
+  #    -
+  #      type: short
+  #      title: "A Design Study for a Visualization/analysis System for Petroleum Reservoir Simulation Data"
+  #      authors: [Kyle Koh, Young-Ho Kim, Jinwook Seo]
+  #      venue: HCI Korea 2014
+  #    -
+  #      type: short
+  #      title: "Suggestion for Facebook Friend-Sourcing Gallery Service: Focusing on Daily Activities based on Weather Data"
+  #      authors: [SuMi Kim, Young-Ho Kim, Bongwon Suh]
+  #      venue: HCI Korea 2014

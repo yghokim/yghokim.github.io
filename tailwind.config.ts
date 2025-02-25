@@ -11,8 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        pointed: "#1e9da7"
+        pointed: "#1e9da7",
+        ink: '#575757'
       },
+      spacing:{
+        'sidebar': '304px'
+      }
     },
   },
   plugins: [],

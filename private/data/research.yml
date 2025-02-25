@@ -1,0 +1,270 @@
+-
+  key: carecall-intreview
+  title: "Case Study of CLOVA CareCall: Benefits and Challenges of Deploying Large-Language-Model-driven Chatbots for Public Health Intervention"
+  members: [Eunkyung Jo, Daniel A. Epstein, Hyunhoon Jung, Young-Ho Kim]
+  publications: ["CareCall-CHI23"]
+  keywords: [Large Language Model, Conversational AI, Public Health, Case Study, Interviews, Qualitative Analysis]
+  summary: >
+    <img src="/files/images/carecall/carecall-architecture.jpg"/>
+
+
+    Recent large language models (LLMs) have advanced the quality of open-ended conversations with chatbots. 
+    Although LLM-driven chatbots have the potential to support public health interventions by monitoring populations at scale through empathetic interactions, their use in real-world settings is underexplored. 
+    We thus examine the case of <b>CareCall</b>, an open-domain chatbot that aims to support socially isolated individuals via check-up phone calls and monitoring by teleoperators. 
+    Through focus group observations and interviews with 34 people from <i>three stakeholder groups</i>, including <u>the users, the teleoperators, and the developers</u>, we found that CareCall offered a holistic understanding of each individual while offloading the public health workload and helped mitigate loneliness and emotional burdens. 
+    However, our findings highlight that traits of LLM-driven chatbots led to challenges in supporting public and personal health needs. 
+    In the paper, we also discuss considerations of designing and deploying LLM-driven chatbots for public health intervention, including tensions among stakeholders around system expectations.
+
+
+    ### 10-min Presentation Video
+
+    <iframe width="100%" height="450" src="https://www.youtube.com/embed/_vP3FaAmHLc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    ### Acknowledgments
+
+    - Eunkyung conducted this work as a research intern at NAVER AI Lab (mentored by Young-Ho Kim). 
+
+
+-
+  key: avscript
+  title: "AVscript: an Accessible Video Editing Tool Leveraging Audio-Visual Scripts"
+  members: [Mina Huh, Saelyne Yang, Yi-Hao Peng, Xiang 'Anthony' Chen, Young-Ho Kim, Amy Pavel]
+  keywords: [Video editing, blind people, a11y, web]
+  publications: ["AVscript-CHI23"]
+  summary: >
+    <img src="/files/images/avscript/avscript-tool.jpg"/>
+
+    
+    Although sighted and blind and low vision (BLV) creators alike use videos to communicate with broad audiences, video editing remains inaccessible to BLV creators. 
+    To migitate the barriers they encounter, we designed and developed <b>AVscript</b>, an accessible text-based video editor. 
+    AVscript enables users to edit their video using a <i>script</i> that embeds the video's <u>visual content, visual errors (e.g., dark or blurred footage), and speech.</u> Users can also efficiently navigate between scenes and visual errors or locate objects in the frame or spoken words of interest.
+    In the paper, we report on our formative study that identifies the needs of BLV creators and a series of user studies with BLV creators experiencing AVscript.
+    
+
+    ### System Pipeline
+
+    <img src="/files/images/avscript/avscript-pipeline.jpg"/>
+
+
+    ### 30-Sec Teaser Video
+
+    <iframe width="100%" height="450" src="https://www.youtube.com/embed/Eb3a63IAo-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+    ### Acknowledgments
+
+    - Mina conducted part of this work as a research intern at NAVER AI Lab (mentored by Young-Ho Kim) and the University of California, Los Angeles (mentored by Anthony Chen). 
+
+
+-
+  key: mymove
+  title: "MyMove: Collecting In-Situ Activity Labels on a Smartwatch + Speech with Older Adults"
+  members: [Young-Ho Kim, Diana Chou, Bongshin Lee, Margaret Danilovich, Amanda Lazar, David E. Conroy, Hernisa Kacorri, Eun Kyoung Choe]
+  keywords: [Activity tracking, activity labeling, speech, multimodal interaction, smartwatch, a11y]
+  publications: ["MyMove-CHI22"]
+  links:
+    -
+      label: Project web
+      url: https://mymove-collective.github.io/
+      
+  summary: >
+    Current activity recognition technologies are less accurate when used by older adults (*e.g.*, counting steps in slower gait speed) and rarely support recognizing types of activities they engage in and care about (*e.g.*, gardening, vacuuming). To build activity trackers for older adults, it is crucial to collect training data with them. To this aim, we built **MyMove**, a speech-based smartwatch app to facilitate the in-situ labeling with a low capture burden. With MyMove, we explored the feasibility and challenges with older adults in collecting activity labels by leveraging speech.
+
+    ### Demo Video
+     
+    <iframe width="100%" height="450"  src="https://www.youtube.com/embed/2I8vvP4hdfs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    ### Funding
+
+    - This project was supported by two collaborative National Science Foundation Awards: [#1955568 for University of Maryland](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955568) (PI: Eun Kyoung Choe, Co-PIs: Hernisa Kacorri and Amanda Lazar) and [#1955590 for the Pennsylvania State University](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955590) (PI: David E. Conroy)
+
+
+-
+  key: data-at-hand
+  title: "Data@Hand: Multimodal Data Exploration of Personal Data"
+  members: [Young-Ho Kim, Bongshin Lee, Arjun Srinivasan, Eun Kyoung Choe]
+  keywords: [Personal data visualization, visual data exploration, speech, multimodal interaction, smartphone]
+  publications: ["Data@Hand-CHI21"]
+  links:
+    -
+      label: Project web
+      url: https://data-at-hand.github.io
+    -
+      label: Source code
+      url: https://github.com/umdsquare/data-at-hand-mobile
+  summary: >
+    **Data@Hand** is a cross-platform smartphone app that facilitates visual data exploration leveraging both speech and touch interactions. 
+    To overcome the smartphones' limitations such as small screen size and lack of precise pointing input, Data@Hand leverages the synergy of speech and touch; speech-based interaction takes little screen space and natural language is flexible to cover different ways of specifying dates and their ranges (e.g., "*October 7th*", "*Last Sunday*", "*This month*"). Currently, Data@Hand supports displaying the Fitbit data (e.g., step count, heart rate, sleep, and weight) for navigation and temporal comparisons tasks.
+
+    ### Demo Video
+     
+    <iframe width="100%" height="450"  src="https://www.youtube.com/embed/ct2s29n-mJM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    ### Funding:
+
+    - [National Science Foundation award #1753452](https://nsf.gov/awardsearch/showAward?AWD_ID=1753452) (CAREER: Advancing Personal Informatics through Semi-Automated and Collaborative Tracking, PI: Dr. Eun Kyoung Choe).
+    
+    - Young-Ho Kim was in part supported by Basic Science Research Program through the National Research Foundation in Korea, funded by the Ministry of Education (NRF2019R1A6A3A12031352).
+
+-
+  key: foodscrap
+  title: "FoodScrap: Capturing Rich Food Contexts with Speech"
+  members: [Yuhan Luo, Young-Ho Kim, Bongshin Lee, Naeemul Hassan, Eun Kyoung Choe]
+  keywords: [Food journaling, Speech input, Smartphone, OmniTrack]
+  publications: [FoodScrap-DIS21]
+  links:
+    -
+      label: Medium article
+      url: https://medium.com/hcil-at-umd/foodscrap-speech-enabled-food-journaling-5ef12e3eaf40
+  summary: >
+    The factors influencing people’s food decisions, such as one’s mood and eating environment, are important information to foster selfreflection and to develop personalized healthy diet. 
+    
+    But, it is difficult to consistently collect them due to the heavy data capture burden. 
+    In this work, we examine how speech input supports capturing everyday food practice through a week-long data collection study. 
+    
+
+    <img src="/files/images/foodscrap/foodscrap-screens.jpg"/>
+    
+    
+    Using OmniTrack for Research, we deployed <strong>FoodScrap</strong>, a speech-based food journaling app that allows people to capture food components, preparation methods, and food decisions. Using speech input, participants detailed their meal ingredients and elaborated their food decisions by describing the eating moments, explaining their eating strategy, and assessing their food practice. Participants recognized that speech input facilitated self-reflection, but expressed concerns around rerecording, mental load, social constraints, and privacy.
+
+    
+    ### Funding
+
+    - [National Science Foundation award #1753452](https://nsf.gov/awardsearch/showAward?AWD_ID=1753452) (CAREER: Advancing Personal Informatics through Semi-Automated and Collaborative Tracking, PI: Dr. Eun Kyoung Choe).
+    
+
+-
+  key: omnitrack-for-research
+  title: "OmniTrack for Research: A Research Platform for Streamlining Mobile-based In-Situ Data Collection"
+  members: [Young-Ho Kim, Bongshin Lee, Jinwook Seo, Eun Kyoung Choe]
+  keywords: [In-situ data collection, research toolkit, mobile, web, OmniTrack]
+  links:
+    -
+      label: Project web
+      url: https://omnitrack.github.io/research
+    -
+      label: Medium article
+      url: https://medium.com/hcil-at-umd/boosting-mobile-in-situ-data-collection-with-omnitrack-for-research-d485d27f60ba
+    -
+      label: Source and documentation
+      url: https://github.com/OmniTrack/omnitrack_for_research
+  summary: >
+    <img src="/files/images/o4r/plan_builder_retiree.jpg"/>
+
+
+    **OmniTrack for Research (O4R)** is a research platform for mobile-based in-situ data collection, which streamlines the implementation and deployment of a mobile data collection tool. O4R enables researchers to rapidly translate their study design into a study app, deploy the app remotely, and monitor the data collection, all without requiring any coding.
+
+
+    In-situ data collection studies (e.g., diary study, experience sampling) are commonly used in HCI and UbiComp research to capture people's behaviors, contexts, and self-report measures. To implement such studies, researchers either rely on commercial platforms or build custom tools, which can be inflexible, costly, or time consuming. O4R minds this gap between available tools and researchers' needs.
+
+    ### Research Papers used OmniTrack for Research
+
+    OmniTrack for Research was used by us or other researchers to conduct studies at peer-reviewed venues. Here is the list of the publication used OmniTrack for Research:
+
+    1. Yuhan Luo, Bongshin Lee, Young-Ho Kim, and Eun Kyoung Choe <br/>**NoteWordy: Investigating Touch and Speech Input on Smartphones for Personal Data Capture** <br/>PACM HCI (ISS) 2022 [Link](/files/papers/notewordy-luo.pdf)
+    
+    1. Ge Gao, Jian Zheng, Eun Kyoung Choe, and Naomi Yamashita <br/>**Taking a Language Detour: How International Migrants Speaking a Minority Language Seek COVID-Related Information in Their Host Countries** <br/>PACM HCI (CSCW) 2022 [Link](https://doi.org/10.1145/3555600)
+
+    1. Ryan D. Orth, Juyoen Hur, Anyela M. Jacome, Christina L. G. Savage, Shannon E. Grogans, Young-Ho Kim, Eun Kyoung Choe, Alexander J. Shackman, and Jack J. Blanchard <br/>**Understanding the Consequences of Moment-by-Moment Fluctuations in Mood and Social Experience for Paranoid Ideation in Psychotic Disorders** <br/>Schizophrenia Bulletin Open (Oct 2022) [Link](https://doi.org/10.1093/schizbullopen/sgac064)
+
+    1. Yuhan Luo, Young-Ho Kim, Bongshin Lee, Naeemul Hassan, and Eun Kyoung Choe <br/>**FoodScrap: Promoting Rich Data Capture and Reflective Food Journaling Through Speech Input** <br/>ACM DIS 2021 [Link](https://dl.acm.org/doi/10.1145/3313831.3376359)
+
+    1. Eunkyung Jo, Austin L. Toombs, Colin M. Gray, and Hwajung Hong <br/>**Understanding Parenting Stress through Co-designed Self-Trackers** <br/>ACM CHI 2020 [Link](https://dl.acm.org/doi/10.1145/3313831.3376359)
+
+    1. Young-Ho Kim, Eun Kyoung Choe, Bongshin Lee, and Jinwook Seo <br/>**Understanding Personal Productivity: Know Knowledge Workers Define, Evaluate, and Reflect on Their Productivity** <br/>ACM CHI 2019 [Link](/works/50)
+
+    1. Sung-In Kim, Eunkyung Jo, Myeonghan Ryu, Inha,Cha, Young-Ho Kim, Heejeong Yoo, and Hwajung Hong <br/>**Toward Becoming a Better Self: Understanding Self-Tracking Experiences,of Adolescents with Autism Spectrum Disorder Using Custom Trackers** <br/>EAI PervasiveHealth 2019 [Link](https://dl.acm.org/doi/10.1145/3329189.3329209)
+
+
+    ### Funding
+
+    - [National Science Foundation award #1753452](https://nsf.gov/awardsearch/showAward?AWD_ID=1753452) (CAREER: Advancing Personal Informatics through Semi-Automated and Collaborative Tracking, PI: Dr. Eun Kyoung Choe).
+    
+
+-
+  key: omnitrack
+  title: "OmniTrack: A Flexible Self-Tracking App for Semi-Automated Tracking"
+  members: [Young-Ho Kim, Jae Ho Jeon, Bongshin Lee, Eun Kyoung Choe, Jinwook Seo]
+  keywords: [Flexible self-tracking, semi-automated tracking, mobile, OmniTrack]
+  publications: [OmniTrack-UbiComp17]
+  links:
+    -
+      label: Project web
+      url: https://omnitrack.github.io
+    -
+      label: Source code
+      url: https://github.com/yghokim/omnitrack_android
+  summary: >
+    <img class="fill-horizontal" src="/files/images/omnitrack/omnitrack-screens.jpg"/>
+
+    <div class="gallery gallery-hor three">
+      <img src="/files/images/omnitrack/anim_app_tracker_field_composition.gif"/>
+      <img src="/files/images/omnitrack/anim_app_tracker_value_connection.gif"/>
+      <img src="/files/images/omnitrack/anim_app_reminder_setting.gif"/>
+    </div>
+
+
+    **OmniTrack** is a mobile self-tracking app that enables self-trackers to construct their own trackers and customize tracking items to meet their individual needs. OmniTrack was designed based on the *semi-automated tracking* concept: People can build a tracker by combining both automated and manual tracking methods to keep a balance between capture burden and tracking feasibility.
+    Under this notion, OmniTrack allows people to *combine input fields* to define the input schema of a tracker and *attach external sensing services*, such as Fitbit, to feed sensor data to individual data fields. People can use *Triggers* to let the system to initiate data entry in a fully automated way.
+
+    ### Demo Video
+     
+    <iframe width="100%" height="450"  src="https://www.youtube.com/embed/zRIuENNRjEM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    ### Funding
+    
+    - National Science Foundation under award number CHS-1652715.
+
+    - National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIP) (No. NRF-2016R1A2B2007153).
+
+-
+  key: productivity-diary
+  title: "Diary Study to Investigate Knowledge Workers' Holistic Nature of Productivity"
+  members: [Young-Ho Kim, Eun Kyoung Choe, Bongshin Lee, Jinwook Seo]
+  keywords: [Productivity, Diary study, Qualitative Analysis, OmniTrack]
+  publications: [Productivity-CHI19]
+  links:
+    -
+      label: Medium article
+      url: https://medium.com/acm-chi/understanding-personal-productivity-how-knowledge-workers-define-evaluate-and-reflect-on-their-241bc36b60b4
+  summary: >
+    <img class="fill-horizontal" src="/files/images/productivity/productivity-aspects.png"/>
+
+    
+    Existing productivity tracking tools are usually not sufficiently designed to capture the diverse and nebulous nature of individuals' activities: For example, screen time trackers such as RescueTime does not support capturing work activities that do not involve digital devices. 
+    As the distinction between work and life has become fuzzy, we need a more holistic understanding of how knowledge workers conceptualize their productivity in both work and non-work contexts. Such knowledge would inform the design of productivity tracking technologies.
+
+
+    <img class="fill-horizontal" src="/files/images/productivity/productivity-diaries.jpg"/>
+
+
+    We conducted a mobile diary study using <a href="https://omnitrack.github.io/research" target="_blank">OmniTrack for Research</a>, where participants captured their productive activities and the rationale of productivity. From the study, we identified six themes of productivity that participants consider when evaluating their productivity. Participants reported a wide range of productive activities beyond typical desk-bound work, ranging from having a personal conversation with dad to getting a haircut. We learned the way people assess productivity was more diverse and complex than we thought, and the concept of productivity is highly individualized, calling for personalization and customization approaches in productivity tracking.
+
+    
+    ### Funding
+
+    - [National Science Foundation award #1753452](https://nsf.gov/awardsearch/showAward?AWD_ID=1753452) (CAREER: Advancing Personal Informatics through Semi-Automated and Collaborative Tracking, PI: Dr. Eun Kyoung Choe).
+
+    - A gift from Microsoft Research.
+
+-
+  key: timeaware
+  title: "TimeAware: Leveraging Framing Effects to Enhance Personal Productivity"
+  members: [Young-Ho Kim, Jae Ho Jeon, Eun Kyoung Choe, Bongshin Lee, KwonHyun Kim, Jinwook Seo]
+  keywords: [Productivity, Personal data visualization, desktop, ambient display, framing effects]
+  publications: [TimeAware-CHI16]
+  summary: >
+    <img src="/files/images/timeaware/timeaware-framings.jpg"/>
+
+
+    Screen time tracking is now prevalent, but we have little knowledge on how to design effective feedback on the screen time information. To help people enhance their personal productivity by providing effective feedback, we designed and developed **TimeAware**, a self-monitoring system for capturing and reflecting on personal computer usage behaviors. TimeAware employs an *ambient widget* to promote self-awareness and to lower the feedback access burden, and *web-based information dashboard* to visualize people’s detailed computer usage. To examine the **effect of framing** on individual’s productivity, we compared two versions of TimeAware, each with a different framing setting—one emphasizing *productive* activities and the other emphasizing *distracting* activities. We found a significant effect of framing on participants’ productivity: only participants in the negative framing condition improved their productivity. The ambient widget seemed to help sustain engagement with data and enhance self-awareness.
+
+
+    ### Funding
+
+    - National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIP) (No. NRF2014R1A2A2A03006998).

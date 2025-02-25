@@ -1,0 +1,170 @@
+-
+  periods:
+  -
+    year_start: 2025
+    month_start: 3
+  name: Jungeun Lee
+  link: https://www.jungeunlee.me/
+  affiliation: POSTECH
+  affiliation_full: POSTECH
+  portrait: "jelee.jpg"
+-
+  periods:
+  -
+    year_start: 2025
+    month_start: 3
+  name: Yeonsun Yang
+  link: https://yeonsunyang.com/
+  affiliation: DGIST
+  affiliation_full: DGIST
+  portrait: "ysyang.jpg"
+-
+  periods:
+  -
+    year_start: 2025
+    month_start: 3
+  name: Migyeong Yang
+  link: https://sites.google.com/view/migyeong-yang
+  affiliation: SKKU
+  affiliation_full: Sungkyunkwan University
+  portrait: "mgyang.jpg"
+-
+  periods:
+  -
+    year_start: 2024
+    month_start: 5
+    year_end: 2024
+    month_end: 9
+  name: Suhyeon Yoo
+  link: https://catherina423.blogspot.com/
+  affiliation: UToronto
+  affiliation_full: University of Toronto
+  portrait: "shyoo.jpeg"
+  publication: [ELMI-CHI25]
+-
+  periods:
+  -
+    year_start: 2024
+    month_start: 3
+    year_end: 2024
+    month_end: 9
+  name: Inhwa Song
+  link: https://inhwasong.com/
+  affiliation: KAIST
+  affiliation_full: KAIST
+  portrait: "ihsong.jpg"
+  publication: [ExploreSelf-CHI25]
+-
+  periods:
+  -
+    year_start: 2024
+    month_start: 3
+    year_end: 2024
+    month_end: 9
+  name: Dasom Choi
+  link: https://dasomchoi.com/
+  affiliation: KAIST
+  affiliation_full: KAIST
+  portrait: "dschoi.jpg"
+  publication: [AACessTalk-CHI25]
+-
+  periods:
+  -
+    year_start: 2023
+    month_start: 5
+    year_end: 2023
+    month_end: 8
+  -
+    year_start: 2024
+    month_start: 5
+    year_end: 2024
+    month_end: 8
+  name: Woosuk Seo
+  link: https://seowoosuk.wixsite.com/home
+  affiliation: U of Michigan
+  affiliation_full: University of Michigan, Ann Arbor
+  portrait: "wseo.jpg"
+  publication: [ChaCha-CHI24, ARCH-CHI25]
+-
+  periods:
+  -
+    year_start: 2022
+    month_start: 6
+    year_end: 2022
+    month_end: 9
+  -
+    year_start: 2023
+    month_start: 6
+    year_end: 2023
+    month_end: 10
+  name: Eunkyung Jo
+  link: https://eunkyungjo.weebly.com/
+  affiliation: UC Irvine
+  affiliation_full: University of California, Irvine
+  portrait: "ejo.jpg"
+  publication: [CareCall-CHI23, CareCallLTM-CHI24, CareCallStakeholder-CHI25]
+  awards: ["CHI Best Paper"]
+-
+  periods:
+  -
+    year_start: 2023
+    month_start: 6
+    year_end: 2023
+    month_end: 9
+  name: Donghoon Shin
+  link: https://donghoon.io/
+  affiliation: U of Washington
+  affiliation_full: University of Washington
+  portrait: "dshin.jpg"
+  publication: [PlanFitting-Arxiv23]
+-
+  periods:
+  -
+    year_start: 2023
+    month_start: 1
+    year_end: 2023
+    month_end: 7
+  name: Taewan Kim
+  link: https://taewankim.io/
+  affiliation: KAIST
+  affiliation_full: KAIST
+  portrait: "twkim.jpg"
+  publication: [MindfulDiary-CHI24]
+-
+  periods:
+  -
+    year_start: 2023
+    month_start: 1
+    year_end: 2023
+    month_end: 7
+  name: Sukhyun Lee
+  affiliation: Yonsei University
+  affiliation_full: Yonsei University
+  portrait: "slee.jpg"
+
+-
+  periods:
+  -
+    year_start: 2022
+    month_start: 5
+    year_end: 2022
+    month_end: 7
+  name: Jing Wei
+  link: https://www.jingwei.one/
+  affiliation: U of Melbourne
+  affiliation_full: University of Melbourne
+  portrait: jwei.jpg
+  publication: [LLM-Chatbot-CSCW24]
+-
+  periods:
+  -
+    year_start: 2022
+    month_start: 4
+    year_end: 2022
+    month_end: 6
+  name: Mina Huh
+  link: https://minahuh.com/
+  affiliation: "UT Austin"
+  affiliation_full: University of Texas, Austin
+  portrait: mhuh.jpg
+  publication: [AVscript-CHI23]
