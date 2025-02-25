@@ -1,16 +1,10 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
-import { useRouter } from 'next/router';
-import { useEffect } from "react";
+import Link from 'next/link'
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const sourceSans = Source_Sans_3({
+  variable: "--font-source-sans",
   subsets: ["latin"],
 });
 
@@ -25,31 +19,30 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
 
-
-  const router = useRouter()
-
-  useEffect(()=>{
-    const handleRouteChange = (url: string) => {
-      //TODO Google Analytics
-      //googleAnalyticsLogPageView(url)
-    }
-
-    router.events.on('routeChangeComplete', handleRouteChange)
-
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange)
-    }
-  }, [router.events])
-
   return (
     <html lang="en">
       <head>
         <title>Young-Ho Kim | HCI Researcher and Builder</title>
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${sourceSans.variable} antialiased`}
       >
-        {children}
+        <div className="min-h-[100vh] flex flex-col content-center items-center">
+          <header className="fixed top-0 left-0 right-0 z-[100] bg-white/95 shadow-md">
+          <div className="container mx-auto">
+            <Link href="/"><div className="ml-3 flex items-center sm:block">
+                    <div className="text-lg font-[700]">Young-Ho Kim, PhD</div>
+                    <div className="text-sm font-[600]">HCI Researcher &amp; Builder</div>
+                </div></Link>
+          </div>
+          </header>
+          <main>
+          {children}
+          </main>
+          <footer>
+
+          </footer>
+        </div>
       </body>
     </html>
   );
