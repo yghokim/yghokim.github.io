@@ -27,11 +27,11 @@ const badgeClassName = "absolute text-[8pt] mt-[-3px] bg-amber-500 font-[600] px
 
 export const GlobalNavigation = (props: {className?: string}) => {
 
-    const { updated } = loadYAML<any>('publication.yml')
+    const { updated } = loadYAML<{updated: string}>('publication.yml')
 
     const [year, month] = updated.split('-')
 
-    const { open } = loadYAML<any>('internship-info.yml')
+    const { open } = loadYAML<{open: boolean}>('internship-info.yml')
     
     return <div className={twMerge(props.className, 'flex-1 flex mb-6 mt-2 lg:gap-x-8 lg:m-0 justify-around lg:justify-start lg:text-[14pt] font-[600] text-black')}>
         <Link href="/" className="link-home">

@@ -1,3 +1,3 @@
-export default () => {
+export default function InternshipPage () {
     return <div>Haha</div>
 }
