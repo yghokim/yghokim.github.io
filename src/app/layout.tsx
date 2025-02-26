@@ -26,7 +26,7 @@ export default function RootLayout({
         <title>Young-Ho Kim | HCI Researcher and Builder</title>
       </head>
       <body
-        className={`${mainFont.className} antialiased`}
+        className={`${mainFont.className}`}
       >
         <div className="min-h-[100vh] flex flex-col content-center items-center">
           <header className="fixed top-0 left-0 right-0 z-[100] bg-white/95 shadow-md">

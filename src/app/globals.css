@@ -36,6 +36,10 @@ body {
   .markdown-content p, .markdown-content li {
     @apply paragraph mt-0 mb-4;
   }
+
+  .markdown-content .naver {
+    @apply text-naver font-semibold transition-opacity hover:opacity-70;
+  }
   
   .markdown-content h3{
     @apply text-xl font-semibold mb-1 mt-6;
@@ -61,5 +65,64 @@ body {
   .main-list > .main-list-element {
     @apply flex items-baseline;
   }
-  
+
+  .pagination-elm {
+    transition: all 0.5s;
+    @apply block relative w-14 h-2 rounded-full bg-[#757575] mx-0.5 overflow-hidden cursor-pointer outline outline-1 outline-transparent hover:outline-[#c0c0c0] hover:bg-[#c0c0c0];
+  }
+
+  .pagination-elm.active{
+    @apply w-28 bg-[#a0a0a0];
+  }
+
+  .pagination-elm.active .bar{
+    @apply block h-full w-full min-w-2 rounded-full bg-ink pointer-events-none;
+  }
+}
+
+
+svg.paper-diagram {
+  g#previous-research,
+  g#recent-research {
+    opacity: 0;
+    animation: alternateVisibility 16s infinite;
+  }
+
+  g#previous-research {
+    animation-delay: 2s;
+  }
+
+  g#recent-research {
+    animation-delay: 6s;
+  }
+}
+
+@keyframes alternateVisibility {
+  0% {
+    opacity: 0;
+  }
+  12.5% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  37.5% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  62.5% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  87.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
 }

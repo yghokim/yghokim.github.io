@@ -1,14 +1,17 @@
 import Image from "next/image";
 import profilePic from '../../public/assets/younghokim-portrait-2023.jpg';
 import { MainPanel, Sidebar } from "./_components/layouts";
-import { BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry } from "./_lib/types";
+import { BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry, PublicationStore } from "./_lib/types";
 import { LinkWithIcon, SubTitle } from "./_components/typography";
 import { loadText, loadYAML } from "./_lib/utils";
 import { useMemo } from "react";
 import { format, parse } from "date-fns"
 import { marked } from 'marked'
+import sortArray from 'sort-array'
 
 import { Noto_Sans_KR } from "next/font/google";
+import { PaperDiagram } from "./_components/PaperDiagram";
+import { VideoReel } from "./_components/VideoReel";
 const koreanFont = Noto_Sans_KR({
   variable: "--font-noto-sans",
   subsets: ["latin"],
@@ -117,6 +120,17 @@ export default function Page() {
 
   const introductionMarkdownText = {__html: marked(loadText("intro.md"))}
 
+
+  const { store: publicationStore } = loadYAML<{ store: PublicationStore }>("publication.yml")
+
+  const selectedPublication = sortArray(Object.keys(publicationStore).map(subtitle => publicationStore[subtitle])
+    .reduce((prev, curr) => {
+      return prev.concat(curr)
+    }, []).filter(e => e.selected === true), {
+    by: ['year', 'month'],
+    order: ['desc', 'desc']
+  })
+
   return (
     <>
       <Sidebar>
@@ -129,6 +143,19 @@ export default function Page() {
       </Sidebar>
       <MainPanel>
         <div className="markdown-content" dangerouslySetInnerHTML={introductionMarkdownText}/>
+
+        <SubTitle title="Research Area" size="large" />
+        {
+          <PaperDiagram publications={selectedPublication}/>
+        }
+
+
+        <SubTitle title="Selected Publication" size="large" noLine={true}>
+          <LinkWithIcon url='/publication' label="All Publication" align="right" target={"_self"} />
+        </SubTitle>
+
+        <VideoReel featuredPublications={selectedPublication.filter(p => p.featured != null)} className={'mb-8'}/>
+
       </MainPanel>
     </>
   );

@@ -11,14 +11,15 @@ export default {
       sm: '640px',
       md: '768px',
       lg: '976px',
-      xl: '1024px',
+      xl: '1120',
     },
     extend: {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
         pointed: "#1e9da7",
-        ink: '#575757'
+        ink: '#575757',
+        naver: '#66C36F'
       },
       fontSize: {
         'paragraph': '13.5pt',
