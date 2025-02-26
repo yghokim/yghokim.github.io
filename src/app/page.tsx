@@ -1,10 +1,18 @@
 import Image from "next/image";
 import profilePic from '../../public/assets/younghokim-portrait-2023.jpg';
 import { MainPanel, Sidebar } from "./_components/layouts";
-import { BioEntry, InternEntry, InternshipPeriod } from "./_lib/types";
+import { BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry } from "./_lib/types";
 import { LinkWithIcon, SubTitle } from "./_components/typography";
 import { loadYAML } from "./_lib/utils";
+import { useMemo } from "react";
+import { format, parse } from "date-fns"
 
+import { Noto_Sans_KR } from "next/font/google";
+const koreanFont = Noto_Sans_KR({
+  variable: "--font-noto-sans",
+  subsets: ["latin"],
+  weight: ['400', '700']
+});
 
 
 const BioView = (props: {side: boolean, className?: string | undefined}) => {
@@ -32,7 +40,6 @@ const InternPeriodView = (props: {period: InternshipPeriod}) => {
 
 const InternsView = (props: {side: boolean, className?: string | undefined}) => {
 
-
   const internList: Array<InternEntry> = loadYAML<Array<InternEntry>>("interns.yml")
 
   return <div className={props.className}><SubTitle title="Research interns" size={props.side ? "small" : "large"}>
@@ -52,11 +59,60 @@ const InternsView = (props: {side: boolean, className?: string | undefined}) => 
     }
   </div></div>
 }
+const NewsView = (props: {side: boolean, className?: string | undefined}) => {
+
+  const news = loadYAML<Array<NewsArticle>>("news.yml")
+  return <div className={props.className}><SubTitle title="News" size={props.side ? "small" : "large"} />
+  <div className="main-list !gap-2">
+    {
+      news.map((article, index) => {
+        return<div key={index} className="main-list-element text-[0.95rem]">
+            <div className="font-semibold w-[22%]">
+                {article.year + "." + article.month}
+            </div>
+            <div className="flex-1">
+                {article.headline}
+            </div>
+        </div>
+      })
+    }
+  </div></div>
+}
+
+const PressArticle = (props: {
+  article: PressEntry
+}) => {
+
+  const newsDateFormatted = useMemo(()=>{
+      return format(parse(props.article.date, "yyyy-MM-dd", new Date()), "yyyy.M")
+  }, [props.article.date])
+
+  return <div className={`main-list-element text-sm ${koreanFont.className}`}>
+      <div className="font-semibold w-[22%]">{newsDateFormatted}</div>
+      <div className="flex-1">
+          <a className="text-sm" href={props.article.url} rel="noreferrer" target="_blank">{props.article.title}</a>
+          <div className="text-xs font-bold mt-1">{props.article.press}</div>
+      </div>
+      
+  </div>
+}
+
+const PressView = (props: {side: boolean, className?: string | undefined}) => {
+
+  const pressEntryList: Array<PressEntry> = loadYAML("press.yml")
+
+  return <div className={props.className}><SubTitle title="Press" size={props.side ? "small" : "large"} />
+  <div className={"main-list !gap-3"}>
+    {
+      pressEntryList.map((article, index) => {
+        return <PressArticle key={index} article={article}/>
+      })
+    }
+  </div></div>
+}
+
 
 export default function Page() {
-
-
-
 
   return (
     <>
@@ -65,6 +121,8 @@ export default function Page() {
           className="rounded-full"/>
         <BioView side={true}/>
         <InternsView side={true}/>
+        <NewsView side={true}/>
+        <PressView side={true}/>
       </Sidebar>
       <MainPanel>
         hoho
