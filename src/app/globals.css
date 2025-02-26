@@ -19,14 +19,47 @@ body {
   background: var(--background);
 }
 
-a{
-  @apply transition-colors hover:text-pointed hover:fill-pointed
-}
+@layer components {
 
-.main-list{
-  @apply text-[10pt] flex flex-col gap-2
-}
+  a{
+    @apply transition-colors hover:text-pointed hover:fill-pointed
+  }
+  
+  .paragraph{
+    @apply text-paragraph font-light leading-paragraph;
+  }
+  
+  .markdown-content{
+    @apply flex flex-col;
+  }
+  
+  .markdown-content p, .markdown-content li {
+    @apply paragraph mt-0 mb-4;
+  }
+  
+  .markdown-content h3{
+    @apply text-xl font-semibold mb-1 mt-6;
+  }
+  
+  .markdown-content .badge {
+    @apply paragraph rounded-lg text-gray-800 italic px-3 py-1;
+  }
 
-.main-list > .main-list-element {
-  @apply flex items-baseline;
+
+  .markdown-content .badge.announcement {
+    @apply bg-[#ffecb2];
+  }
+
+  .markdown-content .badge.important {
+    @apply bg-[#f4678a] text-white;
+  }
+  
+  .main-list{
+    @apply text-[10pt] flex flex-col gap-2
+  }
+  
+  .main-list > .main-list-element {
+    @apply flex items-baseline;
+  }
+  
 }

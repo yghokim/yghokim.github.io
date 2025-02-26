@@ -6,7 +6,6 @@ import { ProfileLinks } from "./_components/ProfileLinksPanel";
 import { GlobalNavigation } from "./_components/GlobalNavigation";
 
 const mainFont = Source_Sans_3({
-  variable: "--font-source-sans",
   subsets: ["latin"],
 });
 

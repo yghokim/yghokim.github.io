@@ -7,6 +7,12 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '976px',
+      xl: '1024px',
+    },
     extend: {
       colors: {
         background: "var(--background)",
@@ -14,8 +20,14 @@ export default {
         pointed: "#1e9da7",
         ink: '#575757'
       },
+      fontSize: {
+        'paragraph': '13.5pt',
+      },
+      lineHeight: {
+        'paragraph': '1.85rem'
+      },
       spacing:{
-        'sidebar': '304px'
+        'sidebar': '322px',
       }
     },
   },

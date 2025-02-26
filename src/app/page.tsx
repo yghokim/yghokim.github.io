@@ -3,9 +3,10 @@ import profilePic from '../../public/assets/younghokim-portrait-2023.jpg';
 import { MainPanel, Sidebar } from "./_components/layouts";
 import { BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry } from "./_lib/types";
 import { LinkWithIcon, SubTitle } from "./_components/typography";
-import { loadYAML } from "./_lib/utils";
+import { loadText, loadYAML } from "./_lib/utils";
 import { useMemo } from "react";
 import { format, parse } from "date-fns"
+import { marked } from 'marked'
 
 import { Noto_Sans_KR } from "next/font/google";
 const koreanFont = Noto_Sans_KR({
@@ -114,6 +115,8 @@ const PressView = (props: {side: boolean, className?: string | undefined}) => {
 
 export default function Page() {
 
+  const introductionMarkdownText = {__html: marked(loadText("intro.md"))}
+
   return (
     <>
       <Sidebar>
@@ -125,7 +128,7 @@ export default function Page() {
         <PressView side={true}/>
       </Sidebar>
       <MainPanel>
-        hoho
+        <div className="markdown-content" dangerouslySetInnerHTML={introductionMarkdownText}/>
       </MainPanel>
     </>
   );
