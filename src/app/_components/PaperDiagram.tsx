@@ -1,5 +1,6 @@
 'use client'
 
+import { mainFont } from '../_lib/fonts';
 import {PublicationEntry} from '../_lib/types';
 import { ReactSVG } from 'react-svg';
 
@@ -29,8 +30,12 @@ export const PaperDiagram = (props: {
             }
         }
 
-        //const previousResearchGroup = svg.querySelector('g#previous-research')
-        //const recentResearchGroup = svg.querySelector('g#recent-research')
+        //Change fonts
+        const textElements = svg.querySelectorAll('text')
+        for(let itemIndex = 0; itemIndex < textElements.length; itemIndex++){
+            const textElm = textElements.item(itemIndex)
+            textElm.setAttribute('font-family', mainFont.style.fontFamily)
+        }
     }}
     /></div>
 }

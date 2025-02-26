@@ -8,16 +8,9 @@ import { useMemo } from "react";
 import { format, parse } from "date-fns"
 import { marked } from 'marked'
 import sortArray from 'sort-array'
-
-import { Noto_Sans_KR } from "next/font/google";
 import { PaperDiagram } from "./_components/PaperDiagram";
 import { VideoReel } from "./_components/VideoReel";
-const koreanFont = Noto_Sans_KR({
-  variable: "--font-noto-sans",
-  subsets: ["latin"],
-  weight: ['400', '700']
-});
-
+import { koreanFont } from "./_lib/fonts";
 
 const BioView = (props: {side: boolean, className?: string | undefined}) => {
 

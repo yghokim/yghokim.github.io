@@ -82,8 +82,8 @@ body {
 
 
 svg.paper-diagram {
-  g#previous-research,
-  g#recent-research {
+
+  g#previous-research, g#recent-research {
     opacity: 0;
     animation: alternateVisibility 16s infinite;
   }

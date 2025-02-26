@@ -1,13 +1,9 @@
 import type { Metadata } from "next";
-import { Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import Link from 'next/link'
 import { ProfileLinks } from "./_components/ProfileLinksPanel";
 import { GlobalNavigation } from "./_components/GlobalNavigation";
-
-const mainFont = Source_Sans_3({
-  subsets: ["latin"],
-});
+import { mainFont } from "./_lib/fonts";
 
 export const metadata: Metadata = {
   title: "Young-Ho Kim's Personal Website",
