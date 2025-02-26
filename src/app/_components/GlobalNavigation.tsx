@@ -1,8 +1,6 @@
 import Link from 'next/link'
-import path from 'path'
-import YAML from 'yaml'
-import fs from 'fs-extra'
 import { twMerge } from 'tailwind-merge'
+import { loadYAML } from '@/app/_lib/utils'
 
 const navs = [
     {
@@ -29,13 +27,11 @@ const badgeClassName = "absolute text-[8pt] mt-[-3px] bg-amber-500 font-[600] px
 
 export const GlobalNavigation = (props: {className?: string}) => {
 
-    const publicationFilePath = path.resolve("./private/data", 'publication.yml')
-    const { updated } = YAML.parse(fs.readFileSync(publicationFilePath, { encoding: 'utf-8' }))
+    const { updated } = loadYAML<any>('publication.yml')
 
     const [year, month] = updated.split('-')
 
-    const internshipInfoPath = path.resolve('./private/data/internship-info.yml')
-    const { open } = YAML.parse(fs.readFileSync(internshipInfoPath, { encoding: 'utf-8' }))
+    const { open } = loadYAML<any>('internship-info.yml')
     
     return <div className={twMerge(props.className, 'flex-1 flex mb-6 mt-2 lg:gap-x-8 lg:m-0 justify-around lg:justify-start lg:text-[14pt] font-[600] text-black')}>
         <Link href="/" className="link-home">

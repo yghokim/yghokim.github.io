@@ -20,5 +20,13 @@ body {
 }
 
 a{
-  @apply transition-colors hover:text-pointed
+  @apply transition-colors hover:text-pointed hover:fill-pointed
+}
+
+.main-list{
+  @apply text-[10pt] flex flex-col gap-2
+}
+
+.main-list > .main-list-element {
+  @apply flex items-baseline;
 }
