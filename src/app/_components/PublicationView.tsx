@@ -1,11 +1,12 @@
 import { useMemo } from "react";
 //import { TransitionGallery } from "./TransitionGallery";
 //import Image from "next/image";
-//import { BibTeXPopover } from "./bibtex";
+import { BibTeXPopover } from "./BibtexPopover";
 import { PublicationEntry } from "../_lib/types";
 import { BestAwardIcon, HonorableAwardIcon } from "./svg-icons";
 import { LinkIcon } from "./typography";
 import { twMerge } from "tailwind-merge";
+import { LinkTag } from "./PublicationTag";
 
 const AUTHOR_MARKS = ["*", "ª"]
 
@@ -118,7 +119,7 @@ export const PublicationView = (props: {
             props.entry.pdf != null ? <LinkTag label="PDF" tag="pdf" url={"/files/papers/" + props.entry.pdf} /> : null
         }
         {
-            //props.entry.bibtex != null ? <BibTeXPopover bibtex={props.entry.bibtex}/> : null
+            props.entry.bibtex != null ? <BibTeXPopover bibtex={props.entry.bibtex}/> : null
         }
         {
             props.entry.links != null ? props.entry.links.map(link => <LinkTag key={link.url} label={link.label} url={link.url} />) : null
@@ -155,49 +156,4 @@ export const PublicationView = (props: {
         }
         
     </div>
-}
-
-const LinkTag = (props: {
-    label: string
-    tag?: string
-    url?: string
-    showIcon?: boolean
-    targetBlank?: boolean
-    onClick?: () => void
-}) => {
-
-    let bg : string
-    switch(props.tag){
-        case 'doi':
-            bg = 'bg-tag-doi'
-            break;
-        case 'bibtex':
-            bg = 'bg-tag-bibtex'
-            break;
-        case 'pdf':
-            bg = 'bg-tag-pdf'
-            break;
-        default:
-            bg = 'bg-tag-default'
-    }
-
-    const tagClass = twMerge("group flex items-center text-white text-sm px-1 py-0 rounded hover:text-white transition-opacity hover:opacity-70", 
-        bg, 
-        (props.showIcon === true ? "text-ink-dark hover:text-ink-dark bg-tag-icon" : ""))
-
-    if (props.onClick != null) {
-        return <div className={tagClass} onClick={props.onClick}>
-            <span>{props.label}</span>
-            {
-                props.showIcon === true ? <LinkIcon className="w-4 h-4 group-hover:fill-ink-dark"/> : null
-            }
-        </div>
-    } else {
-        return <div><a className={tagClass} href={props.url} target={props.targetBlank === false ? undefined : "_blank"} rel="noreferrer">
-            <span>{props.label}</span>
-            {
-                props.showIcon === true ? <LinkIcon className="w-4 h-4 group-hover:fill-ink-dark"/> : null
-            }
-        </a></div>
-    }
 }
