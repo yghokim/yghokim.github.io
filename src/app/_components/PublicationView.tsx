@@ -181,22 +181,22 @@ const LinkTag = (props: {
             bg = 'bg-tag-default'
     }
 
-    const tagClass = twMerge("flex items-center text-white text-sm px-1 py-0 rounded hover:text-white transition-opacity hover:opacity-70", 
+    const tagClass = twMerge("group flex items-center text-white text-sm px-1 py-0 rounded hover:text-white transition-opacity hover:opacity-70", 
         bg, 
-        (props.showIcon === true ? "text-ink-dark bg-tag-icon" : ""))
+        (props.showIcon === true ? "text-ink-dark hover:text-ink-dark bg-tag-icon" : ""))
 
     if (props.onClick != null) {
         return <div className={tagClass} onClick={props.onClick}>
             <span>{props.label}</span>
             {
-                props.showIcon === true ? <LinkIcon className="w-4 h-4"/> : null
+                props.showIcon === true ? <LinkIcon className="w-4 h-4 group-hover:fill-ink-dark"/> : null
             }
         </div>
     } else {
         return <div><a className={tagClass} href={props.url} target={props.targetBlank === false ? undefined : "_blank"} rel="noreferrer">
             <span>{props.label}</span>
             {
-                props.showIcon === true ? <LinkIcon className="w-4 h-4"/> : null
+                props.showIcon === true ? <LinkIcon className="w-4 h-4 group-hover:fill-ink-dark"/> : null
             }
         </a></div>
     }
