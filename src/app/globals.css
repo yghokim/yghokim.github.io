@@ -76,7 +76,11 @@ body {
   }
 
   .pagination-elm.active .bar{
-    @apply block h-full w-full min-w-2 rounded-full bg-ink pointer-events-none;
+    @apply block h-full w-full min-w-2 rounded-full bg-ink-light pointer-events-none;
+  } 
+
+  .anchor-dummy {
+    @apply absolute w-32 block h-32 sm:h-28 top--32 sm:top--32 pointer-events-none;
   }
 }
 

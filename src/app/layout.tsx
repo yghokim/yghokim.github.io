@@ -42,7 +42,7 @@ export default function RootLayout({
           <div className="container mx-auto flex-1 flex flex-col sm:flex-row content-start self-stretch items-center sm:items-start pt-32 sm:pt-28 lg:pt-28 pb-10">
             {children}
           </div>
-          <footer className="w-full p-2 border border-t-[1px] border-[#eaeaea] flex justify-center items-center text-sm text-ink">
+          <footer className="w-full p-2 border border-t-[1px] border-[#eaeaea] flex justify-center items-center text-sm text-ink-light">
             Copyright © 2021-2025 Young-Ho Kim. All Rights Reserved. The website was designed by Young-Ho Kim and built with React and Next.js.
           </footer>
         </div>

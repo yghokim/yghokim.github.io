@@ -11,6 +11,7 @@ import sortArray from 'sort-array'
 import { PaperDiagram } from "./_components/PaperDiagram";
 import { VideoReel } from "./_components/VideoReel";
 import { koreanFont } from "./_lib/fonts";
+import { PublicationView } from "./_components/PublicationView";
 
 const BioView = (props: {side: boolean, className?: string | undefined}) => {
 
@@ -147,7 +148,15 @@ export default function Page() {
           <LinkWithIcon url='/publication' label="All Publication" align="right" target={"_self"} />
         </SubTitle>
 
-        <VideoReel featuredPublications={selectedPublication.filter(p => p.featured != null)} className={'mb-8'}/>
+        <VideoReel featuredPublications={selectedPublication.filter(p => p.featured != null)} className={'mb-12'}/>
+
+        <div className="publication-list">
+          {
+            selectedPublication.map(e => {
+              return <PublicationView key={e.title} entry={e} />
+            })
+          }
+        </div>
 
       </MainPanel>
     </>

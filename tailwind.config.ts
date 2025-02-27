@@ -18,8 +18,24 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         pointed: "#1e9da7",
-        ink: '#575757',
-        naver: '#66C36F'
+        ink: {
+          light: '#575757',
+          dark: '#252525'
+        },
+        highlight: '#fff8cd',
+        naver: '#66C36F',
+        award: {
+          recognition: 'rgb(219, 86, 150)',
+          honorable: '#b57129',
+          best: '#dda84c',
+        },
+        tag: {
+          default: '#e0bd66',
+          doi: '#4f99cc',
+          bibtex: '#69a66a',
+          pdf: '#ea4b4b',
+          icon: '#e7e7e7'
+        }
       },
       fontSize: {
         'paragraph': '13.5pt',

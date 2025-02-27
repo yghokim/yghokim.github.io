@@ -30,8 +30,8 @@ export const LinkWithIcon = (props: {
 }) => {
     return <a className={twMerge('flex items-center group', 
         props.align == 'left' ? 'justify-start' : 'justify-end', props.className)} href={props.url} target={props.target || "_blank"} rel="noreferrer">
-        <span className="font-semibold text-[12pt] text-ink group-hover:text-pointed">{props.label}</span>
-        <LinkIcon className="w-5 h-5 fill-ink group-hover:fill-pointed"/>
+        <span className="font-semibold text-[12pt] text-ink-light group-hover:text-pointed">{props.label}</span>
+        <LinkIcon className="w-5 h-5 fill-ink-light group-hover:fill-pointed"/>
     </a>
 }
 

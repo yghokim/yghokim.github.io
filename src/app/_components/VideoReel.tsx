@@ -85,7 +85,7 @@ export const VideoReel = (props: {
                     <div className="pointer-events-none mt-1 font-light text-[0.9rem] text-white">{props.featuredPublications[reelIndex].authors.join(", ")}</div>
             </Link>
         </div>
-        <div className="flex items-center justify-center mt-2 gap-0.5">
+        <div className="flex items-center justify-center mt-4 gap-0.5">
             {
                 props.featuredPublications.map((pub, index) => {
                     if(index == reelIndex){
