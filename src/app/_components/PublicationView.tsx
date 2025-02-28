@@ -1,5 +1,3 @@
-'use client'
-
 import { useMemo } from "react";
 import { BibTeXPopover } from "./BibtexPopover";
 import { PublicationEntry } from "../_lib/types";

@@ -21,10 +21,11 @@ const VenueLegend = () => {
 }
 
 const PublicationItem = memo((props: {
-    point: PublicationTimelinePoint
+    point: PublicationTimelinePoint,
+    onClickCapture: () => void
 }) => {
     return <Tooltip key={props.point.publicationKey} title={props.point.publicationKey}>
-            <Link href={`publication#${encodeURIComponent(props.point.publicationKey)}`}>
+            <Link href={`publication#${encodeURIComponent(props.point.publicationKey)}`} replace onClickCapture={props.onClickCapture}>
                 <div
                     className="block w-3.5 aspect-square cursor-pointer hover:opacity-70 transition-opacity"
                     style={{background: VENUE_COLORS[SORTED_VENUES.indexOf(props.point.venueType)]}}/>
@@ -41,6 +42,7 @@ const coauthorClass = "flex-row justify-start";
 export const PublicationTimeline = (props: {
     data: PublicationTimelineData
     className?: string
+    onHighlightPaper?: (id: string) => void
 }) => {
 
     const years = useMemo(()=>{
@@ -65,12 +67,12 @@ export const PublicationTimeline = (props: {
                     return <tr key={year}>
                         <td valign="middle">
                             <div className={twMerge(unitContainerClass, primaryClass)}>{props.data.yearlyGroups[year.toString()]?.primaryPoints?.map(p => {
-                            return <PublicationItem key={p.publicationKey} point={p}/>
+                            return <PublicationItem key={p.publicationKey} point={p} onClickCapture={() => {props.onHighlightPaper?.(p.publicationKey)}}/>
                         })}</div></td>
                         <td valign="middle" className="text-sm font-[500] text-ink-dark px-1">{year}</td>
                         <td valign="middle">
                             <div className={twMerge(unitContainerClass, coauthorClass)}>{props.data.yearlyGroups[year.toString()]?.coauthorPoints?.map(p => {
-                            return <PublicationItem key={p.publicationKey} point={p}/>
+                            return <PublicationItem key={p.publicationKey} point={p} onClickCapture={() => {props.onHighlightPaper?.(p.publicationKey)}}/>
                         })}</div></td>
                     </tr>
                 })

@@ -24,6 +24,9 @@ export default {
         },
         highlight: '#fff8cd',
         naver: '#66C36F',
+        badge:{
+          primary: '#fb9d6c'
+        },
         award: {
           recognition: 'rgb(219, 86, 150)',
           honorable: '#b57129',

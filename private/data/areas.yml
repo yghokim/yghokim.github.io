@@ -15,7 +15,7 @@
   title: "Flexible Human-Data Interaction in Personal Informatics"
   thumbnail: ["data-at-hand-thumbnail.jpg", "omnitrack-thumbnail_01.jpg", "omnitrack-for-research-thumbnail.jpg", "mymove-thumbnail_01.jpg"]
   interval: 3000
-  publications: ["MindfulDiary-CHI24", "LLM-Chatbot-CSCW24", "NoteWordy-ISS22", "NAACL22-Ws", "MyMove-CHI22", "Data@Hand-CHI21", "FoodScrap-DIS21", "OmniTrack-UbiComp17"]
+  publications: ["MindfulDiary-CHI24", "LLM-Chatbot-CSCW24", "NoteWordy-ISS22", "NAACL22-Ws", "MyMove-CHI22", "DataAtHand-CHI21", "FoodScrap-DIS21", "OmniTrack-UbiComp17"]
   summary: |
     Personal informatics systems require signficant human efforts in both collecting and exploring the data, 
     becuase the self-tracking process involves the user's personal context information, which is not recorded in the data.

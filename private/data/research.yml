@@ -86,7 +86,7 @@
   title: "Data@Hand: Multimodal Data Exploration of Personal Data"
   members: [Young-Ho Kim, Bongshin Lee, Arjun Srinivasan, Eun Kyoung Choe]
   keywords: [Personal data visualization, visual data exploration, speech, multimodal interaction, smartphone]
-  publications: ["Data@Hand-CHI21"]
+  publications: ["DataAtHand-CHI21"]
   links:
     -
       label: Project web
