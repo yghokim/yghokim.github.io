@@ -64,8 +64,8 @@ const NewsView = (props: {side: boolean, className?: string | undefined}) => {
   <div className="main-list !gap-2">
     {
       news.map((article, index) => {
-        return<div key={index} className="main-list-element text-[0.95rem]">
-            <div className="font-semibold w-[22%]">
+        return<div key={index} className="main-list-element md:text-[0.95rem]">
+            <div className="font-semibold w-[15%] md:w-[22%]">
                 {article.year + "." + article.month}
             </div>
             <div className="flex-1">
@@ -86,10 +86,10 @@ const PressArticle = (props: {
   }, [props.article.date])
 
   return <div className={`main-list-element text-sm ${koreanFont.className}`}>
-      <div className="font-semibold w-[22%]">{newsDateFormatted}</div>
+      <div className="font-semibold w-[15%] md:w-[22%]">{newsDateFormatted}</div>
       <div className="flex-1">
-          <a className="text-sm" href={props.article.url} rel="noreferrer" target="_blank">{props.article.title}</a>
-          <div className="text-xs font-bold mt-1">{props.article.press}</div>
+          <a className="md:text-sm" href={props.article.url} rel="noreferrer" target="_blank">{props.article.title}</a>
+          <div className="md:text-xs font-bold mt-1">{props.article.press}</div>
       </div>
       
   </div>
@@ -138,6 +138,9 @@ export default function Page() {
       <MainPanel>
         <div className="markdown-content" dangerouslySetInnerHTML={introductionMarkdownText}/>
 
+
+        <BioView side={false} className='md:hidden'/>
+
         <SubTitle title="Research Area" size="large" />
         {
           <PaperDiagram publications={selectedPublication}/>
@@ -157,6 +160,11 @@ export default function Page() {
             })
           }
         </div>
+
+
+        <InternsView side={false} className='md:hidden'/>
+        <NewsView side={false} className='md:hidden'/>
+        <PressView side={false} className="md:hidden"/>
 
       </MainPanel>
     </>

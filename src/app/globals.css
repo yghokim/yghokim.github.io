@@ -59,7 +59,7 @@ body {
   }
   
   .main-list{
-    @apply text-[10pt] flex flex-col gap-2
+    @apply md:text-[10pt] flex flex-col gap-2
   }
   
   .main-list > .main-list-element {
