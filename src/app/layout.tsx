@@ -1,10 +1,19 @@
 import { AntdRegistry } from '@ant-design/nextjs-registry';
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import Link from 'next/link'
 import { ProfileLinks } from "./_components/ProfileLinksPanel";
 import { GlobalNavigation } from "./_components/GlobalNavigation";
 import { mainFont } from "./_lib/fonts";
+
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  minimumScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+}
 
 export const metadata: Metadata = {
   title: "Young-Ho Kim's Personal Website",
@@ -40,7 +49,7 @@ export default function RootLayout({
               </div>
             </div>
             </header>
-            <div className="container mx-auto flex-1 flex flex-col sm:flex-row content-start self-stretch items-center sm:items-start pt-32 sm:pt-28 lg:pt-28 pb-10">
+            <div className="container mx-auto flex-1 sm:flex sm:flex-row content-start self-stretch items-center sm:items-start pt-32 sm:pt-28 lg:pt-28 pb-10">
               {children}
             </div>
             <footer className="w-full p-2 border border-t-[1px] border-[#eaeaea] flex justify-center items-center text-sm text-ink-light">
