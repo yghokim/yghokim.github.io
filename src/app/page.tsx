@@ -110,6 +110,21 @@ const PressView = (props: {side: boolean, className?: string | undefined}) => {
 }
 
 
+
+export async function generateMetadata (){
+
+  const introductionMarkdownText = loadText("og-desc.md")
+
+  return {
+    title: "Young-Ho Kim: HCI researcher & builder",
+    description: introductionMarkdownText,
+    openGraph: {
+      title: "Young-Ho Kim: HCI researcher & builder",
+
+    }
+  }
+}
+
 export default function Page() {
 
   const introductionMarkdownText = {__html: marked(loadText("intro.md"))}

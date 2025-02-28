@@ -1,5 +1,5 @@
 import { AntdRegistry } from '@ant-design/nextjs-registry';
-import type { Metadata, Viewport } from "next";
+import type { Metadata, ResolvingMetadata, Viewport } from "next";
 import "./globals.css";
 import Link from 'next/link'
 import { ProfileLinks } from "./_components/ProfileLinksPanel";
@@ -15,11 +15,6 @@ export const viewport: Viewport = {
   userScalable: false,
 }
 
-export const metadata: Metadata = {
-  title: "Young-Ho Kim's Personal Website",
-  description: "Young-Ho Kim is a research scientist at NAVER AI Lab, leading the Human-Computer Interaction research group.",
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,9 +23,6 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <head>
-        <title>Young-Ho Kim | HCI Researcher and Builder</title>
-      </head>
       <body
         className={`${mainFont.className}`}
       ><AntdRegistry>
