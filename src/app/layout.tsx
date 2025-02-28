@@ -43,7 +43,7 @@ export default function RootLayout({
                   <div className="text-md font-normal lg:font-[600]">HCI Researcher &amp; Builder</div>
                 </div>
               </Link>
-              <div className="flex flex-1 flex-col items-stretch sm:flex-row sm:items-center sm:pr-4 lg:pr-0">
+              <div className="flex flex-1 flex-col items-stretch sm:flex-row sm:items-center sm:pr-4 lg:pr-3">
                 <GlobalNavigation className="order-2 sm:order-1"/>
                 <ProfileLinks className="order-1 sm:order-2 border-b-[1px] py-1 sm:border-none sm:py-0"/>
               </div>
