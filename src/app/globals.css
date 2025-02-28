@@ -84,7 +84,7 @@ body {
   }
 
   .thumbnail-wrapper{
-    @apply mt-1 w-32 md:w-32 lg:w-36 aspect-square mr-3 rounded-xl overflow-hidden
+    @apply mt-1 w-32 md:w-32 lg:w-36 aspect-square mr-3 rounded-xl overflow-hidden outline outline-[1px] outline-gray-300 bg-gray-300
   }
 }
 
