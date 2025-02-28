@@ -1,12 +1,11 @@
 import { useMemo } from "react";
-//import { TransitionGallery } from "./TransitionGallery";
-//import Image from "next/image";
 import { BibTeXPopover } from "./BibtexPopover";
 import { PublicationEntry } from "../_lib/types";
 import { BestAwardIcon, HonorableAwardIcon } from "./svg-icons";
-import { LinkIcon } from "./typography";
 import { twMerge } from "tailwind-merge";
 import { LinkTag } from "./PublicationTag";
+import Image from "next/image";
+import { Carousel } from "antd";
 
 const AUTHOR_MARKS = ["*", "ª"]
 
@@ -24,7 +23,7 @@ export const PublicationView = (props: {
     showThumbnail?: boolean
 }) => {
 
-    const showThumbnail = props.showThumbnail !== false && props.entry.thumbnail != null && props.entry.thumbnailProcessed != null
+    const showThumbnail = props.showThumbnail !== false && props.entry.thumbnail != null
 
     const componentId = useMemo(()=> props.entry.key != null ? encodeURIComponent(props.entry.key) : undefined, [props.entry.key])
 
@@ -141,13 +140,15 @@ export const PublicationView = (props: {
         {
             showThumbnail === true ? <><div className="thumbnail-container">
                 {
-            /*Array.isArray(props.entry.thumbnailProcessed) === true ? <TransitionGallery
-                images={props.entry.thumbnailProcessed as Array<IGetPlaiceholderReturn>} interval={2000} /> : <div className="thumbnail-wrapper">
-                <Image {...(props.entry.thumbnailProcessed as IGetPlaiceholderReturn).img}
-                    blurDataURL={(props.entry.thumbnailProcessed as IGetPlaiceholderReturn).base64}
-                    placeholder="blur" fill={true} width={undefined} height={undefined}
+            Array.isArray(props.entry.thumbnail) === true ? <Carousel className="thumbnail-wrapper" autoplay dots={false}>
+            {
+                props.entry.thumbnail.map((thumb, i) => <Image key={i} src={`./files/images/${thumb}`} width={150} height={150} alt={"i"}/>)
+            }
+        </Carousel> : <div className="thumbnail-wrapper">
+                <Image src={`./files/images/${props.entry.thumbnail}`}
+                    width={150} height={150}
                     alt="thumbnail for the research" />
-            </div>*/
+            </div>
         }
             </div>
             <div className="text-content-wrapper">

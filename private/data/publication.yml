@@ -115,7 +115,7 @@
         title: "ExploreSelf: Fostering User-driven Exploration and Reflection on Personal Challenges with Adaptive Guidance by Large Language Models"
         authors: [Inhwa Song, SoHyun Park, Sachin R. Pendse, Jessica Lee Schleider, Munmun De Choudhury, Young-Ho Kim]
         venue: ACM CHI 2025
-        thumbnail: [exploreself-demo-loop-gif-square.gif]
+        thumbnail: exploreself-demo-loop-gif-square.gif
         pdf: exploreself-chi25.pdf
         links:
           -
