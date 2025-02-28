@@ -31,6 +31,10 @@ export const VideoReel = (props: {
         }
     }
 
+    const onCanPlayThrough = ()=>{
+        videoElementRef.current?.play()
+    }
+
     const paginationBarStyle = useMemo(()=>({
         transform: `translateX(-${(1 - videoCurrentTimeSec/videoDurationSec) * 100}%)`
     }), [videoDurationSec, videoCurrentTimeSec])
@@ -51,7 +55,6 @@ export const VideoReel = (props: {
     useEffect(()=>{
         if(videoElementRef.current){
             videoElementRef.current.load()
-            videoElementRef.current.play()
         }
     }, [reelIndex])
 
@@ -75,7 +78,7 @@ export const VideoReel = (props: {
 
     return <div className={props.className}>
         <div className="overflow-hidden rounded-md border-2 border-gray-300 relative">
-            <video className="w-full m-0 p-0 aspect-video" ref={videoElementRef} muted autoPlay controls={false} playsInline onLoadedMetadata={onMetadataLoad} onEnded={onTrackEnded}>
+            <video className="w-full m-0 p-0 aspect-video" ref={videoElementRef} muted autoPlay controls={false} playsInline onLoadedMetadata={onMetadataLoad} onEnded={onTrackEnded} onCanPlayThrough={onCanPlayThrough}>
                 <source key={props.featuredPublications[reelIndex].key!} src={`./files/videos/${props.featuredPublications[reelIndex].featured!.video}`} type="video/mp4"/>          
                 Your browser does not support the video tag.
             </video>
