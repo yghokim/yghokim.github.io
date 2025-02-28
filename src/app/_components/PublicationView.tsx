@@ -25,7 +25,7 @@ export const PublicationView = (props: {
 
     const showThumbnail = props.showThumbnail !== false && props.entry.thumbnail != null
 
-    const componentId = useMemo(()=> props.entry.key != null ? encodeURIComponent(props.entry.key) : undefined, [props.entry.key])
+    const componentId = props.entry.key != null ? encodeURIComponent(props.entry.key) : undefined
 
     const showHighlight = props.hashIdToMatch === componentId && componentId != null
 
@@ -133,7 +133,7 @@ export const PublicationView = (props: {
         }
     </div></>
 
-    return <div className={twMerge('mt-7',
+    return <div className={twMerge('mt-7 relative',
                 showHighlight === true ? 'bg-highlight outline outline-8 outline-highlight' : '', 
                 showThumbnail === true ? 'flex items-start' : '')}>
         <a className="anchor-dummy" id={componentId}/>

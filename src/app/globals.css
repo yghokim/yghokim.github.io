@@ -80,7 +80,7 @@ body {
   } 
 
   .anchor-dummy {
-    @apply absolute w-32 block h-32 sm:h-28 top--32 sm:top--32 pointer-events-none;
+    @apply absolute w-32 block h-32 sm:h-28 -top-32 sm:-top-28 pointer-events-none;
   }
 
   .thumbnail-wrapper{
