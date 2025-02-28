@@ -128,7 +128,7 @@ export default function Page() {
   return (
     <>
       <Sidebar>
-        <Image src={profilePic} alt="Photo of Young-Ho Kim" 
+        <Image src={profilePic} alt="Photo of Young-Ho Kim" placeholder="blur"
           className="rounded-full"/>
         <BioView side={true}/>
         <InternsView side={true}/>
@@ -137,7 +137,6 @@ export default function Page() {
       </Sidebar>
       <MainPanel>
         <div className="markdown-content" dangerouslySetInnerHTML={introductionMarkdownText}/>
-
 
         <BioView side={false} className='md:hidden'/>
 
