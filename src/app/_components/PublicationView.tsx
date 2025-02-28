@@ -142,10 +142,10 @@ export const PublicationView = (props: {
                 {
             Array.isArray(props.entry.thumbnail) === true ? <Carousel className="thumbnail-wrapper" autoplay dots={false}>
             {
-                props.entry.thumbnail.map((thumb, i) => <Image key={i} src={`./files/images/${thumb}`} width={150} height={150} alt={"i"}/>)
+                props.entry.thumbnail.map((thumb, i) => <Image key={i} src={`/files/images/${thumb}`} width={150} height={150} alt={"i"}/>)
             }
         </Carousel> : <div className="thumbnail-wrapper">
-                <Image src={`./files/images/${props.entry.thumbnail}`}
+                <Image src={`/files/images/${props.entry.thumbnail}`}
                     width={150} height={150}
                     alt="thumbnail for the research" />
             </div>

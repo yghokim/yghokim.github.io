@@ -74,15 +74,17 @@ export const VideoReel = (props: {
       }, []);
 
     return <div className={props.className}>
-        <div className="overflow-hidden rounded-md aspect-video border-2 border-gray-300 relative">
-            <video className="w-full m-0 p-0" ref={videoElementRef} muted autoPlay onLoadedMetadata={onMetadataLoad} onEnded={onTrackEnded}>
+        <div className="overflow-hidden rounded-md border-2 border-gray-300 relative">
+            <video className="w-full m-0 p-0 aspect-video" ref={videoElementRef} muted autoPlay onLoadedMetadata={onMetadataLoad} onEnded={onTrackEnded}>
                 <source key={props.featuredPublications[reelIndex].key!} src={`./files/videos/${props.featuredPublications[reelIndex].featured!.video}`} type="video/mp4"/>          
                 Your browser does not support the video tag.
             </video>
-            <Link className="absolute bottom-0 left-0 right-0 bg-[rgba(13,26,48,0.7)]  p-3" href={`publication#${encodeURIComponent(props.featuredPublications[reelIndex].key!)}`}>
-                <div className="pointer-events-none font-[600] mb-0.5 text-[#ffc951]">{props.featuredPublications[reelIndex].venue}</div>
-                    <div className="pointer-events-none text-[1.15rem] font-light text-white">{props.featuredPublications[reelIndex].featured?.shorttitle || props.featuredPublications[reelIndex].title}</div>
+            <Link href={`publication#${encodeURIComponent(props.featuredPublications[reelIndex].key!)}`}>
+                <div className="lg:absolute lg:bottom-0 lg:left-0 lg:right-0 bg-[rgba(13,26,48,0.7)] p-3">
+                    <div className="pointer-events-none font-[600] mb-0.5 text-[#ffc951]">{props.featuredPublications[reelIndex].venue}</div>
+                    <div className="pointer-events-none text-md xl:text-[1.15rem] font-light text-white">{props.featuredPublications[reelIndex].featured?.shorttitle || props.featuredPublications[reelIndex].title}</div>
                     <div className="pointer-events-none mt-1 font-light text-[0.9rem] text-white">{props.featuredPublications[reelIndex].authors.join(", ")}</div>
+                </div>
             </Link>
         </div>
         <div className="flex items-center justify-center mt-4 gap-0.5">
