@@ -75,7 +75,7 @@ export const VideoReel = (props: {
 
     return <div className={props.className}>
         <div className="overflow-hidden rounded-md border-2 border-gray-300 relative">
-            <video className="w-full m-0 p-0 aspect-video" ref={videoElementRef} muted autoPlay onLoadedMetadata={onMetadataLoad} onEnded={onTrackEnded}>
+            <video className="w-full m-0 p-0 aspect-video" ref={videoElementRef} muted autoPlay controls={false} playsInline onLoadedMetadata={onMetadataLoad} onEnded={onTrackEnded}>
                 <source key={props.featuredPublications[reelIndex].key!} src={`./files/videos/${props.featuredPublications[reelIndex].featured!.video}`} type="video/mp4"/>          
                 Your browser does not support the video tag.
             </video>
