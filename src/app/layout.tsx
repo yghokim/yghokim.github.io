@@ -15,6 +15,10 @@ export const viewport: Viewport = {
   userScalable: false,
 }
 
+export const metadata: Metadata = {
+  metadataBase: process.env.PAGES_BASE_PATH ? new URL(process.env.PAGES_BASE_PATH) : undefined
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{

@@ -20,7 +20,10 @@ const InternshipPeriodView = (props: {
 }
 
 export const metadata: Metadata = {
-    title: 'Internship@NAVER | Young-Ho Kim'
+    title: 'Internship@NAVER | Young-Ho Kim',
+    openGraph: {
+        title: 'Internship@NAVER | Young-Ho Kim'
+    }
 }
 
 export default function InternshipPage() {
