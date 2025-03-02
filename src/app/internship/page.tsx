@@ -1,7 +1,7 @@
 import sortArray from "sort-array";
 import { MainPanel } from "../_components/layouts";
 import { InternEntry, InternshipPeriod, PublicationStore } from "../_lib/types";
-import { loadYAML } from "../_lib/utils";
+import { loadText, loadYAML } from "../_lib/utils";
 import { marked } from "marked";
 import Image from 'next/image'
 import { Metadata } from "next";
@@ -19,12 +19,23 @@ const InternshipPeriodView = (props: {
     return <i>{props.period.year_start}.{props.period.month_start} - {props.period.month_end != null ? (props.period.year_end != null ? (props.period.year_start == props.period.year_end ? props.period.month_end : `${props.period.year_end}.${props.period.month_end}`) : `${props.period.month_end}`) : ""}</i>
 }
 
-export const metadata: Metadata = {
-    title: 'Internship@NAVER | Young-Ho Kim',
-    openGraph: {
-        title: 'Internship@NAVER | Young-Ho Kim'
+export async function generateMetadata (): Promise<Metadata>{
+
+  const internPageInfo = loadYAML<any>('internship-info.yml')
+
+
+  const removeMd = require('remove-markdown');
+  
+
+  return {
+        title: 'Internship@NAVER | Young-Ho Kim',
+        description: `${removeMd(internPageInfo['hcigroup'])}\n\n[${internPageInfo['recruitment']['title']}]: ${internPageInfo['open'] == true ? 'Application open.' : 'Application closed.' }`,
+        openGraph: {
+            title: 'Internship@NAVER | Young-Ho Kim'
+        }
     }
 }
+
 
 export default function InternshipPage() {
 

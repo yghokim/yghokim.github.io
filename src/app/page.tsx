@@ -115,9 +115,11 @@ export async function generateMetadata (){
 
   const introductionMarkdownText = loadText("og-desc.md")
 
+  const removeMd = require('remove-markdown');
+
   return {
     title: "Young-Ho Kim: HCI researcher & builder",
-    description: introductionMarkdownText,
+    description: removeMd(introductionMarkdownText),
     openGraph: {
       title: "Young-Ho Kim: HCI researcher & builder",
 
@@ -128,7 +130,6 @@ export async function generateMetadata (){
 export default function Page() {
 
   const introductionMarkdownText = {__html: marked(loadText("intro.md"))}
-
 
   const { store: publicationStore } = loadYAML<{ store: PublicationStore }>("publication.yml")
 
