@@ -85,7 +85,7 @@ export const PublicationView = (props: {
     <div className="font-[600] text-ink-light relative text-lg leading-6">
         <span className="">{props.entry.title}</span>
         {
-            props.entry.primary === true && props.showPrimary === true ? <div className="primary-badge"/> : null
+            props.entry.primary === true && props.showPrimary === true ? <div className="bg-badge-primary block absolute w-2 h-2 rounded-full -top-[1px] -left-1 translate-x-[-100%] translate-y-[100%]"/> : null
         }
     </div>
     <div className="flex flex-wrap gap-x-1 font-[300] mt-1">

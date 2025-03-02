@@ -12,6 +12,7 @@ import { PublicationView } from "../_components/PublicationView";
 import { BestAwardIcon, HonorableAwardIcon } from "../_components/svg-icons";
 import Link from "next/link";
 import { Fragment } from "react";
+import removeMd from 'remove-markdown';
 
 const InternshipPeriodView = (props: {
     period: InternshipPeriod
@@ -24,7 +25,7 @@ export async function generateMetadata (): Promise<Metadata>{
   const internPageInfo = loadYAML<any>('internship-info.yml')
 
 
-  const removeMd = require('remove-markdown');
+  
   
 
   return {

@@ -12,6 +12,7 @@ import { PaperDiagram } from "./_components/PaperDiagram";
 import { VideoReel } from "./_components/VideoReel";
 import { koreanFont } from "./_lib/fonts";
 import { PublicationView } from "./_components/PublicationView";
+import removeMd from 'remove-markdown';
 
 const BioView = (props: {side: boolean, className?: string | undefined}) => {
 
@@ -114,8 +115,6 @@ const PressView = (props: {side: boolean, className?: string | undefined}) => {
 export async function generateMetadata (){
 
   const introductionMarkdownText = loadText("og-desc.md")
-
-  const removeMd = require('remove-markdown');
 
   return {
     title: "Young-Ho Kim: HCI researcher & builder",
