@@ -16,7 +16,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: process.env.NEXT_PUBLIC_URL_PATH ? new URL(process.env.NEXT_PUBLIC_URL_PATH) : undefined
+  metadataBase: process.env.NEXT_PUBLIC_URL ? new URL(process.env.NEXT_PUBLIC_URL) : undefined
 }
 
 export default function RootLayout({
