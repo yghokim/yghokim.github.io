@@ -14,7 +14,7 @@ const navs = [
         link: "/research"
     },*/
     {
-        title: "Joining My Group",
+        title: "Internship",
         link: "/internship",
         showInternshipOpen: true
     },
@@ -46,7 +46,7 @@ export const GlobalNavigation = (props: {className?: string}) => {
                 if(nav.showUpdateDate === true && year && month){
                     content = <><div className='nav-title-label'>{nav.title}</div><div className={badgeClassName}>Updated {year}.{month}</div></>
                 }else if(nav.showInternshipOpen === true && open != null){
-                    content = <><div className='nav-title-label'>{nav.title}</div><div className={badgeClassName}>{open === true ? 'Internship Application Open' : 'Internship Application Closed'}</div></>
+                    content = <><div className='nav-title-label'>{nav.title}</div><div className={badgeClassName}>{open === true ? 'Application Open' : 'Application Closed'}</div></>
                 }else{
                     content = nav.title
                 }
