@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { twMerge } from 'tailwind-merge'
 import { loadYAML } from '@/app/_lib/utils'
+import { RouteAwareLink } from './RouteAwareLink'
 
 const navs = [
     {
@@ -16,11 +17,11 @@ const navs = [
         title: "Joining My Group",
         link: "/internship",
         showInternshipOpen: true
-    },/*
+    },
     {
-        title: "Etc.",
-        link: "/fun"
-    }*/
+        title: "Resources",
+        link: "/resources"
+    }
 ]
 
 const badgeClassName = "absolute text-[8pt] mt-[-3px] bg-amber-500 font-[600] px-1 rounded text-white"
@@ -50,9 +51,9 @@ export const GlobalNavigation = (props: {className?: string}) => {
                     content = nav.title
                 }
 
-                return <Link key={nav.title} href={nav.link}>
+                return <RouteAwareLink key={nav.title} href={nav.link} pattern={nav.link} matchClassName='overline decoration-dotted decoration-gray-400'>
                     {content}
-                </Link>
+                </RouteAwareLink>
             })
         }
     </div>
