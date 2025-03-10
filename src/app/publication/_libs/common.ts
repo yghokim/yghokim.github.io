@@ -2,7 +2,7 @@ import { PublicationEntry, PublicationTimelineData, SORTED_VENUES, VenueType } f
 import groupArray from 'group-array';
 
 function extractVenueName(venue: string): VenueType | null {
-    if(venue.includes("ACM CHI") && !venue.includes("Workshop")){
+    if(/^ACM\sCHI\s\d{4}$/g.test(venue)){
         return VenueType.CHI
     }else if(venue.includes("PACM HCI (CSCW")){
         return VenueType.CSCW

@@ -1054,6 +1054,15 @@
     
     Lightly Peer-reviewed Extended Abstracts:
       -
+        key: AgentMemory-CHI25LBW
+        year: 2025
+        month: 4
+        selected: false
+        type: poster
+        title: "Users' Expectations and Practices with Agent Memory"
+        authors: [Brennan Jones, Kelsey Stemmler, Emily Su, Young-Ho Kim, Anastasia Kuzminykh]
+        venue: ACM CHI 2025 Late-Breaking Work
+      -
         key: Open-goal-chatbot-ACL24-Ws
         year: 2024
         month: 8
