@@ -83,6 +83,14 @@ body {
     @apply absolute w-32 block h-32 sm:h-28 -top-32 sm:-top-28 pointer-events-none;
   }
 
+  .author-name.self{
+    @apply font-[400] underline;
+  }
+
+  .author-name.mentee{
+    @apply font-[400];
+  }
+
   .thumbnail-wrapper{
     @apply mt-1 w-32 md:w-32 lg:w-36 aspect-square mr-5 rounded-xl overflow-hidden outline outline-[1px] outline-gray-300 bg-gray-300
   }

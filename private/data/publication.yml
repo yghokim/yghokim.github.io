@@ -1,5 +1,5 @@
 ---
-  updated: 2025-02
+  updated: 2025-03
   store:
     Archived Manuscripts:
       - 
@@ -10,7 +10,7 @@
         primary: true
         type: full
         title: "PlanFitting: Tailoring Personalized Exercise Plans with Large Language Models"
-        authors: [Donghoon Shin, Gary Hsieh, Young-Ho Kim]
+        authors: [+Donghoon Shin, Gary Hsieh, Young-Ho Kim]
         venue: arXiv
         pdf: planfitting-arxiv23.pdf
         thumbnail: [planfitting/thumb-1.jpg, planfitting/thumb-2.jpg]
@@ -27,7 +27,7 @@
         primary: true
         type: full
         title: "AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation"
-        authors: [Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, Young-Ho Kim]
+        authors: [+Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, Young-Ho Kim]
         venue: ACM CHI 2025
         thumbnail: aacesstalk/aacesstalk-thumb-animated.gif
         pdf: aacesstalk-chi25.pdf
@@ -72,7 +72,7 @@
         primary: true
         type: full
         title: "ELMI: Interactive and Intelligent Sign Language Translation of Lyrics for Song Signing"
-        authors: [Suhyeon Yoo, Khai N. Truong, Young-Ho Kim]
+        authors: [+Suhyeon Yoo, Khai N. Truong, Young-Ho Kim]
         venue: ACM CHI 2025
         thumbnail: elmi_demo_loop_square.gif
         pdf: elmi-chi25.pdf
@@ -113,7 +113,7 @@
         primary: true
         type: full
         title: "ExploreSelf: Fostering User-driven Exploration and Reflection on Personal Challenges with Adaptive Guidance by Large Language Models"
-        authors: [Inhwa Song, SoHyun Park, Sachin R. Pendse, Jessica Lee Schleider, Munmun De Choudhury, Young-Ho Kim]
+        authors: [+Inhwa Song, SoHyun Park, Sachin R. Pendse, Jessica Lee Schleider, Munmun De Choudhury, Young-Ho Kim]
         venue: ACM CHI 2025
         thumbnail: exploreself-demo-loop-gif-square.gif
         pdf: exploreself-chi25.pdf
@@ -154,7 +154,7 @@
         primary: false
         type: full
         title: "Understanding Public Agencies' Expectations and Realities of AI-Driven Chatbots for Public Health Monitoring"
-        authors: [Eunkyung Jo, Young-Ho Kim, Sang-Houn Ok, Daniel A. Epstein]
+        authors: [+Eunkyung Jo, Young-Ho Kim, Sang-Houn Ok, Daniel A. Epstein]
         venue: ACM CHI 2025
         pdf: carecall-stakeholders-chi25.pdf
       -  
@@ -165,7 +165,7 @@
         primary: false
         type: full
         title: "Enhancing Pediatric Communication: The Role of an AI-Driven Chatbot in Facilitating Child-Parent-Provider Interaction"
-        authors: [Woosuk Seo, Young-Ho Kim, Ji Eun Kim, Megan Tao Fan, Mark S. Ackerman, Sung Won Choi, Sun Young Park]
+        authors: [+Woosuk Seo, Young-Ho Kim, Ji Eun Kim, Megan Tao Fan, Mark S. Ackerman, Sung Won Choi, Sun Young Park]
         venue: ACM CHI 2025
         pdf: arch-chi25.pdf
       -
@@ -258,7 +258,7 @@
         primary: true
         type: full
         title: "ChaCha: Leveraging Large Language Models to Prompt Children to Share Their Emotions about Personal Events"
-        authors: [Woosuk Seo, Chanmo Yang, Young-Ho Kim]
+        authors: [+Woosuk Seo, Chanmo Yang, Young-Ho Kim]
         venue: ACM CHI 2024
         pdf: chacha-chi24-preprint-240219.pdf
         doi: https://dl.acm.org/doi/10.1145/3613904.3642152
@@ -304,7 +304,7 @@
         month: 5
         type: full
         title: "MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling"
-        authors: [Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim]
+        authors: [+Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim]
         groups: [[[Young-Ho Kim, Chanmo Yang], "co-corresponding"]]
         venue: ACM CHI 2024
         thumbnail: [mindfuldiary/thumb-1.jpg, mindfuldiary/thumb-2.jpg, mindfuldiary/thumb-3.jpg]
@@ -342,7 +342,7 @@
         month: 5
         type: full
         title: "Understanding the Impact of Long-Term Memory on Self-Disclosure with Large Language Model-Driven Chatbots for Public Health Intervention"
-        authors: [Eunkyung Jo, Yuin Jeong, SoHyun Park, Daniel A. Epstein, Young-Ho Kim]
+        authors: [+Eunkyung Jo, Yuin Jeong, SoHyun Park, Daniel A. Epstein, Young-Ho Kim]
         venue: ACM CHI 2024
         thumbnail: [carecall/thumb-ltm.png]
         pdf: carecall-ltm-chi24-preprint-240216.pdf
@@ -502,7 +502,7 @@
         primary: true
         type: full
         title: "Leveraging Large Language Models to Power Chatbots for Collecting User Self-Reported Data"
-        authors: [Jing Wei, Sungdong Kim, Hyunhoon Jung, Young-Ho Kim]
+        authors: [+Jing Wei, Sungdong Kim, Hyunhoon Jung, Young-Ho Kim]
         venue: PACM HCI (CSCW 2024)
         thumbnail: gpt-chatbot/thumb-1.jpg
         pdf: wei-chatbot-cscw24.pdf
@@ -598,7 +598,7 @@
         type: full
         award: Best Paper Award
         title: Understanding the Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention
-        authors: [Eunkyung Jo, Daniel A. Epstein, Hyunhoon Jung, Young-Ho Kim]
+        authors: [+Eunkyung Jo, Daniel A. Epstein, Hyunhoon Jung, Young-Ho Kim]
         venue: ACM CHI 2023
         pdf: jo-carecall-chi2023.pdf
         doi: https://dl.acm.org/doi/10.1145/3544548.3581503
@@ -631,7 +631,7 @@
         type: full
         research: avscript
         title: "AVscript: Accessible Video Editing with Audio-Visual Scripts"
-        authors: [Mina Huh, Saelyne Yang, Yi-Hao Peng, Xiang 'Anthony' Chen, Young-Ho Kim, Amy Pavel]
+        authors: [+Mina Huh, Saelyne Yang, Yi-Hao Peng, Xiang 'Anthony' Chen, Young-Ho Kim, Amy Pavel]
         venue: ACM CHI 2023
         pdf: huh-avscript-chi2023.pdf
         doi: https://dl.acm.org/doi/10.1145/3544548.3581494
@@ -1062,6 +1062,7 @@
         title: "Users' Expectations and Practices with Agent Memory"
         authors: [Brennan Jones, Kelsey Stemmler, Emily Su, Young-Ho Kim, Anastasia Kuzminykh]
         venue: ACM CHI 2025 Late-Breaking Work
+        pdf: jones-agent-memory-chi25lbw.pdf
       -
         key: Open-goal-chatbot-ACL24-Ws
         year: 2024
@@ -1084,7 +1085,7 @@
         month: 5
         type: ea
         title: "Towards Designing a Safe and Reliable LLM-driven Chatbot for Children"
-        authors: [Woosuk Seo, Sun Young Park, Mark Ackerman, Chan-Mo Yang, Young-Ho Kim]
+        authors: [+Woosuk Seo, Sun Young Park, Mark Ackerman, Chan-Mo Yang, Young-Ho Kim]
         venue: "CHI 2024 Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL@CHI'24)"
         pdf: chacha-seo-heal24.pdf
         links:
@@ -1099,7 +1100,7 @@
         month: 5
         type: ea
         title: "Evaluating and Auditing LLM-Driven Chatbots for Psychiatric Patients in Clinical Mental Health Settings"
-        authors: [Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim]
+        authors: [+Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim]
         groups: [[[Young-Ho Kim, Chanmo Yang], "co-corresponding"]]
         venue: "CHI 2024 Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL@CHI'24)"
         pdf: mindfuldiary-kim-heal24.pdf
@@ -1115,7 +1116,7 @@
         month: 5
         type: ea
         title: "Incorporating Multi-Stakeholder Perspectives in Evaluating and Auditing of Health Chatbots"
-        authors: [Eunkyung Jo, Young-Ho Kim, Yuin Jeong, SoHyun Park, Daniel Epstein]
+        authors: [+Eunkyung Jo, Young-Ho Kim, Yuin Jeong, SoHyun Park, Daniel Epstein]
         venue: "CHI 2024 Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL@CHI'24)"
         award: Highlight Paper
         pdf: carecallltm-jo-heal24.pdf
@@ -1229,7 +1230,7 @@
         month: 5
         type: ea
         title: Examining the Role of Conversational AI in Personal Informatics Systems for Collaborative Health Work and Care
-        authors: [Eunkyung Jo, Young-Ho Kim, Yuin Jeong, Hyeri Kim, Hyun Jung Park, Daniel A. Epstein]
+        authors: [+Eunkyung Jo, Young-Ho Kim, Yuin Jeong, Hyeri Kim, Hyun Jung Park, Daniel A. Epstein]
         venue: ACM CHI 2022 Workshop on "Grand Challenges for Personal Informatics and AI"
         pdf: workshop-carecall-jo-chi22.pdf
         links:

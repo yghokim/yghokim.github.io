@@ -91,11 +91,21 @@ export const PublicationView = (props: {
     <div className="flex flex-wrap gap-x-1 font-[300] mt-1">
         {
             props.entry.authors.map((author, i) => {
+
+
+                let authorclass: "mentee" | "other" = "other"
+                let authorname = author
+
+                if(author.startsWith("+")){
+                    authorclass = "mentee"
+                    authorname = author.substring(1)
+                }
+
                 return <div key={author} className={"author"}>
                     {i === props.entry.authors.length - 1 ? <span>and </span> : ""}
-                    <span className={(author === "Young-Ho Kim" ? "underline" : undefined)}>{author}
+                    <span className={twMerge('author-name', authorclass, author === "Young-Ho Kim" ? "self" : undefined)}>{authorname}
                     {
-                        authorMarkDict != null && authorMarkDict[author] != null ? authorMarkDict[author] : undefined
+                        authorMarkDict != null && authorMarkDict[authorname] != null ? authorMarkDict[authorname] : undefined
                     }</span>
                     {i < props.entry.authors.length - 1 ? ", " : ""}
                 </div>
