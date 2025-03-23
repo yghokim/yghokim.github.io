@@ -32,9 +32,33 @@ body {
   .markdown-content{
     @apply flex flex-col;
   }
+
+  .markdown-content b{
+    @apply font-[600];
+  }
   
   .markdown-content p, .markdown-content li {
     @apply paragraph mt-0 mb-4;
+  }
+
+  .markdown-content ol {
+    @apply list-decimal;
+  }
+
+  .markdown-content li::marker {
+    @apply font-[400];
+  }
+
+  .markdown-content ol li {
+    @apply ml-4
+  }
+
+  .markdown-content ul {
+    @apply list-disc;
+  }
+
+  .markdown-content ul li {
+    @apply ml-4
   }
 
   .markdown-content .naver {
