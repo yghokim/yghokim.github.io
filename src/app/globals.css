@@ -90,6 +90,10 @@ body {
     @apply flex items-baseline;
   }
 
+  .main-list > .main-list-element strong {
+    @apply font-semibold text-black;
+  }
+
   .pagination-elm {
     transition: all 0.5s;
     @apply block relative w-14 h-2 rounded-full bg-[#757575] mx-0.5 overflow-hidden cursor-pointer outline outline-1 outline-transparent hover:outline-[#c0c0c0] hover:bg-[#c0c0c0];

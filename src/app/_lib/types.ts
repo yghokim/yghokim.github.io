@@ -1,7 +1,7 @@
 export interface NewsArticle {
     year: number,
     month: number,
-    headline: number
+    headline: string
 }
 
 export interface BioEntry {

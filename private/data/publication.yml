@@ -29,6 +29,7 @@
         title: "AACessTalk: Fostering Communication between Minimally Verbal Autistic Children and Parents with Contextual Guidance and Card Recommendation"
         authors: [+Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, Young-Ho Kim]
         venue: ACM CHI 2025
+        award: Best Paper Award
         thumbnail: aacesstalk/aacesstalk-thumb-animated.gif
         pdf: aacesstalk-chi25.pdf
         links:
@@ -178,6 +179,7 @@
         title: "Textoshop: Interactions Inspired by Drawing Software to Facilitate Text Editing"
         authors: [Damien Masson, Young-Ho Kim, Fanny Chevalier]
         venue: ACM CHI 2025
+        award: Honorable Mention Award
         thumbnail: [textoshop.jpg]
         pdf: masson-textoshop-chi25.pdf
         links:

@@ -2,7 +2,7 @@ I am a **Research Scientist** at <a href="https://clova.ai/ai-research" target="
 
 <!--I received a Ph.D. degree in Computer Science and Engineering (2012-2019), and a Bachelor of Fine Arts degree in Visual Communication Design (2007-2011) at *Seoul National University*.-->
 
-I am a recipient of **International Postdoc Fellowship** supported by National Research Foundation of Korea in 2019, a Best of CHI **Honorable Mention** award at CHI 2021, and a **Best Paper** award at CHI 2023.
+I am a recipient of **International Postdoc Fellowship** supported by National Research Foundation of Korea in 2019, a Best of CHI **Honorable Mention** award at CHI 2025 and CHI 2021, and a **Best Paper** award at CHI 2025 and CHI 2023.
 
 <div class="badge announcement">For my permanent e-mail address, please check my CV.</div>
 <br/>

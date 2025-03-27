@@ -61,6 +61,7 @@ const InternsView = (props: {side: boolean, className?: string | undefined}) => 
 const NewsView = (props: {side: boolean, className?: string | undefined}) => {
 
   const news = loadYAML<Array<NewsArticle>>("news.yml")
+  
   return <div className={props.className}><SubTitle title="News" size={props.side ? "small" : "large"} />
   <div className="main-list !gap-2">
     {
@@ -69,9 +70,7 @@ const NewsView = (props: {side: boolean, className?: string | undefined}) => {
             <div className="font-semibold w-[15%] md:w-[22%]">
                 {article.year + "." + article.month}
             </div>
-            <div className="flex-1">
-                {article.headline}
-            </div>
+            <div className="flex-1" dangerouslySetInnerHTML={{__html: marked(article.headline)}}/>
         </div>
       })
     }
