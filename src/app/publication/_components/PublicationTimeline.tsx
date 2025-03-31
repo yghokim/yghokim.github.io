@@ -59,7 +59,7 @@ const PublicationItem = memo((props: {
                 </div>
             )}
         </div>
-    }>
+    } mouseEnterDelay={0} mouseLeaveDelay={0}>
             <Link href={`publication#${encodeURIComponent(props.point.publicationKey)}`} replace onClickCapture={props.onClickCapture}>
                 <div className="relative">
                     <div
