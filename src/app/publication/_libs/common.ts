@@ -25,7 +25,13 @@ export function createPublicationTimelineData(entries: Array<PublicationEntry>):
             startYear,
             endYear,
             yearlyGroups: Object.keys(publicationByYear).reduce((obj, yearString) => {
-                const points = publicationByYear[yearString].map(e => ({publicationKey: e.key!, primary: e.primary || false, venue: e.venue, venueType: extractVenueName(e.venue)!}))
+                const points = publicationByYear[yearString].map(e => ({
+                    publicationKey: e.key!, 
+                    primary: e.primary || false, 
+                    venue: e.venue, 
+                    venueType: extractVenueName(e.venue)!,
+                    award: e.award
+                }))
                 .sort((a, b) => SORTED_VENUES.indexOf(b.venueType) - SORTED_VENUES.indexOf(a.venueType))
 
                 obj[yearString.toString()] = {

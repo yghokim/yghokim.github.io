@@ -107,6 +107,7 @@ export interface PublicationTimelinePoint{
     venue: string
     venueType: VenueType
     primary: boolean
+    award?: string
 }
 
 export interface PublicationTimelineData{
