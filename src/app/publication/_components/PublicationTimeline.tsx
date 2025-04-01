@@ -61,9 +61,9 @@ const PublicationItem = memo((props: {
         </div>
     } mouseEnterDelay={0} mouseLeaveDelay={0}>
             <Link href={`publication#${encodeURIComponent(props.point.publicationKey)}`} replace onClickCapture={props.onClickCapture}>
-                <div className="relative">
+                <div className="relative block w-[13pt] aspect-square cursor-pointer hover:opacity-70 transition-opacity">
                     <div
-                        className="block w-[13pt] rounded aspect-square cursor-pointer hover:opacity-70 transition-opacity"
+                        className="w-full h-full rounded"
                         style={{background: VENUE_COLORS[SORTED_VENUES.indexOf(props.point.venueType)]}}/>
                     {props.point.award != null && awardType != null && (
                         <div className="absolute inset-0 flex items-center justify-center">
