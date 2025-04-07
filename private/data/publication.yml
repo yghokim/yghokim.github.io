@@ -1,5 +1,5 @@
 ---
-  updated: 2025-03
+  updated: 2025-04
   store:
     Archived Manuscripts:
       - 
@@ -19,6 +19,16 @@
             label: arXiv
             url: https://arxiv.org/abs/2309.12555
     Peer-reviewed Conferences and Journals:
+      -
+        key: VerbalReports-IMWUT25
+        year: 2025
+        month: 5
+        selected: false
+        primary: false
+        type: article
+        title: "From Verbal Reports to Personalized Activity Trackers: Understanding the Challenges of Ground Truth Data Collection with Older Adults in the Wild"
+        authors: [Hossein Khayami, Lining Wang, Young-Ho Kim, Bongshin Lee, David E Conroy, Amanda Lazar, Eun Kyoung Choe, Hernisa Kacorri]
+        venue: PACM IMWUT (UbiComp 2025)
       -
         key: AACessTalk-CHI25
         year: 2025
