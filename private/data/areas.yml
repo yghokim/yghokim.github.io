@@ -9,8 +9,8 @@
     Specific topics include:
     - **Leveraging LLMs for Marginalized Populations** {{AACessTalk-Arxiv24}} {{ELMI-Arxiv24}} {{MindfulDiary-CHI24}} {{ChaCha-CHI24}} {{CareCallLTM-CHI24}} {{CareCall-CHI23}}
     - **LLM-infused Systems for Mental Health & Well-being** {{ExploreSelf-Arxiv24}} {{MindfulDiary-CHI24}} {{ChaCha-CHI24}} {{CareCallLTM-CHI24}} {{CareCall-CHI23}}
-    - **LLM-infused Systems for Physical Health & Well-being** {{PlanFitting-Arxiv23}}
-    - **Designing LLM-driven Conversational AIs in Health Contexts** {{MindfulDiary-CHI24}} {{ChaCha-CHI24}} {{CareCallLTM-CHI24}} {{PlanFitting-Arxiv23}} {{LLM-Chatbot-CSCW24}} {{CareCall-CHI23}}
+    - **LLM-infused Systems for Physical Health & Well-being** {{PlanFitting-CUI25}}
+    - **Designing LLM-driven Conversational AIs in Health Contexts** {{MindfulDiary-CHI24}} {{ChaCha-CHI24}} {{CareCallLTM-CHI24}} {{PlanFitting-CUI25}} {{LLM-Chatbot-CSCW24}} {{CareCall-CHI23}}
 -
   title: "Flexible Human-Data Interaction in Personal Informatics"
   thumbnail: ["data-at-hand-thumbnail.jpg", "omnitrack-thumbnail_01.jpg", "omnitrack-for-research-thumbnail.jpg", "mymove-thumbnail_01.jpg"]
