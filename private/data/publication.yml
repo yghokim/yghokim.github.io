@@ -2,6 +2,7 @@
   updated: 2025-04
   store:
     Archived Manuscripts:
+    Peer-reviewed Conferences and Journals:
       - 
         key: PlanFitting-CUI25
         year: 2025
@@ -18,7 +19,6 @@
           - 
             label: arXiv
             url: https://arxiv.org/abs/2309.12555
-    Peer-reviewed Conferences and Journals:
       -
         key: VerbalReports-IMWUT25
         year: 2025
