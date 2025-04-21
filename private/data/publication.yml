@@ -1,16 +1,15 @@
 ---
   updated: 2025-04
   store:
-    Archived Manuscripts:
     Peer-reviewed Conferences and Journals:
       - 
         key: PlanFitting-CUI25
         year: 2025
-        month: 4
+        month: 7
         selected: true
         primary: true
         type: full
-        title: "PlanFitting: Tailoring Personalized Exercise Plans with Large Language Models"
+        title: "PlanFitting: Personalized Exercise Planning with Large Language Model-driven Conversational Agent"
         authors: [+Donghoon Shin, Gary Hsieh, Young-Ho Kim]
         venue: ACM CUI 2025 (Cond. Accept.)
         pdf: PlanFitting-arxiv23.pdf
