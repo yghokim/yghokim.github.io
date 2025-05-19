@@ -12,7 +12,7 @@
         title: "PlanFitting: Personalized Exercise Planning with Large Language Model-driven Conversational Agent"
         authors: [+Donghoon Shin, Gary Hsieh, Young-Ho Kim]
         venue: ACM CUI 2025
-        pdf: PlanFitting-cui25.pdf
+        pdf: planfitting-cui25.pdf
         thumbnail: [planfitting/thumb-1.jpg, planfitting/thumb-2.jpg]
         links:
           - 
