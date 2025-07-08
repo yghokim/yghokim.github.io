@@ -1,7 +1,18 @@
 ---
-  updated: 2025-04
+  updated: 2025-07
   store:
     Peer-reviewed Conferences and Journals:
+      -
+        key: Lilac-COLM25
+        year: 2025
+        month: 10
+        selected: false
+        primary: false
+        type: full
+        title: "LILAC: Evaluating Personalized and Contextualized Alignment of LLMs from Interactions"
+        authors: [Tae Soo Kim, Yoonjoo Lee, Yoonah Park, Jiho Kim, Young-Ho Kim, Juho Kim]
+        venue: COLM 2025
+
       - 
         key: PlanFitting-CUI25
         year: 2025
