@@ -1,5 +1,5 @@
 import Image from "next/image";
-import profilePic from '../../public/assets/younghokim-portrait-2023.jpg';
+import profilePic from '../../public/assets/younghokim-portrait-2025.jpg';
 import { MainPanel, Sidebar } from "./_components/layouts";
 import { BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry, PublicationStore } from "./_lib/types";
 import { LinkWithIcon, SubTitle } from "./_components/typography";

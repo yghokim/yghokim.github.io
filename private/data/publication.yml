@@ -3,15 +3,28 @@
   store:
     Peer-reviewed Conferences and Journals:
       -
-        key: Lilac-COLM25
+        key: CUPID-COLM25
         year: 2025
         month: 10
         selected: false
         primary: false
         type: full
-        title: "LILAC: Evaluating Personalized and Contextualized Alignment of LLMs from Interactions"
+        title: "CUPID: Evaluating Personalized and Contextualized Alignment of LLMs from Interactions"
         authors: [Tae Soo Kim, Yoonjoo Lee, Yoonah Park, Jiho Kim, Young-Ho Kim, Juho Kim]
         venue: COLM 2025
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2507.05000
+          -
+            label: GitHub
+            url: https://github.com/kixlab/CUPID
+          -
+            label: Web
+            url: https://cupid.kixlab.org/
+          -
+            label: Hugging Face
+            url: https://huggingface.co/datasets/kixlab/CUPID
 
       - 
         key: PlanFitting-CUI25
@@ -24,11 +37,29 @@
         authors: [+Donghoon Shin, Gary Hsieh, Young-Ho Kim]
         venue: ACM CUI 2025
         pdf: planfitting-cui25.pdf
+        doi: https://dl.acm.org/doi/10.1145/3719160.3736607
         thumbnail: [planfitting/thumb-1.jpg, planfitting/thumb-2.jpg]
         links:
           - 
             label: arXiv
             url: https://arxiv.org/abs/2309.12555
+        bibtex: >
+          @inproceedings{shin2025planfitting,
+            author = {Shin, Donghoon and Hsieh, Gary and Kim, Young-Ho},
+            title = {PlanFitting: Personalized Exercise Planning with Large Language Model-driven Conversational Agent},
+            year = {2025},
+            isbn = {9798400715273},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3719160.3736607},
+            doi = {10.1145/3719160.3736607},
+            abstract = {Creating personalized and actionable exercise plans often requires iteration with experts, which can be costly and inaccessible to many individuals. This work explores the capabilities of Large Language Models (LLMs) in addressing these challenges. We present PlanFitting, an LLM-driven conversational agent that assists users in creating and refining personalized weekly exercise plans. By engaging users in free-form conversations, PlanFitting helps elicit users’ goals, availabilities, and potential obstacles, and enables individuals to generate personalized exercise plans aligned with established exercise guidelines. Our study—involving a user study, intrinsic evaluation, and expert evaluation—demonstrated PlanFitting’s ability to guide users to create tailored, actionable, and evidence-based plans. We discuss future design opportunities for LLM-driven conversational agents to create plans that better comply with exercise principles and accommodate personal constraints.},
+            booktitle = {Proceedings of the 7th ACM Conference on Conversational User Interfaces},
+            articleno = {66},
+            numpages = {19},
+            location = {Waterloo, Canada},
+            series = {CUI '25}
+          }
       -
         key: VerbalReports-IMWUT25
         year: 2025
@@ -39,6 +70,8 @@
         title: "From Verbal Reports to Personalized Activity Trackers: Understanding the Challenges of Ground Truth Data Collection with Older Adults in the Wild"
         authors: [Hossein Khayami, Lining Wang, Young-Ho Kim, Bongshin Lee, David E Conroy, Amanda Lazar, Eun Kyoung Choe, Hernisa Kacorri]
         venue: PACM IMWUT (UbiComp 2025)
+        doi: https://doi.org/10.1145/3731749
+        
       -
         key: AACessTalk-CHI25
         year: 2025
