@@ -15,7 +15,7 @@
         links:
           -
             label: arXiv
-            url: https://arxiv.org/abs/2507.05000
+            url: https://arxiv.org/abs/2508.01674
           -
             label: GitHub
             url: https://github.com/kixlab/CUPID
@@ -71,7 +71,7 @@
         authors: [Hossein Khayami, Lining Wang, Young-Ho Kim, Bongshin Lee, David E Conroy, Amanda Lazar, Eun Kyoung Choe, Hernisa Kacorri]
         venue: PACM IMWUT (UbiComp 2025)
         doi: https://doi.org/10.1145/3731749
-        
+
       -
         key: AACessTalk-CHI25
         year: 2025
