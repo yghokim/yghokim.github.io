@@ -3,31 +3,37 @@
   -
     year_start: 2025
     month_start: 3
+    month_end: 9
   name: Jungeun Lee
   link: https://www.jungeunlee.me/
   affiliation: POSTECH
   affiliation_full: POSTECH
   portrait: "jelee.jpg"
+  publication: [AutiHero-arXiv25]
 -
   periods:
   -
     year_start: 2025
     month_start: 3
+    month_end: 9
   name: Yeonsun Yang
   link: https://yeonsunyang.com/
   affiliation: DGIST
   affiliation_full: DGIST
   portrait: "ysyang.jpg"
+  publication: [LingoQ-arXiv25]
 -
   periods:
   -
     year_start: 2025
     month_start: 3
+    month_end: 9
   name: Migyeong Yang
   link: https://sites.google.com/view/migyeong-yang
   affiliation: SKKU
   affiliation_full: Sungkyunkwan University
   portrait: "mgyang.jpg"
+  publication: [Autiverse-arXiv25]
 -
   periods:
   -

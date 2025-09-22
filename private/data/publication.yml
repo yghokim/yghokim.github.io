@@ -1,7 +1,57 @@
 ---
-  updated: 2025-07
+  updated: 2025-09
   store:
-    Peer-reviewed Conferences and Journals:
+    Archived Preprints:
+      -
+        key: Autiverse-arXiv25
+        year: 2025
+        month: 9
+        selected: true
+        primary: true
+        type: full
+        title: "Autiverse: Eliciting Autistic Adolescents' Daily Narratives through AI-guided Multimodal Journaling"
+        authors: [+Migyeong Yang, Kyungah Lee, Jinyoung Han, SoHyun Park, Young-Ho Kim]
+        venue: Nonarchival preprint
+        thumbnail: autiverse/autiverse-thumb.gif
+        pdf: yang-autiverse-arxiv25.pdf
+      -
+        key: AutiHero-arXiv25
+        year: 2025
+        month: 9
+        selected: true
+        primary: true
+        type: full
+        title: "AutiHero: Leveraging Generative AI in Social Narratives to Engage Parents in Story-Driven Behavioral Guidance for Autistic Children"
+        authors: [+Jungeun Lee, Kyungah Lee, Inseok Hwang, SoHyun Park, Young-Ho Kim]
+        venue: Nonarchival preprint
+        pdf: lee-autihero-arxiv25.pdf
+      -
+        key: LingoQ-arXiv25
+        year: 2025
+        month: 9
+        selected: true
+        primary: true
+        type: full
+        title: "LingoQ: Bridging the gap between ESL Learning and Work through AI-Generated Work-Related Quizzes"
+        authors: [+Yeonsun Yang, Sang Won Lee, Jean Y. Song, Sangdoo Yun, Young-Ho Kim]
+        venue: Nonarchival preprint
+        pdf: yang-lingoq-arxiv25.pdf
+      -
+        key: ClearFairy-arXiv25
+        year: 2025
+        month: 9
+        selected: false
+        primary: false
+        type: full
+        title: "ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference"
+        authors: [Kihoon Son, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun, Juho Kim]
+        venue: arXiv
+        links:
+          - 
+            label: arXiv
+            url: https://arxiv.org/abs/2509.14537
+
+    Peer-reviewed Conferences and Journals:      
       -
         key: CUPID-COLM25
         year: 2025

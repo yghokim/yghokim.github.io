@@ -32,21 +32,21 @@ export const PublicationView = (props: {
     const typeText = useMemo(() => {
         switch (props.entry.type) {
             case "full":
-                return "Full Paper"
+                return "full paper"
             case "short":
-                return "Short Paper"
+                return "short paper"
             case "article":
-                return "Journal Article"
+                return "journal article"
             case "poster":
-                return "Poster"
+                return "poster"
             case "letter":
-                return "Letter"
+                return "letter"
             case "ea":
-                return "Extended Abstract"
+                return "extended abstract"
             case "tutorial":
-                return "Tutorial"
+                return "tutorial"
             case "workshop":
-                return "Workshop"
+                return "workshop"
         }
     }, [props.entry.type])
 
