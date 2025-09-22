@@ -62,6 +62,7 @@
         title: "CUPID: Evaluating Personalized and Contextualized Alignment of LLMs from Interactions"
         authors: [Tae Soo Kim, Yoonjoo Lee, Yoonah Park, Jiho Kim, Young-Ho Kim, Juho Kim]
         venue: COLM 2025
+        pdf: kim-cupid-colm25.pdf
         links:
           -
             label: arXiv
