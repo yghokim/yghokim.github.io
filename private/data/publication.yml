@@ -18,6 +18,9 @@
           -
             label: arXiv
             url: https://arxiv.org/abs/2509.17466
+          -
+            label: Demo video
+            url: https://www.youtube.com/watch?v=9I9QUTU3R-4
       -
         key: AutiHero-arXiv25
         year: 2025
@@ -154,10 +157,10 @@
             label: Web
             url: https://naver-ai.github.io/aacesstalk
           -
-            label: Demo Video (Eng)
+            label: Demo video (Eng)
             url: https://www.youtube.com/watch?v=sw5GOatm-uQ
           -
-            label: Demo Video (Kor)
+            label: Demo video (Kor)
             url: https://www.youtube.com/watch?v=CERRq286e2g
           - 
             label: arXiv
@@ -205,7 +208,7 @@
             label: Web
             url: https://naver-ai.github.io/elmi
           -
-            label: Demo Video
+            label: Demo video
             url: https://youtu.be/OOkBsG1A6p0
           - 
             label: arXiv
@@ -252,7 +255,7 @@
             label: Web
             url: https://naver-ai.github.io/exploreself
           -
-            label: Demo Video
+            label: Demo video
             url: https://youtu.be/HtgrL8Fo7tg?si=vz3fHp_tJ5_qDLtD
           - 
             label: arXiv
@@ -502,7 +505,7 @@
             label: Web
             url: https://naver-ai.github.io/chacha
           -
-            label: Demo Video
+            label: Demo video
             url: https://youtu.be/qjgHS6sb578
           -
             label: GitHub
@@ -937,7 +940,7 @@
         pdf: notewordy-luo.pdf
         links:
           -
-            label: Demo Video
+            label: Demo video
             url: https://www.youtube.com/watch?v=O-sAhDnr81Q
         bibtex: >
           @article{luo2022notewordy,
@@ -1000,7 +1003,7 @@
         thumbnail: mymove-loop.gif
         links:
           -
-            label: Demo Video
+            label: Demo video
             url: https://youtu.be/2I8vvP4hdfs
           -
             label: Web
