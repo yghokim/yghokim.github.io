@@ -32,10 +32,14 @@
         authors: [+Jungeun Lee, Kyungah Lee, Inseok Hwang, SoHyun Park, Young-Ho Kim]
         venue: Nonarchival preprint
         pdf: lee-autihero-arxiv25.pdf
+        thumbnail: autihero/autihero-thumb.gif
         links:
           -
             label: arXiv
             url: https://arxiv.org/abs/2509.17608
+          -
+            label: Demo video
+            url: https://www.youtube.com/watch?v=AdP2S7IXS-s
       -
         key: LingoQ-arXiv25
         year: 2025
