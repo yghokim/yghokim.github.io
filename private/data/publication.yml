@@ -12,7 +12,7 @@
         title: "Autiverse: Eliciting Autistic Adolescents' Daily Narratives through AI-guided Multimodal Journaling"
         authors: [+Migyeong Yang, Kyungah Lee, Jinyoung Han, SoHyun Park, Young-Ho Kim]
         venue: Nonarchival preprint
-        thumbnail: autiverse/autiverse-thumb.gif
+        thumbnail: autiverse/autiverse-square-thumb.mp4
         pdf: yang-autiverse-arxiv25.pdf
         links:
           -
@@ -32,7 +32,7 @@
         authors: [+Jungeun Lee, Kyungah Lee, Inseok Hwang, SoHyun Park, Young-Ho Kim]
         venue: Nonarchival preprint
         pdf: lee-autihero-arxiv25.pdf
-        thumbnail: autihero/autihero-thumb.gif
+        thumbnail: autihero/autihero-square-thumb.mp4
         links:
           -
             label: arXiv
@@ -153,7 +153,7 @@
         authors: [+Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong, Young-Ho Kim]
         venue: ACM CHI 2025
         award: Best Paper Award
-        thumbnail: aacesstalk/aacesstalk-thumb-animated.gif
+        thumbnail: aacesstalk/aacesstalk-square-thumb.mp4
         doi: https://dl.acm.org/doi/10.1145/3706598.3713792
         pdf: aacesstalk-chi25.pdf
         links:

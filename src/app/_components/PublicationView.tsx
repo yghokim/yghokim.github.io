@@ -155,10 +155,14 @@ export const PublicationView = (props: {
                 props.entry.thumbnail.map((thumb, i) => <Image key={i} src={`/files/images/${thumb}`} width={150} height={150} alt={"i"}/>)
             }
         </Carousel> : <div className="thumbnail-wrapper">
+        {
+            props.entry.thumbnail.endsWith(".mp4") ? <video autoPlay loop muted playsInline width="100%" height="100%">
+                <source src={`/files/images/${props.entry.thumbnail}`} type="video/mp4" />
+                </video> : 
                 <Image src={`/files/images/${props.entry.thumbnail}`}
                     width={150} height={150}
                     alt="thumbnail for the research" />
-            </div>
+        }</div>
         }
             </div>
             <div className="text-content-wrapper">
