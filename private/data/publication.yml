@@ -204,7 +204,7 @@
         title: "ELMI: Interactive and Intelligent Sign Language Translation of Lyrics for Song Signing"
         authors: [+Suhyeon Yoo, Khai N. Truong, Young-Ho Kim]
         venue: ACM CHI 2025
-        thumbnail: elmi_demo_loop_square.gif
+        thumbnail: elmi-square-thumb.mp4
         doi: https://dl.acm.org/doi/10.1145/3706598.3713973
         pdf: elmi-chi25.pdf
         links:
@@ -251,7 +251,7 @@
         title: "ExploreSelf: Fostering User-driven Exploration and Reflection on Personal Challenges with Adaptive Guidance by Large Language Models"
         authors: [+Inhwa Song, SoHyun Park, Sachin R. Pendse, Jessica Lee Schleider, Munmun De Choudhury, Young-Ho Kim]
         venue: ACM CHI 2025
-        thumbnail: exploreself-demo-loop-gif-square.gif
+        thumbnail: exploreself/exploreself-square-thumb.mp4
         doi: https://dl.acm.org/doi/10.1145/3706598.3713883
         pdf: exploreself-chi25.pdf
         links:
