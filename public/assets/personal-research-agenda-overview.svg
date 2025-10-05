@@ -104,60 +104,24 @@
     </g>
   </g>
   <g id="publication">
-    <g isolation="isolate">
-      <text transform="translate(207.27 291.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [AACessTalk-CHI25]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(304.03 197.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [PlanFitting-CUI25]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(323.43 182.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [NAACL22-Ws]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(309.24 229.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [ExploreSelf-CHI25]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(314.67 243.57)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [LingoQ-arXiv25]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(300.39 213.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [LLM-Chatbot-CSCW24]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(199.13 174.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [DataAtHand-CHI21]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(101.82 160.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [TimeAware-CHI16]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(195.77 160.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [OmniTrack-UbiComp17]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(102.49 174.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [Productivity-CHI19]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(110.5 231.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [MyMove-CHI22]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(200.32 234.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [MindfulDiary-CHI24]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(207.1 276.87)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [CareCallLTM-CHI24]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(214.15 262.62)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [CareCall-CHI23]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(211.7 248.37)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [ChaCha-CHI24]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(225.75 354.54)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [ELMI-CHI25]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(97.45 366.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [AVscript-CHI23]</tspan></text>
-    </g>
-    <g isolation="isolate">
-      <text transform="translate(208.68 304.79)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600" isolation="isolate"><tspan x="0" y="0" xml:space="preserve"> [Autiverse-arXiv25]</tspan></text>
-    </g>
+    <text transform="translate(207.27 291.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[AACessTalk-CHI25]</tspan></text>
+    <text transform="translate(304.03 197.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[PlanFitting-CUI25]</tspan></text>
+    <text transform="translate(323.43 182.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[NAACL22-Ws]</tspan></text>
+    <text transform="translate(309.24 229.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[ExploreSelf-CHI25]</tspan></text>
+    <text transform="translate(314.67 243.57)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[LingoQ-arXiv25]</tspan></text>
+    <text transform="translate(300.39 213.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[LLM-Chatbot-CSCW24]</tspan></text>
+    <text transform="translate(199.13 174.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[DataAtHand-CHI21]</tspan></text>
+    <text transform="translate(101.82 160.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[TimeAware-CHI16]</tspan></text>
+    <text transform="translate(195.77 160.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[OmniTrack-UbiComp17]</tspan></text>
+    <text transform="translate(102.49 174.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[Productivity-CHI19]</tspan></text>
+    <text transform="translate(110.5 231.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[MyMove-CHI22]</tspan></text>
+    <text transform="translate(200.32 234.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[MindfulDiary-CHI24]</tspan></text>
+    <text transform="translate(207.1 276.87)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[CareCallLTM-CHI24]</tspan></text>
+    <text transform="translate(214.15 262.62)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[CareCall-CHI23]</tspan></text>
+    <text transform="translate(211.7 248.37)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[ChaCha-CHI24]</tspan></text>
+    <text transform="translate(225.75 354.54)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[ELMI-CHI25]</tspan></text>
+    <text transform="translate(97.45 366.12)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[AVscript-CHI23]</tspan></text>
+    <text transform="translate(208.68 304.79)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[Autiverse-arXiv25]</tspan></text>
     <text transform="translate(211.29 318.76)" font-family="SourceSansPro-Semibold, &apos;Source Sans Pro&apos;" font-size="10.09" font-weight="600"><tspan x="0" y="0">[AutiHero-arXiv25]</tspan></text>
   </g>
 </svg>
