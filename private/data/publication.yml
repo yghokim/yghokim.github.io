@@ -51,10 +51,14 @@
         authors: [+Yeonsun Yang, Sang Won Lee, Jean Y. Song, Sangdoo Yun, Young-Ho Kim]
         venue: Nonarchival preprint
         pdf: yang-lingoq-arxiv25.pdf
+        thumbnail: lingoq/lingoq-square-thumb.mp4
         links:
           -
             label: arXiv
             url: https://arxiv.org/abs/2509.17477
+          -
+            label: Demo video
+            url: https://www.youtube.com/watch?v=gfvj9d8lVZo
       -
         key: ClearFairy-arXiv25
         year: 2025
