@@ -68,11 +68,25 @@
         type: full
         title: "ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference"
         authors: [Kihoon Son, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun, Juho Kim]
-        venue: arXiv
+        venue: Nonarchival preprint
         links:
           - 
             label: arXiv
             url: https://arxiv.org/abs/2509.14537
+      -
+        key: pitch2-arxiv25
+        year: 2025
+        month: 9
+        selected: false
+        primary: false
+        type: full
+        title: "\"Having Lunch Now\": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection"
+        authors: [Adnan Abbas, Caleb Wohn, Arnav Jagtap, Eugenia H Rho, Young-Ho Kim, Sang Won Lee]
+        venue: Nonarchival preprint
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2509.24073
 
     Peer-reviewed Conferences and Journals:      
       -
