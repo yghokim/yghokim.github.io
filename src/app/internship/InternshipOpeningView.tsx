@@ -42,7 +42,7 @@ export const InternshipOpeningView = ({program}: {
                 <span>{opening.title}</span>
                 <Tag color={opening.open === true ? "processing" : "error"}>{opening.open === true ? "Open" : "Closed"}</Tag>
             </Flex>,
-            children: <div className="markdown-content" dangerouslySetInnerHTML={{ __html: opening.content!! }} />
+            children: <div className="markdown-content" dangerouslySetInnerHTML={{ __html: opening.content || "No content." }} />
         }))
 
 
