@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { twMerge } from 'tailwind-merge'
 import { loadYAML } from '@/app/_lib/utils'
 import { RouteAwareLink } from './RouteAwareLink'
+import { InternshipProgramInfo } from '../_lib/types'
 
 const navs = [
     {
@@ -32,7 +33,9 @@ export const GlobalNavigation = (props: {className?: string}) => {
 
     const [year, month] = updated.split('-')
 
-    const { open } = loadYAML<{open: boolean}>('internship-info.yml')
+    const internshipPageInfo = loadYAML<InternshipProgramInfo>('internship-info.yml')
+
+    const open = internshipPageInfo.openings.find(opening => opening.open === true) != null
     
     return <div className={twMerge(props.className, 'flex-1 flex mb-6 mt-2 lg:gap-x-12 lg:m-0 justify-around lg:justify-start lg:text-[14pt] font-[600] text-black')}>
         <Link href="/" className="link-home">

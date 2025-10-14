@@ -1,10 +1,10 @@
-import { AntdRegistry } from '@ant-design/nextjs-registry';
 import type { Metadata, ResolvingMetadata, Viewport } from "next";
 import "./globals.css";
 import Link from 'next/link'
 import { ProfileLinks } from "./_components/ProfileLinksPanel";
 import { GlobalNavigation } from "./_components/GlobalNavigation";
 import { mainFont } from "./_lib/fonts";
+import { AntdProvider } from "./_components/AntdProvider";
 
 
 export const viewport: Viewport = {
@@ -29,7 +29,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={`${mainFont.className}`}
-      ><AntdRegistry>
+      ><AntdProvider>
           <div className="min-h-[100vh] flex flex-col content-center items-center">
             <header className="fixed top-0 left-0 right-0 z-[100] bg-white/95 shadow-md">
             <div className="lg:container lg:mx-auto flex flex-col lg:flex-row lg:items-center">
@@ -52,7 +52,7 @@ export default function RootLayout({
               Copyright © 2021-2025 Young-Ho Kim. All Rights Reserved. The website was designed by Young-Ho Kim and built with React and Next.js.
             </footer>
           </div>
-        </AntdRegistry>
+        </AntdProvider>
       </body>
     </html>
   );

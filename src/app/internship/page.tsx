@@ -1,11 +1,10 @@
 import sortArray from "sort-array";
 import { MainPanel } from "../_components/layouts";
-import { InternEntry, InternshipPeriod, PublicationStore } from "../_lib/types";
+import { InternEntry, InternshipPeriod, InternshipProgramInfo, PublicationStore } from "../_lib/types";
 import { loadText, loadYAML } from "../_lib/utils";
 import { marked } from "marked";
 import Image from 'next/image'
 import { Metadata } from "next";
-import { Collapse, CollapseProps, Flex, Tag } from "antd";
 import { LinkWithIcon, SubTitle } from "../_components/typography";
 import { VideoReel } from "../_components/VideoReel";
 import { PublicationView } from "../_components/PublicationView";
@@ -13,6 +12,7 @@ import { BestAwardIcon, HonorableAwardIcon } from "../_components/svg-icons";
 import Link from "next/link";
 import { Fragment } from "react";
 import removeMd from 'remove-markdown';
+import { InternshipOpeningView } from "./InternshipOpeningView";
 
 const InternshipPeriodView = (props: {
     period: InternshipPeriod
@@ -22,15 +22,14 @@ const InternshipPeriodView = (props: {
 
 export async function generateMetadata (): Promise<Metadata>{
 
-  const internPageInfo = loadYAML<any>('internship-info.yml')
+  const internPageInfo = loadYAML<InternshipProgramInfo>('internship-info.yml')
 
-
-  
-  
+   
+  const firstOpening = internPageInfo.openings[0]
 
   return {
         title: 'Internship@NAVER | Young-Ho Kim',
-        description: `${removeMd(internPageInfo['hcigroup'])}\n\n[${internPageInfo['recruitment']['title']}]: ${internPageInfo['open'] == true ? 'Application open.' : 'Application closed.' }`,
+        description: `${removeMd(internPageInfo['hcigroup'])}\n\n[${firstOpening.title}]: ${firstOpening.open === true ? 'Application open.' : 'Application closed.' }`,
         openGraph: {
             title: 'Internship@NAVER | Young-Ho Kim'
         }
@@ -43,19 +42,16 @@ export default function InternshipPage() {
     const internList = loadYAML<Array<InternEntry>>("interns.yml")
 
 
-    const internPageInfo = loadYAML<any>("internship-info.yml")
+    const internPageInfo = loadYAML<InternshipProgramInfo>("internship-info.yml")
 
-    const isOpen = internPageInfo['open']
+    internPageInfo.openings.forEach((opening) => {
+        const content = marked(loadText(`internship-recruitment/${opening.file}`), { async: false })
+        opening.content = content
+    })
 
-    const groupInfo = marked(internPageInfo['hcigroup'], { async: false })
-    const recruitmentInfo = {
-        title: internPageInfo['recruitment'].title,
-        content: marked(internPageInfo['recruitment'].content, { async: false })
-    }
-
+    const groupInfo = marked(internPageInfo.hcigroup, { async: false })
 
     const { store: publicationStore } = loadYAML<{ store: PublicationStore }>("publication.yml")
-
 
     const internPublications = sortArray(Object.keys(publicationStore).map(subtitle => publicationStore[subtitle])
         .reduce((prev, curr, i, arr) => {
@@ -70,19 +66,6 @@ export default function InternshipPage() {
         order: ['desc', 'desc']
     })
 
-
-    const collapseItems: CollapseProps['items'] = [
-        {
-            key: '1',
-            label: <Flex gap="0 8px" wrap align='center'>
-                <span>{recruitmentInfo.title}</span>
-                <Tag color={isOpen === true ? "processing" : "error"}>{isOpen === true ? "Open" : "Closed"}</Tag>
-            </Flex>,
-            children: <div className="markdown-content" dangerouslySetInnerHTML={{ __html: recruitmentInfo.content }} />
-        }
-    ];
-
-
     return <MainPanel withFixedSidebar noSidebar>
         <div className='w-full lg:w-2/3 mb-4'>
             <Image alt="AI Lab HCI group logo" src={"/assets/ai_lab_hci_group_logo.png"} width="461" height="73" />
@@ -91,7 +74,7 @@ export default function InternshipPage() {
         <SubTitle title="Featured Research" size="small" noTopMargin noLine />
         <VideoReel featuredPublications={internPublications.filter(p => p.featured != null)} className='mb-10' />
 
-        <Collapse items={collapseItems} size='large' />
+        <InternshipOpeningView program={internPageInfo} />
 
         <SubTitle title="Present and Past Interns" size={"large"} />
             <p className="text-sm mb-6">*The affiliations are based on the internship period and may not reflect the latest information.</p>

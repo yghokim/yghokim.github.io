@@ -11,6 +11,16 @@ export interface BioEntry {
     affiliation: string
 }
 
+export interface InternshipProgramInfo {
+    hcigroup: string,
+    openings: Array<{
+        title: string,
+        file: string,
+        content?: string,
+        open?: boolean
+    }>
+}
+
 export interface InternshipPeriod {
     year_start: number,
     year_end?: number,

@@ -10,4 +10,5 @@ export const koreanFont = Noto_Sans_KR({
 
 export const mainFont = Source_Sans_3({
     subsets: ["latin"],
+    variable: "--font-source-sans",
 });
