@@ -23,11 +23,11 @@ I am a **Research Scientist** at <a href="https://clova.ai/ai-research" target="
 ***
 
 ### Selected Awards
-* Best Paper Award - **CHI 2025** ([AACessTalk-CHI25](/publication#AACessTalk-CHI25)), **CHI 2023** ([CareCall-CHI23](/publication#CareCall-CHI23))
-* Honorable Mention Award - **CHI 2025** ([Textoshop-CHI25](/publication#Textoshop-CHI25)), **CHI 2021** ([DataAtHand-CHI21](/publication#DataAtHand-CHI21))
+* Best Paper Award - **CHI 2025** ([AACessTalk-CHI25](/publication#AACessTalk-CHI25), corresp. author), **CHI 2023** ([CareCall-CHI23](/publication#CareCall-CHI23), corresp. author)
+* Honorable Mention Award - **CHI 2025** ([Textoshop-CHI25](/publication#Textoshop-CHI25), coauthor), **CHI 2021** ([DataAtHand-CHI21](/publication#DataAtHand-CHI21), first author)
 
 ### Academic Service
-* ACing - ACM CHI '25 (Health), ACM CSCW '24 (Jan), ACM CHI '24 (Health), IEEE PacificVis '23 
+* ACing - ACM CHI '26 (Computational Interaction), ACM CHI '25 (Health), ACM CSCW '24 (Jan), ACM CHI '24 (Health), IEEE PacificVis '23 
 
 ### Miscellaneous Facts
 
