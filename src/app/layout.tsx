@@ -5,6 +5,7 @@ import { ProfileLinks } from "./_components/ProfileLinksPanel";
 import { GlobalNavigation } from "./_components/GlobalNavigation";
 import { mainFont } from "./_lib/fonts";
 import { AntdProvider } from "./_components/AntdProvider";
+import Script from "next/script";
 
 
 export const viewport: Viewport = {
@@ -27,6 +28,8 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <Script data-goatcounter="https://yghokim.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></Script>
       <body
         className={`${mainFont.className}`}
       ><AntdProvider>
