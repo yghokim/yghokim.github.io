@@ -16,7 +16,7 @@ type Mode = "year" | "type"
 const MODES: Array<{label: string, value: Mode}> = [{label: 'By Year', value: "year"}, {label: 'By Type', value: "type"}]
 
 const YEAR_SORT_CONFIG = {
-    by: ['year', 'type', 'month'],
+    by: ['year', 'month'],
     order: ['desc', 'order_type', 'desc'],
     customOrders: {
         order_type: ['full', 'short', 'ea']

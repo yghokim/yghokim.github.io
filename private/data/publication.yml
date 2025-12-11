@@ -1,5 +1,5 @@
 ---
-  updated: 2025-09
+  updated: 2025-12
   store:
     Archived Preprints:
       -
@@ -89,6 +89,18 @@
             url: https://arxiv.org/abs/2509.24073
 
     Peer-reviewed Conferences and Journals:      
+      -
+        key: Reviews-ICHEC25
+        year: 2025
+        month: 11
+        selected: false
+        primary: false
+        type: full
+        title: "Supporting Reviewing Reviews: How HCI Authors Handle Peer Reviews of Manuscripts"
+        authors: [Colin Au Yeung, Jessi Stark, Jiannan Li, Fanny Chevalier, Joonsuk Park, Young-Ho Kim, Anthony Tang]
+        venue: ICHEC 2025
+        pdf: yeung2025supporting-ichec25.pdf
+
       -
         key: CUPID-COLM25
         year: 2025
