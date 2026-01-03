@@ -1322,6 +1322,16 @@
     
     Lightly Peer-reviewed Extended Abstracts:
       -
+        key: AgentMemory-HAI25Poster
+        year: 2025
+        month: 11
+        selected: false
+        type: poster
+        title: "From Storage to Interpretation: User Perceptions, Practices, and Challenges with Long-term Memory in Agents"
+        authors: [Brennan Jones, Nazar Ponochevnyi, Kelsey Stemmler, Emily Su, Young-Ho Kim, Anastasia Kuzminykh]
+        venue: ACM HAI 2025 Poster
+        doi: https://dl.acm.org/doi/10.1145/3765766.3765843
+      -
         key: AgentMemory-CHI25LBW
         year: 2025
         month: 4
