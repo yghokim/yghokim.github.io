@@ -1,26 +1,7 @@
 ---
-  updated: 2025-12
+  updated: 2026-1
   store:
     Archived Preprints:
-      -
-        key: Autiverse-arXiv25
-        year: 2025
-        month: 9
-        selected: true
-        primary: true
-        type: full
-        title: "Autiverse: Eliciting Autistic Adolescents' Daily Narratives through AI-guided Multimodal Journaling"
-        authors: [+Migyeong Yang, Kyungah Lee, Jinyoung Han, SoHyun Park, Young-Ho Kim]
-        venue: Nonarchival preprint
-        thumbnail: autiverse/autiverse-square-thumb.mp4
-        pdf: yang-autiverse-arxiv25.pdf
-        links:
-          -
-            label: arXiv
-            url: https://arxiv.org/abs/2509.17466
-          -
-            label: Demo video
-            url: https://youtu.be/Tpp-rBmAyf0
       -
         key: AutiHero-arXiv25
         year: 2025
@@ -40,16 +21,36 @@
           -
             label: Demo video
             url: https://www.youtube.com/watch?v=AdP2S7IXS-s
+    Peer-reviewed Conferences and Journals:      
       -
-        key: LingoQ-arXiv25
-        year: 2025
-        month: 9
+        key: Autiverse-CHI26
+        year: 2026
+        month: 4
         selected: true
         primary: true
         type: full
-        title: "LingoQ: Bridging the Gap between ESL Learning and Work through AI-Generated Work-Related Quizzes"
+        title: "Autiverse: Eliciting Autistic Adolescents' Daily Narratives through AI-guided Multimodal Journaling"
+        authors: [+Migyeong Yang, Kyungah Lee, Jinyoung Han, SoHyun Park, Young-Ho Kim]
+        venue: ACM CHI 2026 (cond. accept)
+        thumbnail: autiverse/autiverse-square-thumb.mp4
+        pdf: yang-autiverse-arxiv25.pdf
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2509.17466
+          -
+            label: Demo video
+            url: https://youtu.be/Tpp-rBmAyf0
+      -
+        key: LingoQ-CHI26
+        year: 2026
+        month: 4
+        selected: true
+        primary: true
+        type: full
+        title: "LingoQ: Bridging the Gap between EFL Learning and Work through AI-Generated Work-Related Quizzes"
         authors: [+Yeonsun Yang, Sang Won Lee, Jean Y. Song, Sangdoo Yun, Young-Ho Kim]
-        venue: Nonarchival preprint
+        venue: ACM CHI 2026 (cond. accept)
         pdf: yang-lingoq-arxiv25.pdf
         thumbnail: lingoq/lingoq-square-thumb.mp4
         links:
@@ -59,36 +60,76 @@
           -
             label: Demo video
             url: https://www.youtube.com/watch?v=gfvj9d8lVZo
+      
       -
-        key: ClearFairy-arXiv25
-        year: 2025
-        month: 9
+        key: Pitch2-CHI26
+        year: 2026
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "\"Having Lunch Now\": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection"
+        authors: [Adnan Abbas, Caleb Wohn, Arnav Jagtap, Eugenia H. Rho, Young-Ho Kim, Sang Won Lee]
+        venue: ACM CHI 2026 (cond. accept)
+        links:
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2509.24073
+      -
+        key: CHOIR-CHI26
+        year: 2026
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "CHOIR: A Chatbot-mediated Organizational Memory Leveraging Communication in University Research Labs"
+        authors: [Sangwook Lee, Adnan Abbas, Yan Chen, Young-Ho Kim, Sang Won Lee]
+        venue: ACM CHI 2026 (cond. accept)
+      -
+        key: ChatGPTEssay-CHI26
+        year: 2026
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "An Empirical Study to Understand How Students Use ChatGPT for Writing Essays"
+        authors: [Andrew Jelson, Daniel Manesh, Alice Jang, Daniel Dunlap, Young-Ho Kim, Sang Won Lee]
+        venue: ACM CHI 2026 (cond. accept)
+      -
+        key: AIAdviceAutistic-CHI26
+        year: 2026
+        month: 4
+        selected: false
+        primary: false
+        type: full
+        title: "\"Are we writing an advice column for Spock here?\" Understanding Stereotypes in AI Advice for Autistic Users"
+        authors: [Caleb Wohn, Buse Carik, Xiaohan Ding, Sang Won Lee, Young-Ho Kim, Eugenia H. Rho]
+        venue: ACM CHI 2026 (cond. accept)
+      -
+        key: ClearFairy-CHI26
+        year: 2026
+        month: 4
         selected: false
         primary: false
         type: full
         title: "ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference"
         authors: [Kihoon Son, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun, Juho Kim]
-        venue: Nonarchival preprint
+        venue: ACM CHI 2026 (cond. accept)
         links:
           - 
             label: arXiv
             url: https://arxiv.org/abs/2509.14537
       -
-        key: pitch2-arxiv25
-        year: 2025
-        month: 9
+        key: ControversialPeerAgents-CHI26
+        year: 2026
+        month: 4
         selected: false
         primary: false
         type: full
-        title: "\"Having Lunch Now\": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection"
-        authors: [Adnan Abbas, Caleb Wohn, Arnav Jagtap, Eugenia H Rho, Young-Ho Kim, Sang Won Lee]
-        venue: Nonarchival preprint
-        links:
-          -
-            label: arXiv
-            url: https://arxiv.org/abs/2509.24073
+        title: "Exploring Learners' Expectations and Engagement When Collaborating with Constructively Controversial Peer Agents"
+        authors: [Thitaree Tanprasert, Young-Ho Kim, Sidney S. Fels, Dongwook Yoon]
+        venue: ACM CHI 2026 (cond. accept)
 
-    Peer-reviewed Conferences and Journals:      
       -
         key: Reviews-ICHEC25
         year: 2025

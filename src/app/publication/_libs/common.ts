@@ -2,7 +2,7 @@ import { PublicationEntry, PublicationTimelineData, SORTED_VENUES, VenueType } f
 import groupArray from 'group-array';
 
 function extractVenueName(venue: string): VenueType | null {
-    if(/^ACM\sCHI\s\d{4}$/g.test(venue)){
+    if(/^ACM\sCHI\s\d{4}/g.test(venue)){
         return VenueType.CHI
     }else if(venue.includes("PACM HCI (CSCW")){
         return VenueType.CSCW
@@ -14,7 +14,7 @@ function extractVenueName(venue: string): VenueType | null {
 }
 
 export function createPublicationTimelineData(entries: Array<PublicationEntry>): PublicationTimelineData | null{
-    const filteredPublications = entries.filter(entry => extractVenueName(entry.venue) != null && entry.key != null)
+    const filteredPublications = entries.filter(entry => extractVenueName(entry.venue) != null && entry.key != null && (entry.type == 'article' || entry.type == 'full'))
     if(filteredPublications.length > 0){
         const years = filteredPublications.map(e => e.year)
         const startYear = Math.min(...years)
@@ -39,7 +39,6 @@ export function createPublicationTimelineData(entries: Array<PublicationEntry>):
                     primaryPoints: points.filter(p => p.primary === true),
                     coauthorPoints: points.filter(p => p.primary !== true)
                 }
-
                 return obj
             }, {} as any)
         }
