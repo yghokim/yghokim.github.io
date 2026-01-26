@@ -36,11 +36,17 @@
         pdf: yang-autiverse-chi26.pdf
         links:
           -
-            label: arXiv
-            url: https://arxiv.org/abs/2509.17466
+            label: Web
+            url: https://naver-ai.github.io/autiverse
           -
             label: Demo video
             url: https://youtu.be/4kGJON8Yyxg
+          -
+            label: arXiv
+            url: https://arxiv.org/abs/2509.17466
+          -
+            label: GitHub
+            url: https://github.com/naver-ai/autiverse-monorepo
       -
         key: LingoQ-CHI26
         year: 2026
