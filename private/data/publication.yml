@@ -57,15 +57,21 @@
         title: "LingoQ: Bridging the Gap between EFL Learning and Work through AI-Generated Work-Related Quizzes"
         authors: [+Yeonsun Yang, Sang Won Lee, Jean Y. Song, Sangdoo Yun, Young-Ho Kim]
         venue: ACM CHI 2026 (cond. accept)
-        pdf: yang-lingoq-arxiv25.pdf
+        pdf: yang-lingoq-chi26.pdf
         thumbnail: lingoq/lingoq-square-thumb.mp4
         links:
+          -
+            label: Web
+            url: https://naver-ai.github.io/lingo-q
           -
             label: arXiv
             url: https://arxiv.org/abs/2509.17477
           -
             label: Demo video
             url: https://youtu.be/sUteJ1wQinM
+          -
+            label: GitHub
+            url: https://github.com/naver-ai/lingoque-monorepo
       
       -
         key: Pitch2-CHI26
