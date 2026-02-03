@@ -1,4 +1,4 @@
-I am a **Research Scientist** at <a href="https://clova.ai/ai-research" target="_blank" class="naver">NAVER AI Lab</a> at [NAVER Cloud](https://www.navercloudcorp.com/en/), leading the **Human-Computer Interaction (HCI) Research Group**. I design, develop, and evaluate Personal Informatics (PI) technologies that empower people to better learn about themselves and make positive changes in their behaviors and thoughts. Recently, I have investigated **how we can leverage (generative) AIs for PI systems to acknowledge and account for the lifelong challenges of marginalized populations.**
+I am a **Research Scientist** at <a href="https://clova.ai/ai-research" target="_blank" class="naver">NAVER AI Lab</a> at [NAVER Corporation](https://www.navercorp.com/en/), leading the **Human-Computer Interaction (HCI) Research Group**. I design, develop, and evaluate Personal Informatics (PI) technologies that empower people to better learn about themselves and make positive changes in their behaviors and thoughts. Recently, I have investigated **how we can leverage (generative) AIs for PI systems to acknowledge and account for the lifelong challenges of marginalized populations.**
 
 ***
 
@@ -17,8 +17,8 @@ I am a **Research Scientist** at <a href="https://clova.ai/ai-research" target="
 <div class="badge announcement">For my permanent e-mail address, please check my CV.</div>
 <br/>
 
-<div class="badge important">I will be recruiting research interns for 2026 spring/summer. Please check the <a href="/internship#2026-spring-summer-research-internship"><b>job description</b></a>.</div>
-<br/>
+<!--<div class="badge important">I will be recruiting research interns for 2026 spring/summer. Please check the <a href="/internship#2026-spring-summer-research-internship"><b>job description</b></a>.</div>
+<br/>-->
 
 ***
 
