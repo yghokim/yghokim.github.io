@@ -31,7 +31,7 @@
         type: full
         title: "Autiverse: Eliciting Autistic Adolescents' Daily Narratives through AI-guided Multimodal Journaling"
         authors: [+Migyeong Yang, Kyungah Lee, Jinyoung Han, SoHyun Park, Young-Ho Kim]
-        venue: ACM CHI 2026 (cond. accept)
+        venue: ACM CHI 2026
         thumbnail: autiverse/autiverse-square-thumb.mp4
         pdf: yang-autiverse-chi26.pdf
         links:
@@ -56,7 +56,7 @@
         type: full
         title: "LingoQ: Bridging the Gap between EFL Learning and Work through AI-Generated Work-Related Quizzes"
         authors: [+Yeonsun Yang, Sang Won Lee, Jean Y. Song, Sangdoo Yun, Young-Ho Kim]
-        venue: ACM CHI 2026 (cond. accept)
+        venue: ACM CHI 2026
         pdf: yang-lingoq-chi26.pdf
         thumbnail: lingoq/lingoq-square-thumb.mp4
         links:
@@ -82,7 +82,7 @@
         type: full
         title: "\"Having Lunch Now\": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection"
         authors: [Adnan Abbas, Caleb Wohn, Arnav Jagtap, Eugenia H. Rho, Young-Ho Kim, Sang Won Lee]
-        venue: ACM CHI 2026 (cond. accept)
+        venue: ACM CHI 2026
         links:
           -
             label: arXiv
@@ -96,7 +96,7 @@
         type: full
         title: "CHOIR: A Chatbot-mediated Organizational Memory Leveraging Communication in University Research Labs"
         authors: [Sangwook Lee, Adnan Abbas, Yan Chen, Young-Ho Kim, Sang Won Lee]
-        venue: ACM CHI 2026 (cond. accept)
+        venue: ACM CHI 2026
         links:
           -
             label: arXiv
@@ -110,7 +110,7 @@
         type: full
         title: "An Empirical Study to Understand How Students Use ChatGPT for Writing Essays"
         authors: [Andrew Jelson, Daniel Manesh, Alice Jang, Daniel Dunlap, Young-Ho Kim, Sang Won Lee]
-        venue: ACM CHI 2026 (cond. accept)
+        venue: ACM CHI 2026
         links:
           -
             label: arXiv
@@ -124,7 +124,7 @@
         type: full
         title: "\"Are we writing an advice column for Spock here?\" Understanding Stereotypes in AI Advice for Autistic Users"
         authors: [Caleb Wohn, Buse Carik, Xiaohan Ding, Sang Won Lee, Young-Ho Kim, Eugenia H. Rho]
-        venue: ACM CHI 2026 (cond. accept)
+        venue: ACM CHI 2026
         links:
           -
             label: arXiv
@@ -138,7 +138,7 @@
         type: full
         title: "ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference"
         authors: [Kihoon Son, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun, Juho Kim]
-        venue: ACM CHI 2026 (cond. accept)
+        venue: ACM CHI 2026
         links:
           - 
             label: arXiv
@@ -152,11 +152,23 @@
         type: full
         title: "Exploring Learners' Expectations and Engagement When Collaborating with Constructively Controversial Peer Agents"
         authors: [Thitaree Tanprasert, Young-Ho Kim, Sidney S. Fels, Dongwook Yoon]
-        venue: ACM CHI 2026 (cond. accept)
+        venue: ACM CHI 2026
         links:
           -
             label: arXiv
             url: https://arxiv.org/abs/2601.13479
+
+      -
+        key: DeDecay-TIIS26
+        year: 2026
+        month: 2
+        selected: false
+        primary: false
+        type: article
+        title: "De-Decay: Defusing Computer Vision Model Degradation through Scalable and Actionable Human-Data Alignment"
+        authors: [Tong Steven Sun, Huining Feng, Jinwei Ye, Sangdoo Yun, Young-Ho Kim, Sungsoo Ray Hong]
+        venue: ACM TiiS
+        doi: https://doi.org/10.1145/3797953
 
       -
         key: Reviews-ICHEC25
