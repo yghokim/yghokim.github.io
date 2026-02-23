@@ -39,8 +39,11 @@
             label: Web
             url: https://naver-ai.github.io/autiverse
           -
-            label: Demo video
+            label: Demo video (Eng)
             url: https://youtu.be/4kGJON8Yyxg
+          -
+            label: Demo video (Kor)
+            url: https://www.youtube.com/watch?v=9LWkA2dPi0s
           -
             label: arXiv
             url: https://arxiv.org/abs/2509.17466
