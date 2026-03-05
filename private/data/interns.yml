@@ -1,6 +1,17 @@
 -
   periods:
   -
+    year_start: 2026
+    month_start: 5
+    month_end: 9
+  name: Yoon Jeong Cha
+  link: https://sites.google.com/umich.edu/yjcha
+  affiliation: U of Michigan
+  affiliation_full: University of Michigan, Ann Arbor
+  portrait: "yjcha.jpg"
+-
+  periods:
+  -
     year_start: 2025
     month_start: 3
     month_end: 9
