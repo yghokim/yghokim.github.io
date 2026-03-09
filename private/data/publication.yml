@@ -99,6 +99,7 @@
         month: 4
         selected: false
         primary: false
+        award: Honorable Mention Award
         type: full
         title: "CHOIR: A Chatbot-mediated Organizational Memory Leveraging Communication in University Research Labs"
         authors: [Sangwook Lee, Adnan Abbas, Yan Chen, Young-Ho Kim, Sang Won Lee]
