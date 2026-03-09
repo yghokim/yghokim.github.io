@@ -3,6 +3,16 @@
   -
     year_start: 2026
     month_start: 5
+  name: Sumin Hong
+  link: https://suminhong.me/
+  affiliation: U of Notre Dame
+  affiliation_full: University of Notre Dame
+  portrait: "smhong.jpg"
+-
+  periods:
+  -
+    year_start: 2026
+    month_start: 5
   name: Yubin Choi
   link: https://scholar.google.com/citations?user=HhMTGsMAAAAJ&hl=en
   affiliation: U of Michigan
