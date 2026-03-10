@@ -103,15 +103,25 @@ export const PublicationTimeline = (props: {
         <table>
             <thead>
                 <tr>
-                    <th className="text-sm text-right">Primary-authored</th>
+                    <th></th>
+                    <th className="text-sm text-right">First/corresp.-authored</th>
                     <td></td>
                     <th className="text-sm text-left">Co-authored</th>
                 </tr>
             </thead>
             <tbody>
             {
-                years.map(year => {
+                years.map((year, i) => {
+                    const affiliationRow = props.data.affiliationRowsByYear[year.toString()]
+
                     return <tr key={year}>
+                        {affiliationRow && (
+                            <td rowSpan={affiliationRow.rowSpan} valign="middle" className={twMerge("pl-1 py-0 align-middle border-r-2 border-gray-300/60", i === 0 ? 'border-t-0' : 'border-t-2')}>
+                                <div className="[writing-mode:vertical-rl] rotate-180 text-xs text-ink-dark font-[500] whitespace-nowrap">
+                                    {affiliationRow.affiliation}
+                                </div>
+                            </td>
+                        )}
                         <td valign="middle">
                             <div className={twMerge(unitContainerClass, primaryClass)}>{props.data.yearlyGroups[year.toString()]?.primaryPoints?.map(p => {
                             return <PublicationItem key={p.publicationKey} point={p} onClickCapture={() => {props.onHighlightPaper?.(p.publicationKey)}}/>

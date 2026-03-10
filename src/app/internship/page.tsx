@@ -1,6 +1,6 @@
 import sortArray from "sort-array";
 import { MainPanel } from "../_components/layouts";
-import { InternEntry, InternshipPeriod, InternshipProgramInfo, PublicationStore } from "../_lib/types";
+import { InternEntry, InternshipPeriod, InternshipProgramInfo, PublicationDataFile, PublicationStore } from "../_lib/types";
 import { loadText, loadYAML } from "../_lib/utils";
 import { marked } from "marked";
 import Image from 'next/image'
@@ -51,7 +51,7 @@ export default function InternshipPage() {
 
     const groupInfo = marked(internPageInfo.hcigroup, { async: false })
 
-    const { store: publicationStore } = loadYAML<{ store: PublicationStore }>("publication.yml")
+    const { store: publicationStore } = loadYAML<PublicationDataFile>("publication.yml")
 
     const internPublications = sortArray(Object.keys(publicationStore).map(subtitle => publicationStore[subtitle])
         .reduce((prev, curr, i, arr) => {

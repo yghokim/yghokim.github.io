@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { loadYAML } from "../_lib/utils";
-import { PublicationStore } from "../_lib/types";
+import { PublicationDataFile } from "../_lib/types";
 import { createPublicationTimelineData } from "./_libs/common";
 import { PublicationPageContent } from "./_components/PublicationPageContent";
 
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function PublicationPage() {
 
 
-    const { store } = loadYAML<{store: PublicationStore}>("publication.yml")
+    const { store, affiliation_years } = loadYAML<PublicationDataFile>("publication.yml")
     
     for(const section of Object.keys(store)){
         store[section].forEach(paper => {
@@ -20,7 +20,7 @@ export default function PublicationPage() {
         })
     }
 
-    const timelineData = createPublicationTimelineData(Object.keys(store).reduce((prev, curr, index) => prev.concat(store[curr] as any), []))!
+    const timelineData = createPublicationTimelineData( Object.keys(store).reduce((prev, curr, index) => prev.concat(store[curr] as any), []), affiliation_years)!
     const sortConfig = {
         order: ['order_section'],
         customOrders: {

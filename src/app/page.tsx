@@ -1,7 +1,7 @@
 import Image from "next/image";
 import profilePic from '../../public/assets/younghokim-portrait-2025.jpg';
 import { MainPanel, Sidebar } from "./_components/layouts";
-import { BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry, PublicationStore } from "./_lib/types";
+import { BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry, PublicationDataFile, PublicationStore } from "./_lib/types";
 import { LinkWithIcon, SubTitle } from "./_components/typography";
 import { loadText, loadYAML } from "./_lib/utils";
 import { useMemo } from "react";
@@ -129,7 +129,7 @@ export default function Page() {
 
   const introductionMarkdownText = {__html: marked(loadText("intro.md"))}
 
-  const { store: publicationStore } = loadYAML<{ store: PublicationStore }>("publication.yml")
+  const { store: publicationStore } = loadYAML<PublicationDataFile>("publication.yml")
 
   const selectedPublication = sortArray(Object.keys(publicationStore).map(subtitle => publicationStore[subtitle])
     .reduce((prev, curr) => {

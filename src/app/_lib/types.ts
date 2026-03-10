@@ -97,6 +97,18 @@ export interface PublicationEntry extends ElementWithThumbnail {
     } | undefined | null
 }
 
+export interface PublicationDataFile {
+    updated: string
+    store: PublicationStore
+    affiliation_years: Array<PublicationAffiliationYear>
+}
+
+export interface PublicationAffiliationYear {
+    affiliation: string
+    year_start: number
+    year_end: number
+}
+
 export interface PublicationStore {
     [key: string]: Array<PublicationEntry>
 }
@@ -121,6 +133,11 @@ export interface PublicationTimelinePoint{
 }
 
 export interface PublicationTimelineData{
+    affiliationRowsByYear: {[key: string]: {
+        affiliation: string
+        rowSpan: number
+    }}
+    
     startYear: number
     endYear: number
     yearlyGroups: {[key: string]: {

@@ -1,5 +1,19 @@
 ---
-  updated: 2026-1
+  updated: 2026-3
+  affiliation_years:
+    - 
+      affiliation: "NAVER AI"
+      year_start: 2023
+      year_end: 2026
+    -
+      affiliation: "UMD"
+      year_start: 2021
+      year_end: 2022
+    -
+      affiliation: "Seoul Nat'l Univ."
+      year_start: 2012
+      year_end: 2020
+
   store:
     Archived Preprints:
       -
