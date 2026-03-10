@@ -103,10 +103,12 @@ export default function InternshipPage() {
                                     intern.awards ? <div className='intern-awards'>
                                         {
                                             intern.awards.map((award, i) => {
-                                                const isHonorableAward = award.toLowerCase().includes("honorable") === true
-                                                return <div key={i} className={`flex ${isHonorableAward ? "text-award-honorable" : "text-award-best"}`}>
+                                                const awardType: 'best' | 'honorable' | 'recognition' = award.toLowerCase().includes("honorable") === true ? "honorable" :award.toLowerCase().includes("best") === true ? "best" : "recognition"
+
+                                                
+                                                return <div key={i} className={`flex ${awardType === 'honorable' ? "text-award-honorable" : awardType === 'best' ? "text-award-best" : "text-award-recognition"}`}>
                                                     {
-                                                        isHonorableAward ? <HonorableAwardIcon className="w-4"/> : <BestAwardIcon className="w-4" />
+                                                        awardType === 'honorable' ? <HonorableAwardIcon className="w-4"/> : (awardType === 'best' ? <BestAwardIcon className="w-4" /> : null)
                                                     }
                                                     <span>{award}</span>
                                                 </div>
