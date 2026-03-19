@@ -96,7 +96,7 @@ export const PublicationTimeline = (props: {
     }, [props.data.startYear, props.data.endYear])
 
     return <div className={props.className}>
-        <span className="font-bold">Publication at top venues by year</span>
+        <span className="font-bold">Publication at selected venues by year</span>
 
         <VenueLegend/>
         <AwardLegend/>
