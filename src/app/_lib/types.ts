@@ -118,11 +118,12 @@ export enum VenueType{
     CHI="CHI",
     CSCW="CSCW",
     UbiComp="UbiComp",
-    TVCG="TVCG"
+    TVCG="TVCG",
+    DIS="DIS"
 }
 
 
-export const SORTED_VENUES = [VenueType.CHI, VenueType.CSCW, VenueType.UbiComp, VenueType.TVCG]
+export const SORTED_VENUES = [VenueType.CHI, VenueType.CSCW, VenueType.UbiComp, VenueType.TVCG, VenueType.DIS]
 
 export interface PublicationTimelinePoint{
     publicationKey: string
