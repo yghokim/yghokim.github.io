@@ -47,6 +47,16 @@
         authors: [ShunYi Yeo, Tianyi Zhang, Scott Bateman, Gary Hsieh, Young-Ho Kim, Simon Tangi Perrault, Jiannan Li, Anthony Tang]
         venue: ACM DIS 2026
       -
+        key: PromptUncertainty-DIS26
+        year: 2026
+        month: 6
+        selected: false
+        primary: false
+        type: full
+        title: "When It's Hard to Explain: Strategies for Reducing Prompt Uncertainty In Multimodal Generative Systems"
+        authors: [Nazar Ponochevnyi, Young-Ho Kim, Michael Brudno, Anastasia Kuzminykh]
+        venue: ACM DIS 2026
+      -
         key: Autiverse-CHI26
         year: 2026
         month: 4
