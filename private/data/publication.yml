@@ -32,9 +32,6 @@
           -
             label: arXiv
             url: https://arxiv.org/abs/2509.17608
-          -
-            label: Demo video
-            url: https://www.youtube.com/watch?v=AdP2S7IXS-s
     Peer-reviewed Conferences and Journals:
       -
         key: GroupCA-DIS26
