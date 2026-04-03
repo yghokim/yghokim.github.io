@@ -17,24 +17,21 @@
   store:
     Archived Preprints:
       -
-        key: AutiHero-arXiv25
-        year: 2025
+        key: AutiHero-arXiv26
+        year: 2026
         month: 9
         selected: true
         primary: true
         type: full
-        title: "AutiHero: Leveraging Generative AI in Social Narratives to Engage Parents in Story-Driven Behavioral Guidance for Autistic Children"
+        title: "AutiHero: Engaging Parents in Creating Personalized, Multi-path Social Narratives for Autistic Children"
         authors: [+Jungeun Lee, Kyungah Lee, Inseok Hwang, SoHyun Park, Young-Ho Kim]
         venue: Nonarchival preprint
-        pdf: lee-autihero-arxiv25.pdf
+        pdf: lee-autihero-2026.pdf
         thumbnail: autihero/autihero-square-thumb.mp4
         links:
           -
             label: arXiv
             url: https://arxiv.org/abs/2509.17608
-          -
-            label: Demo video
-            url: https://www.youtube.com/watch?v=AdP2S7IXS-s
     Peer-reviewed Conferences and Journals:
       -
         key: GroupCA-DIS26
