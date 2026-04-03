@@ -10,7 +10,7 @@ const VENUE_COLORS = ["#fb50a3", "#09A4DB", "#A45CB9", "#FEC606", "#018F9C"]
 
 const VenueLegend = () => {
     return <div className="mt-1 mb-0.5">
-        <div className="flex flex-wrap gap-2.5 my-1 mt-2">
+        <div className="flex flex-wrap gap-x-2.5 gap-y-1.5 my-1 mt-2">
         {
             SORTED_VENUES.map(venue => <div className="flex gap-x-1 items-center" key={venue}>
                 <div className="block w-3.5 h-3.5 rounded-sm" style={{background: VENUE_COLORS[SORTED_VENUES.indexOf(venue)]}}/>
@@ -23,7 +23,7 @@ const VenueLegend = () => {
 
 const AwardLegend = () => {
     return <div className="mt-2 mb-3">
-        <div className="flex flex-wrap gap-2.5 my-1 mt-2">
+        <div className="flex flex-wrap gap-x-2.5 gap-y-1.5 my-1 mt-2">
             <div className="flex gap-x-1 items-center">
                 <TrophyIcon className="w-4 h-4 text-gray-500"/>
                 <span className="text-sm">Best Paper Award</span>
