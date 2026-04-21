@@ -36,6 +36,10 @@ export default function CVPage() {
     // Build mentorship list
     const mentorship = buildMentorshipList(interns, cvData.mentorship_extra, labelMap)
 
+    // Build-time date stamp used for the suggested PDF download filename.
+    // Baked in at static export time; matches the PDF footer's generated date.
+    const pdfDateStamp = new Date().toISOString().slice(0, 10)
+
     return <CVPageContent
         bio={bioData}
         cv={cvData}
@@ -44,5 +48,6 @@ export default function CVPage() {
         categories={categories}
         mentorship={mentorship}
         labelMap={Object.fromEntries(labelMap)}
+        pdfDateStamp={pdfDateStamp}
     />
 }

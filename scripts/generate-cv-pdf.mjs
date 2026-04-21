@@ -68,6 +68,7 @@ const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 const dateStr = `${months[now.getMonth()]} ${now.getDate()}, ${now.getFullYear()}`;
 
 const pdfPath = path.join(cvDir, 'younghokim_cv.pdf');
+const publicPdfPath = path.join(publicCvDir, 'younghokim_cv.pdf');
 console.log(`Generating PDF at ${pdfPath}`);
 
 await page.pdf({
@@ -93,7 +94,6 @@ await page.pdf({
 
 // Also copy into public/ so dev-mode (`next dev`) serves the latest PDF
 // without needing a full production build.
-const publicPdfPath = path.join(publicCvDir, 'younghokim_cv.pdf');
 fs.copyFileSync(pdfPath, publicPdfPath);
 console.log(`PDF generated successfully. Copied to ${publicPdfPath}`);
 

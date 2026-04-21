@@ -60,9 +60,10 @@ interface CVPageContentProps {
         to: string
     }>
     labelMap: Record<string, string>
+    pdfDateStamp: string
 }
 
-export function CVPageContent({ bio, cv, talks, awards, categories, mentorship, labelMap }: CVPageContentProps) {
+export function CVPageContent({ bio, cv, talks, awards, categories, mentorship, labelMap, pdfDateStamp }: CVPageContentProps) {
     return <MainPanel withFixedSidebar noSidebar>
         <div className="cv-root text-ink-dark text-[11pt] leading-relaxed">
         {/* Web-only: Download PDF button at top */}
@@ -70,7 +71,7 @@ export function CVPageContent({ bio, cv, talks, awards, categories, mentorship, 
             <span className="text-sm text-gray-600 italic">
                 Full details are available in the PDF.
             </span>
-            <a href="/files/cv/younghokim_cv.pdf" target="_blank" rel="noreferrer"
+            <a href="/files/cv/younghokim_cv.pdf" download={`younghokim_cv_${pdfDateStamp}.pdf`} target="_blank" rel="noreferrer"
                 className="inline-block px-4 py-2 bg-gray-700 text-white rounded text-sm hover:bg-gray-800 transition-colors shrink-0">
                 Download PDF
             </a>

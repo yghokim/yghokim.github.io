@@ -27,7 +27,6 @@ export const ProfileLinks = (props: {
                 {
                     links.map((link, i) => <a className='group px-2' key={i.toString()} href={link.url} target="_blank" rel="noreferrer">{link.title}</a>)
                 }
-                <a className="link-cv px-2 font-semibold" href="/cv" rel="noreferrer">CV</a>
     </div>
 }
 

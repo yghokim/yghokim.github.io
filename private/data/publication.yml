@@ -1297,7 +1297,7 @@
           shorttitle: "Data@Hand: Visual Exploration of Personal Data on Smartphones with Speech and Touch"
 
       -
-        key: propagation-pacificvis2021
+        key: SWIssuePropagation-PacificVis21
         year: 2021
         month: 4
         selected: false
@@ -1319,7 +1319,7 @@
             doi={10.1109/PacificVis52677.2021.00018}
           }
       -
-        key: githru-vis2020
+        key: Githru-TVCG21
         year: 2020
         month: 10
         type: article
@@ -1379,7 +1379,7 @@
             series = {CHI '19}
           }
       - 
-        key: betterself-pervasive2019
+        key: AutismTracker-PervasiveHealth19
         year: 2019
         month: 4
         type: full
@@ -1405,7 +1405,7 @@
             series = {PervasiveHealth'19}
           }
       -
-        key: OmniTrack-UbiComp17
+        key: OmniTrack-IMWUT17
         year: 2017
         month: 10
         selected: true
@@ -1495,7 +1495,7 @@
         pdf: jones-agent-memory-chi25lbw.pdf
         doi: https://doi.org/10.1145/3706599.3720158
       -
-        key: Open-goal-chatbot-ACL24-Ws
+        key: UserBias-ACL24WS
         year: 2024
         month: 8
         selected: false
@@ -1598,7 +1598,7 @@
             url: https://sites.google.com/view/computational-uichi24
 
       -
-        key: UIConsistency-ICML23-Ws
+        key: AppDesignCheck-ICML23WS
         year: 2023
         month: 7
         type: ea
@@ -1607,7 +1607,7 @@
         groups: [[[Seokhyeon Park, Wonjae Kim], "equal contribution"]]
         venue: "ICML 2023 Workshop on Artificial Intelligence & Human Computer Interaction"
       -
-        key: AIWriter-CHI23-Ws
+        key: FictionWriterAI-CHI23WS
         year: 2023
         month: 4
         type: ea
