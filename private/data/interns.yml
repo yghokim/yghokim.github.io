@@ -40,6 +40,9 @@
   affiliation_full: POSTECH
   portrait: "jelee.jpg"
   publication: [AutiHero-arXiv26]
+  cv_detail:
+    degree: "CS PhD student"
+    topic: "Mentoring research internship."
 -
   periods:
   -
@@ -52,6 +55,9 @@
   affiliation_full: DGIST
   portrait: "ysyang.jpg"
   publication: [LingoQ-CHI26]
+  cv_detail:
+    degree: "EECS PhD student"
+    topic: "Mentoring research internship."
 -
   periods:
   -
@@ -65,6 +71,9 @@
   portrait: "mgyang.jpg"
   publication: [Autiverse-CHI26]
   awards: ["First-time CHI Paper"]
+  cv_detail:
+    degree: "AI PhD candidate"
+    topic: "Mentoring research internship."
 -
   periods:
   -
@@ -78,6 +87,9 @@
   affiliation_full: University of Toronto
   portrait: "shyoo.jpeg"
   publication: [ELMI-CHI25]
+  cv_detail:
+    degree: "CS PhD student"
+    topic: "Mentoring research internship on AI tool for d/Deaf song signers."
 -
   periods:
   -
@@ -92,6 +104,9 @@
   portrait: "ihsong.jpg"
   publication: [ExploreSelf-CHI25]
   awards: ["First-time CHI Paper"]
+  cv_detail:
+    degree: "CS Undergraduate student"
+    topic: "Mentoring research internship on AI tool for user-driven exploration of personal challenges."
 -
   periods:
   -
@@ -106,6 +121,9 @@
   portrait: "dschoi.jpg"
   awards: ["CHI Best Paper"]
   publication: [AACessTalk-CHI25]
+  cv_detail:
+    degree: "Industrial Design PhD student"
+    topic: "Mentoring research internship on an AI-based communication mediation system for minimally verbal autistic children and parents."
 -
   periods:
   -
@@ -124,6 +142,9 @@
   affiliation_full: University of Michigan, Ann Arbor
   portrait: "wseo.jpg"
   publication: [ChaCha-CHI24, ARCH-CHI25]
+  cv_detail:
+    degree: "Informatics PhD candidate"
+    topic: "Mentoring research internship on building a chatbot for children's emotional intelligence."
 -
   periods:
   -
@@ -143,6 +164,9 @@
   portrait: "ejo.jpg"
   publication: [CareCall-CHI23, CareCallLTM-CHI24, CareCallStakeholder-CHI25]
   awards: ["CHI Best Paper"]
+  cv_detail:
+    degree: "Informatics PhD student"
+    topic: "Mentored research internship on understanding the role of conversational AI in health work."
 -
   periods:
   -
@@ -156,6 +180,9 @@
   affiliation_full: University of Washington
   portrait: "dshin.jpg"
   publication: [PlanFitting-CUI25]
+  cv_detail:
+    degree: "HCDE PhD student"
+    topic: "Mentoring research internship on building a conversational AI for personalized health planning."
 -
   periods:
   -
@@ -169,6 +196,9 @@
   affiliation_full: KAIST
   portrait: "twkim.jpg"
   publication: [MindfulDiary-CHI24]
+  cv_detail:
+    degree: "Industrial Design PhD student"
+    topic: "Mentoring research internship on designing AI-mediated diary writing for depression patients."
 -
   periods:
   -
@@ -180,6 +210,9 @@
   affiliation: Yonsei University
   affiliation_full: Yonsei University
   portrait: "slee.jpg"
+  cv_detail:
+    degree: "Computer Science MS student"
+    topic: "Mentoring research internship on scanning paper-based self-trackers."
 
 -
   periods:
@@ -194,6 +227,9 @@
   affiliation_full: University of Melbourne
   portrait: jwei.jpg
   publication: [LLM-Chatbot-CSCW24]
+  cv_detail:
+    degree: "CIS PhD student"
+    topic: "Mentored research internship on building data collection chatbots using large language model."
 -
   periods:
   -
@@ -207,3 +243,6 @@
   affiliation_full: University of Texas, Austin
   portrait: mhuh.jpg
   publication: [AVscript-CHI23]
+  cv_detail:
+    degree: "PhD student"
+    topic: "Co-mentored research internship on designing video editing tools for blind people."

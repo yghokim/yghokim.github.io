@@ -1,7 +1,7 @@
 import Image from "next/image";
 import profilePic from '../../public/assets/younghokim-portrait-2025.jpg';
 import { MainPanel, Sidebar } from "./_components/layouts";
-import { BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry, PublicationDataFile, PublicationStore } from "./_lib/types";
+import { BioData, BioEntry, InternEntry, InternshipPeriod, NewsArticle, PressEntry, PublicationDataFile, PublicationStore } from "./_lib/types";
 import { LinkWithIcon, SubTitle } from "./_components/typography";
 import { loadText, loadYAML } from "./_lib/utils";
 import { useMemo } from "react";
@@ -16,7 +16,7 @@ import removeMd from 'remove-markdown';
 
 const BioView = (props: {side: boolean, className?: string | undefined}) => {
 
-  const bioList = loadYAML<Array<BioEntry>>("bio.yml")
+  const bioList = loadYAML<BioData>("bio.yml").employment
 
 
   return <div className={props.className}><SubTitle title="Short bio" size={props.side === true ? "small" : "large"} />

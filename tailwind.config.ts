@@ -18,6 +18,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         pointed: "#1e9da7",
+        'cv-heading': '#7a2518',
         ink: {
           light: '#575757',
           dark: '#252525'

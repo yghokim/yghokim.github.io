@@ -22,6 +22,10 @@ const navs = [
     {
         title: "Resources",
         link: "/resources"
+    },
+    {
+        title: "CV",
+        link: "/cv"
     }
 ]
 

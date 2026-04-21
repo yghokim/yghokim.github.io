@@ -57,6 +57,11 @@ jobs:
         env:
           PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
 
+      - name: Generate CV PDF
+        run: node scripts/generate-cv-pdf.mjs
+        env:
+          PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -1,0 +1,463 @@
+grants_awards:
+  # Paper awards (Best Paper, HM, etc.) are AUTO-EXTRACTED from publication.yml.
+  # This list is for non-paper awards only.
+  -
+    year: 2020
+    title: "Special Recognitions for Outstanding Reviews"
+    detail: "2 recognitions for paper reviews at ACM CHI 2021"
+  -
+    year: 2019
+    title: "NRF of Korea International Postdoc Fellowship"
+    detail: "Granted 45,000,000 KRW (equivalent to 40,000 USD) stipend for 1-year postdoctoral studies abroad."
+    subdescription: >-
+      Proposal title: Design and Development of a Multipurpose Research Platform for Effective Collection of
+      Mobile Health/Activity Data
+  -
+    year: 2019
+    title: "Google Travel Grant"
+    detail: "ACM CHI 2019, Glasgow, Scotland, UK"
+  -
+    year: 2019
+    title: "Outstanding Ph.D. Dissertation Award"
+    detail: "Dept. of Computer Science & Engineering, Seoul National University"
+  -
+    year: 2017
+    title: "NAVER Ph.D. Fellowship Award"
+    detail: "Granted 5,000,000 KRW (equivalent to 4,500 USD) from NAVER Corp."
+  -
+    year: 2011
+    title: "iF Design Award Nominee"
+    detail: "Social Dating Service, I-UM"
+  -
+    year: 2011
+    title: "Graduation with Distinction (Rank first)"
+    detail: "Dept. of Craft & Design, Seoul National University"
+  -
+    year: 2007
+    to: 2011
+    title: "Merit-based Scholarship"
+    detail: "Seoul National University (Fully-supported tuition for 4 years)"
+
+teaching:
+  -
+    period: "2020 Fall; 2019 Fall"
+    institution: University of Maryland
+    location: "College Park, MD, USA"
+    role: "Guest Lecturer, invited by Prof. Eun Kyoung Choe"
+    courses:
+      - code: "INST 682 / CMSC838X"
+        name: "Personal Health Informatics & Visualization"
+    details:
+      - "2020: Provided a tutorial lecture on \"Time-series visualization of personal data using Tableau.\""
+      - "2019: Provided a guest lecture on \"Mobile-based in-situ data collection.\""
+  -
+    period: "2019 Spring"
+    institution: Seoul National University
+    location: "Seoul, Korea"
+    role: "Graduate Teaching Assistant, worked with Prof. Jinwook Seo"
+    courses:
+      - code: "4190.426A"
+        name: "Information to Human-Computer Interaction (CSE Undergraduate)"
+        students: 23
+    details:
+      - "Provided a tutorial lecture on in-situ data collection and personal informatics."
+      - "Designed and wrote a class project (topic: Understanding People via Mobile In-Situ Data Collection)."
+      - "Advised 11 class project teams (23 students)."
+      - "Advised on writing a project proposal, setting up study instrumentation, giving presentations, and writing a project report."
+  -
+    period: "2016 Fall"
+    institution: Seoul National University
+    location: "Seoul, Korea"
+    role: "Graduate Teaching Assistant, worked with Prof. Jinwook Seo"
+    courses:
+      - code: "M1522.000500"
+        name: "Information Visualization & Visual Analytics (CSE Graduate)"
+        students: 45
+    details:
+      - "Provided a tutorial lecture on D3.js."
+      - "Wrote D3.js assignments, wrote D3.js problems for midterm exam, graded assignments and exam, and held office hours."
+  -
+    period: "2015 Fall"
+    institution: Korea University
+    location: "Seoul, Korea"
+    role: "Guest lecturer, invited by Prof. Jaegul Choo"
+    courses:
+      - code: "AAA638"
+        name: "Computational and Visual Analytics (CS Graduate)"
+    details:
+      - "D3.js tutorial lecture (2.5 hours)"
+  -
+    period: "2013 Fall"
+    institution: Seoul National University
+    location: "Seoul, Korea"
+    role: "Graduate Teaching Assistant, worked with Prof. Jinwook Seo"
+    courses:
+      - code: "4190.103A"
+        name: "Programming Practice (CSE Undergraduate)"
+        students: 50
+    details:
+      - "Designed material for a weekly C programming lab session, wrote programming assignments, led lab sessions, graded assignments, and held office hours."
+
+service:
+  reviewer:
+    - venue: ACM CHI
+      years: [2017, 2019, 2020, 2021, 2022, 2023]
+    - venue: PACM IMWUT
+      details: "2017 Aug, 2019 Nov, 2020 Aug, 2022 Aug, 2022 Nov, 2023 Nov"
+    - venue: PACM HCI CSCW
+      details: "2022 July, 2023 Jan, 2024 Jul"
+    - venue: IEEE VIS
+      years: [2021]
+    - venue: IEEE Transactions on Visualization and Computer Graphics
+      years: [2024]
+    - venue: ACM DIS
+      years: [2018, 2021, 2022, 2023]
+    - venue: ACM MobileHCI
+      years: [2020]
+    - venue: ACM Transactions on Computer-Human Interaction
+      years: [2021, 2024]
+    - venue: INTERACT
+      years: [2019, 2021]
+    - venue: IEEE Pervasive Computing
+      years: [2021]
+    - venue: Eurographics EuroVis
+      years: [2022]
+    - venue: IEEE PacificVis
+      years: [2024]
+    - venue: PLOS Digital Health
+      years: [2022]
+  committee:
+    - "The HCI Society of Korea, Co-Vice President (2026–2028)"
+    - "ACM CSCW (Associate Chair in Program Committee) – January 2024 cycle"
+    - "ACM CHI (Associate Chair in Program Committee) – Health subcommittee (2024, 2025), Computational Interaction subcommittee (2026)"
+    - "IEEE PacificVis 2023 (Associate Chair in Program Committee)"
+    - "IEEE PacificVis 2017 (Design Chair)"
+    - "Workshop on Ubiquitous Personal Assistance in ACM UbiComp 2018, 2019 (Technical Program Committee)"
+    - "Seoul National University, Organizing Committee of SNU HCI Group Summit (2016, 2017)"
+    - "Seoul National University, HCI Winter School Organizing Committee (2016)"
+  thesis_committee:
+    - "Seokhyeon Park, PhD in Computer Science and Engineering, Seoul National University, Seoul, Korea (2025)"
+    - "Youjin Choi, PhD in School of Integrated Technology, GIST, Gwangju, Korea (2025)"
+    - "JooYeong Kim, PhD in School of Integrated Technology, GIST, Gwangju, Korea (2024)"
+    - "Eunkyung Jo, PhD in Dept. of Informatics at University of California, Irvine, CA, USA (2024)"
+    - "Taeyoon Kim, Master in Dept. of Industrial Design at UNIST, Ulsan, Korea (2021 Winter)"
+  student_volunteer:
+    - "IEEE PacificVis 2017"
+    - "ACM CHI 2016"
+
+systems:
+  -
+    name: Autiverse
+    platform: Tablet
+    publication: Autiverse-CHI26
+    description: "An AI-guided multimodal journaling tool that elicits autistic adolescents' daily narratives."
+    role: "Design (in collaboration), Implementation (in collaboration)"
+    contributors: [Migyeong Yang, Young-Ho Kim, SoHyun Park, Kyungah Lee, Jinyoung Han]
+    url: "https://naver-ai.github.io/autiverse"
+  -
+    name: LingoQ
+    platform: "Mobile + Desktop (Windows/macOS)"
+    publication: LingoQ-CHI26
+    description: "An AI-powered EFL learning app that generates work-related quizzes from users' work-related English queries with LLM."
+    role: "Design (in collaboration), Mobile implementation (in collaboration), Desktop implementation"
+    contributors: [Yeonsun Yang, Young-Ho Kim, Sang Won Lee, Jean Y. Song, Sangdoo Yun]
+    url: "https://naver-ai.github.io/lingo-q"
+  -
+    name: AACessTalk
+    platform: Tablet
+    publication: AACessTalk-CHI25
+    description: "An LLM-infused tool for lyric-to-sign-language translation for d/Deaf users."
+    role: "Technical implementation (in collaboration), Design (in collaboration)"
+    contributors: [Young-Ho Kim, Dasom Choi, SoHyun Park, Kyungah Lee, Hwajung Hong]
+    url: "https://naver-ai.github.io/aacesstalk"
+  -
+    name: ELMI
+    platform: Web
+    publication: ELMI-CHI25
+    description: "An LLM-infused tool for lyric-to-sign-language translation for d/Deaf users."
+    role: "Technical implementation (in collaboration), Design (in collaboration)"
+    contributors: [Young-Ho Kim, Suhyeon Yoo, Khai N. Truong]
+    url: "https://naver-ai.github.io/elmi"
+  -
+    name: ExploreSelf
+    platform: Web
+    publication: ExploreSelf-CHI25
+    description: "An LLM-driven exploration tool for personal challenges and mental health."
+    role: "Technical implementation (in collaboration), Design (in collaboration)"
+    contributors: [Inhwa Song, Young-Ho Kim, SoHyun Park, Sachin R. Pendse, Jessica Lee Schleider, Munmun De Choudhury]
+    url: "https://naver-ai.github.io/exploreself"
+  -
+    name: ChaCha
+    platform: Mobile
+    publication: ChaCha-CHI24
+    description: "An LLM-driven chatbot for children."
+    role: "Technical implementation, Design (in collaboration)"
+    contributors: [Young-Ho Kim, Woosuk Seo]
+    url: "https://naver-ai.github.io/chacha"
+  -
+    name: MindfulDiary
+    platform: Web
+    publication: MindfulDiary-CHI24
+    description: "A patient diary app for journaling everyday events and emotions through free-form conversation with an LLM-driven chatbot."
+    role: "Design (in collaboration)"
+    contributors: [Taewan Kim, Seolyeong Bae, Hyun Ah Kim, Hwajung Hong, Chanmo Yang, Young-Ho Kim]
+  -
+    name: DiaryMate
+    platform: Web
+    publication: DiaryMate-CHI24
+    description: "A web diary app powered by large language model (NAVER HyperCLOVA) for various writing support and empathetic features."
+    role: "Design (in collaboration)"
+    contributors: [Taewan Kim, Donghoon Shin, Young-Ho Kim, Hwajung Hong]
+  -
+    name: AVScript
+    platform: Web
+    publication: AVscript-CHI23
+    description: "A script- and computer-vision-based video editing tool for blind content creators leveraging their own video footage."
+    role: "Design (in collaboration)"
+    contributors: [Mina Huh, Saelyne Yang, Yi-Hao Peng, Xiang 'Anthony' Chen, Young-Ho Kim, Amy Pavel]
+  -
+    name: MyMove Watch
+    platform: Android Wear OS
+    publication: MyMove-CHI22
+    description: "A smartwatch application that facilitates older adults to collect their in-situ activity labels with speech."
+    role: "Design (in collaboration), implementation of the entire system"
+    contributors: [Young-Ho Kim, Diana Chou, Bongshin Lee, Margaret Danilovich, Amanda Lazar, David E. Conroy, Hernisa Kacorri, Eun Kyoung Choe]
+  -
+    name: "Data@Hand"
+    platform: "iOS, Android"
+    publication: DataAtHand-CHI21
+    description: "A cross-platform mobile application that leverages speech and touch interactions to facilitate visual exploration of self-tracking data."
+    role: "Design (in collaboration), implementation of the entire system"
+    contributors: [Young-Ho Kim, Bongshin Lee, Arjun Srinivasan, Eun Kyoung Choe]
+    url: "https://data-at-hand.github.io"
+  -
+    name: Githru
+    platform: Web
+    publication: Githru-TVCG21
+    description: "A visual analytics system for understanding software development history through git metadata analysis."
+    role: "Implementation (in collaboration) of the frontend components, improvement of the GUI aesthetics"
+    contributors: [Youngtaek Kim, Jaeyoung Kim, Hyeon Jeon, Young-Ho Kim, Hyunjoo Song, Bohyoung Kim, Jinwook Seo]
+    url: "https://githru.github.io/demo/"
+  -
+    name: OmniTrack for Research
+    platform: "Web, Android"
+    publication: null
+    description: "A research platform to implement, conduct, and manage mobile-based in-sisu data collection studies without coding."
+    role: "Design (in collaboration), implementation of the entire system"
+    contributors: [Young-Ho Kim, Bongshin Lee, Jinwook Seo, Eun Kyoung Choe, Junhoe Kim, Valérie Erb]
+    url: "https://omnitrack.github.io/research"
+    used_in: ["Productivity-CHI19", "AutismTracker-PervasiveHealth19", "FoodScrap-DIS21"]
+  -
+    name: OmniTrack
+    platform: Android
+    publication: OmniTrack-IMWUT17
+    description: "A flexible self-tracking app that supports constructing personalizable trackers leveraging semi-automated tracking."
+    role: "Design (in collaboration), implementation of the entire system"
+    contributors: [Young-Ho Kim, Jae Ho Jeon, Bongshin Lee, Eun Kyoung Choe, Jinwook Seo]
+    url: "https://omnitrack.github.io"
+  -
+    name: TimeAware
+    platform: "MacOS, Windows, Web"
+    publication: TimeAware-CHI16
+    description: "A desktop-based screen time monitoring widget."
+    role: "Design (in collaboration), implementation of the entire platform"
+    contributors: [Young-Ho Kim, Jae Ho Jeon, Eun Kyoung Choe, Bongshin Lee, KwonHyun Kim, Jinwook Seo]
+
+mentorship_extra:
+  # Additional mentees not in interns.yml (pre-NAVER, UMD, SNU periods)
+  -
+    name: Takyoung Kim
+    affiliation: NAVER AI Lab
+    degree: "Research Intern at NAVER AI Lab"
+    topic: "Collaborated on assessing user biases in task-oriented dialogue systems."
+    publication: [UserBias-ACL24WS]
+    from: "Oct 2022"
+    to: "Jan 2023"
+  -
+    name: Jessi Stark
+    affiliation: University of Toronto
+    degree: "CS PhD student"
+    topic: "Co-mentoring on designing AI tools for fiction writer, with Prof. Anthony Tang."
+    publication: [FictionWriterAI-CHI23WS]
+    from: "Sep 2022"
+    to: "Sep 2023"
+  -
+    name: Christina Wei
+    affiliation: University of Toronto
+    degree: "Informatics PhD student"
+    topic: "Co-mentoring on understanding relationship between conversational architecture and user perception, with Prof. Anastasia Kuzminykh."
+    publication: [ConvArch-CUI23]
+    from: "Sep 2022"
+    to: Present
+  -
+    name: Seokhyeon Park
+    affiliation: Seoul National University
+    degree: "SNU CS PhD student"
+    topic: "Co-mentoring research internship on building machine learning models with mobile UIs."
+    publication: [AppDesignCheck-ICML23WS]
+    from: "Feb 2022"
+    to: "Jul 2022"
+  -
+    name: Taeyoon Kim
+    affiliation: UNIST
+    degree: "M.S. student"
+    topic: "Co-mentoring on designing effective visual intervention on Youtube usage."
+    from: "Nov 2021"
+    to: "Feb 2022"
+  -
+    name: Jong Ho Lee
+    affiliation: University of Maryland
+    degree: "iSchool PhD student"
+    topic: "Collaborated on developing mobile activity reporting app for older adults and stroke patients."
+    from: "Sep 2021"
+    to: "Nov 2021"
+  -
+    name: Lining Wang
+    affiliation: University of Maryland
+    degree: "iSchool PhD student"
+    topic: "Collaborated on analyzing older adults' verbal activity reports and on-body sensor data from the Machine Learning perspective."
+    from: "Aug 2021"
+    to: "Nov 2021"
+  -
+    name: Sabahat Fatima
+    affiliation: University of Maryland
+    degree: "CS Undergraduate. Currently a research engineer at the Johns Hopkins University"
+    topic: "Collaborated on analyzing older adults' verbal activity reports and on-body sensor data from the Machine Learning perspective."
+    from: "Apr 2021"
+    to: "Nov 2021"
+  -
+    name: Diana Chou
+    affiliation: University of Maryland
+    degree: "CS M.S. student"
+    topic: "Collaborated on designing and developing a mobile application for teachable interface for personalized activity recognition of older adults and stroke patients."
+    publication: [MyMove-CHI22]
+    from: "Feb 2021"
+    to: "Sep 2021"
+  -
+    name: Yuhan Luo
+    affiliation: University of Maryland
+    degree: "iSchool PhD student. Currently Assistant Professor at CityU Hong Kong."
+    topic: "Collaborated on understanding the effects of speech inputs on capturing everyday food practice compared to text typing."
+    publication: [FoodScrap-DIS21, NoteWordy-ISS22]
+    from: "Mar 2020"
+    to: "Nov 2020"
+  -
+    name: GuHyun Han
+    affiliation: Seoul National University
+    degree: "CSE PhD student"
+    topic: "Collaborated on designing and evaluating a customizable ambient visualization system for smartphone notifications."
+    publication: [DataHalo-CHI23]
+    from: "Feb 2019"
+    to: "Jul 2019"
+  -
+    name: Youngtaek Kim
+    affiliation: Seoul National University
+    degree: "CSE PhD student. Currently at Samsung Electronics."
+    topic: "Collaborated on designing a source code repository visualization framework, supported by Samsung electronics."
+    publication: [Githru-TVCG21, SWIssuePropagation-PacificVis21]
+    from: "Mar 2017"
+    to: "Jul 2019"
+  -
+    name: Sung-In Kim
+    affiliation: Seoul National University
+    degree: "College of Medicine undergraduate. Currently a public health physician."
+    topic: "Advised an independent study on how customizable self-tracking app could support habit formation of autistic adolescents."
+    publication: [AutismTracker-PervasiveHealth19]
+    from: "Dec 2017"
+    to: "Feb 2019"
+  -
+    name: Valérie Erb
+    affiliation: Seoul National University
+    degree: "CS undergraduate at University of Zurich. Currently a MS student at KAIST CT."
+    topic: "Advised an internship project on contributing to implementation of OmniTrack for Research, a mobile-based in-situ data collection platform."
+    from: "Feb 2018"
+    to: "Jun 2018"
+  -
+    name: Junhoe Kim
+    affiliation: Seoul National University
+    degree: "CSE undergraduate. Currently at NCSoft Korea."
+    topic: "Advised an internship project on contributing to implementation of OmniTrack."
+    publication: [OmniTrack-IMWUT17]
+    from: "Feb 2018"
+    to: "Jul 2018"
+
+publication_category_labels:
+  J: "International Journal Papers (Peer Reviewed)"
+  C: "International Conference Papers (Peer Reviewed)"
+  W: "Extended Abstracts and Workshop Papers (Lightly Peer Reviewed)"
+  O: "Organized Workshops and Tutorials"
+
+publication_venue_meta:
+  # Maps venue patterns (matched against publication.yml's `venue` field) to CV details.
+  # The short venue name (e.g., "ACM CHI 2025") comes from publication.yml's `venue` field directly.
+  # `full_name` is the formal venue name for CV display.
+  # `acceptance_rate` is shown in parentheses.
+
+  ACM CHI 2026:
+    full_name: "Proc. ACM CHI Conference on Human Factors in Computing Systems"
+    acceptance_rate: "25.3%"
+  ACM CHI 2025:
+    full_name: "Proc. ACM CHI Conference on Human Factors in Computing Systems"
+    acceptance_rate: "25.1%"
+  ACM CHI 2024:
+    full_name: "Proc. ACM CHI Conference on Human Factors in Computing Systems"
+    acceptance_rate: "26.3%"
+  ACM CHI 2023:
+    full_name: "Proc. ACM CHI Conference on Human Factors in Computing Systems"
+    acceptance_rate: "28.39%"
+  ACM CHI 2022:
+    full_name: "Proc. ACM CHI Conference on Human Factors in Computing Systems"
+    acceptance_rate: "24.7%"
+  ACM CHI 2021:
+    full_name: "Proc. ACM CHI Conference on Human Factors in Computing Systems"
+    acceptance_rate: "26.3%"
+  ACM CHI 2019:
+    full_name: "Proc. ACM CHI Conference on Human Factors in Computing Systems"
+    acceptance_rate: "23.8%"
+  ACM CHI 2016:
+    full_name: "Proc. ACM CHI Conference on Human Factors in Computing Systems"
+    acceptance_rate: "23.4%"
+  ACM DIS 2026:
+    full_name: "Proc. ACM Designing Interactive Systems Conference"
+  ACM DIS 2021:
+    full_name: "Proc. ACM Designing Interactive Systems Conference"
+    acceptance_rate: "26.8%"
+  COLM 2025:
+    full_name: "Proc. Conference of Language Modeling"
+    acceptance_rate: "32%"
+  ACM CUI 2025:
+    full_name: "Proc. ACM Conference on Conversational User Interfaces"
+  ACM CUI 2023:
+    full_name: "Proc. ACM Conference on Conversational User Interfaces"
+    acceptance_rate: "38.33%"
+  PACM HCI (CSCW 2024):
+    full_name: "PACM on Human-Computer Interaction (PACMHCI)"
+    volume_issue: "8"
+  PACM HCI (CSCW 2023):
+    full_name: "PACM on Human-Computer Interaction (PACMHCI)"
+    volume_issue: "7"
+  PACM HCI (ISS 2022):
+    full_name: "PACM on Human-Computer Interaction (PACMHCI)"
+    volume_issue: "6"
+  PACM IMWUT (UbiComp 2025):
+    full_name: "PACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)"
+    volume_issue: "9 (2)"
+  PACM IMWUT (UbiComp 2017):
+    full_name: "PACM on Interactive, Mobile, Wearable and Ubiquitous Technologies (IMWUT)"
+    volume_issue: "1 (3)"
+    presented_at: "ACM UbiComp'17, Maui, Hawaii, USA"
+  IEEE TVCG (VAST 2020):
+    full_name: "IEEE Transactions on Visualization and Computer Graphics (IEEE TVCG)"
+    presented_at: "IEEE VIS'20 (VAST)"
+  IEEE PacificVis 2021:
+    full_name: "Proc. IEEE Pacific Visualization Symposium"
+  Schizophrenia Bulletin Open (Oct 2022):
+    full_name: "Schizophrenia Bulletin Open"
+  EAI PervasiveHealth 2019:
+    full_name: "Proc. EAI Intl. Conference on Pervasive Computing Technologies for Healthcare"
+  ACM TiiS:
+    full_name: "ACM Transactions on Intelligent & Interactive Systems"
+  ACM HAI 2025 Poster:
+    full_name: "ACM HAI 2025 Poster"
+  ICHEC 2025:
+    full_name: "ICHEC 2025"

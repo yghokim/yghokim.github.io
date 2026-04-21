@@ -8,7 +8,103 @@ export interface BioEntry {
     from: number,
     to: number | string,
     position: string,
-    affiliation: string
+    affiliation: string,
+    cv_detail?: {
+        organization?: string,
+        location?: string,
+        role?: string,
+        department?: string,
+        from_month?: number,
+        to_month?: number,
+        sub_roles?: Array<{ title: string, from: string, to: string }>
+    }
+}
+
+export interface BioData {
+    contact: {
+        email: string,
+        website: string,
+        github: string,
+        scholar: string,
+        linkedin?: string,
+    },
+    research_statement: {
+        text: string,
+        themes: string[]
+    },
+    education: Array<{
+        degree: string,
+        institution: string,
+        location: string,
+        from: number,
+        to: number,
+        from_month?: number,
+        to_month?: number,
+        gpa?: string,
+        award?: string,
+        honor?: string,
+        details?: string[]
+    }>,
+    employment: Array<BioEntry>
+}
+
+export interface CVData {
+    grants_awards: Array<{
+        year: number,
+        to?: number,
+        title: string,
+        detail: string,
+        subdescription?: string
+    }>,
+    teaching: Array<{
+        period: string,
+        institution: string,
+        location: string,
+        role: string,
+        courses?: Array<{ code: string, name: string, students?: number }>,
+        details?: string[]
+    }>,
+    service: {
+        reviewer: Array<{ venue: string, years?: number[], details?: string }>,
+        committee: string[],
+        thesis_committee: string[],
+        student_volunteer: string[]
+    },
+    systems: Array<{
+        name: string,
+        platform: string,
+        publication: string | null,
+        description: string,
+        role: string,
+        contributors: string[],
+        url?: string,
+        used_in?: string[]
+    }>,
+    mentorship_extra: Array<{
+        name: string,
+        affiliation: string,
+        degree: string,
+        topic: string,
+        publication?: string[],
+        from: string,
+        to: string
+    }>,
+    publication_category_labels: Record<string, string>,
+    publication_venue_meta: Record<string, VenueMeta | null>
+}
+
+export interface VenueMeta {
+    full_name: string,
+    acceptance_rate?: string,
+    volume_issue?: string,
+    presented_at?: string
+}
+
+export interface TalkEntry {
+    title: string,
+    type: string,
+    venue: string,
+    date: string
 }
 
 export interface InternshipProgramInfo {
@@ -41,7 +137,11 @@ export interface InternEntry {
     name: string,
     link: string,
     publication?: Array<string>,
-    awards?: Array<string>
+    awards?: Array<string>,
+    cv_detail?: {
+        degree?: string,
+        topic?: string
+    }
 }
 
 export interface ResearchArea extends ElementWithThumbnail {

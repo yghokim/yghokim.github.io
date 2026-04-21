@@ -17,6 +17,9 @@
 /.next/
 /out/
 
+# Auto-generated CV PDF (produced by scripts/generate-cv-pdf.mjs)
+/public/files/cv/younghokim_cv.pdf
+
 # production
 /build
 

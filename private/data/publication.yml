@@ -65,6 +65,24 @@
         venue: ACM CHI 2026
         thumbnail: autiverse/autiverse-square-thumb.mp4
         pdf: yang-autiverse-chi26.pdf
+        doi: https://doi.org/10.1145/3772318.3791381
+        bibtex: >
+          @inproceedings{yang2026autiverse,
+            author = {Yang, Migyeong and Lee, Kyungah and Han, Jinyoung and Park, SoHyun and Kim, Young-Ho},
+            title = {Autiverse: Eliciting Autistic Adolescents' Daily Narratives through AI-guided Multimodal Journaling},
+            year = {2026},
+            isbn = {9798400722783},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3772318.3791381},
+            doi = {10.1145/3772318.3791381},
+            booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+            articleno = {999},
+            numpages = {26},
+            keywords = {Journaling, autism, adolescents, large language model, scaffold, visual support, conversational agents},
+            location = {Barcelona, Spain},
+            series = {CHI '26}
+          }
         links:
           -
             label: Web
@@ -92,7 +110,22 @@
         authors: [+Yeonsun Yang, Sang Won Lee, Jean Y. Song, Sangdoo Yun, Young-Ho Kim]
         venue: ACM CHI 2026
         pdf: yang-lingoq-chi26.pdf
+        doi: https://doi.org/10.1145/3772318.3791342
         thumbnail: lingoq/lingoq-square-thumb.mp4
+        bibtex: >
+          @inproceedings{yang2026lingoq,
+            author = {Yang, Yeonsun and Lee, Sang Won and Song, Jean Y and Yun, Sangdoo and Kim, Young-Ho},
+            title = {LingoQ: Bridging the Gap between EFL Learning and Work through AI-Generated Work-Related Quizzes},
+            year = {2026},
+            isbn = {9798400722783},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3772318.3791342},
+            booktitle = {Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+            articleno = {83},
+            location = {Barcelona, Spain},
+            numpages = {23}
+          }
         links:
           -
             label: Web

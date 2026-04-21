@@ -1,0 +1,91 @@
+/* Content visibility switch between web view and PDF generation.
+   Default (web view): hide .pdf-only content.
+   Puppeteer adds `pdf-mode` class on <body> to flip visibility for PDF. */
+.pdf-only {
+    display: none !important;
+}
+
+body.pdf-mode .pdf-only {
+    display: revert !important;
+}
+
+body.pdf-mode .web-only {
+    display: none !important;
+}
+
+/* PDF-specific typographic overrides: restore traditional CV look (compact
+   10.5pt body, brown section headings) while the web view inherits the site
+   design (11pt body, gray bold headings). */
+body.pdf-mode .cv-root {
+    /* Font inherits from <body> (Source Sans 3), matching the site. */
+    font-size: 10pt;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 0.5rem;
+}
+
+/* Tighter stacking between sub-blocks within a single entry
+   (e.g., paper title → authors → venue lines).
+   Inter-entry spacing is controlled separately by each entry's margin-bottom. */
+body.pdf-mode .cv-pub-entry,
+body.pdf-mode .cv-entry {
+    line-height: 1.3;
+}
+
+body.pdf-mode .cv-section-heading {
+    font-weight: 700 !important;
+    color: rgb(107 114 128) !important; /* gray-500, matches site */
+}
+
+@media print {
+    /* Hide web-only elements */
+    .cv-no-print,
+    .web-only {
+        display: none !important;
+    }
+
+    /* Hide site-wide chrome (header, footer, sidebar) */
+    body > div > div > header,
+    body > div > div > footer {
+        display: none !important;
+    }
+
+    /* Remove top padding that accounts for the fixed header */
+    body > div > div > div {
+        padding-top: 0 !important;
+    }
+
+    /* Reset page layout */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Page breaks */
+    .cv-section-heading {
+        break-after: avoid;
+    }
+
+    .cv-entry {
+        break-inside: avoid;
+    }
+
+    .cv-section {
+        break-before: auto;
+    }
+
+    /* Publication section: allow breaks between entries */
+    .cv-pub-entry {
+        break-inside: avoid;
+    }
+
+    /* Links: show as text */
+    a {
+        color: inherit;
+    }
+
+    a[href^="http"]::after {
+        content: none;
+    }
+}

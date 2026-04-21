@@ -5,6 +5,8 @@
   "scripts": {
     "dev": "next dev --experimental-https --turbopack",
     "build": "next build",
+    "build:pdf": "node scripts/generate-cv-pdf.mjs",
+    "build:all": "next build && node scripts/generate-cv-pdf.mjs",
     "start": "next start",
     "lint": "next lint"
   },
@@ -39,6 +41,8 @@
     "eslint-config-next": "15.1.7",
     "fs-extra": "^11.3.0",
     "postcss": "^8",
+    "puppeteer": "^24.40.0",
+    "serve-handler": "^6.1.7",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

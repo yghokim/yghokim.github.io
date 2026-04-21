@@ -1,25 +1,118 @@
--
-  from: 2023
-  to: Now
-  position: Leader, HCI
-  affiliation: NAVER AI Lab
--
-  from: 2021
-  to: Now
-  position: Research Scientist
-  affiliation: NAVER AI Lab
--
-  from: 2019
-  to: 2021
-  position: Postdoc
-  affiliation: Univ. of Maryland
--
-  from: 2012
-  to: 2019
-  position: PhD (CS)
-  affiliation: Seoul Nat'l Univ.
--
-  from: 2007
-  to: 2011
-  position: BFA (Design)
-  affiliation: Seoul Nat'l Univ.
+contact:
+  email: yghokim@younghokim.net
+  website: http://younghokim.net
+  github: https://github.com/yghokim
+  scholar: https://scholar.google.com/citations?user=UMOierIAAAAJ
+  linkedin: https://www.linkedin.com/in/younghokim-hci/
+
+research_statement:
+  text: >-
+    My research is at the intersection of Personal Health Informatics and Human-Computer Interaction (HCI).
+    I design, develop, and evaluate Personal Informatics (PI) technologies that empower people to better learn
+    about themselves and make positive changes in their behaviors and thoughts. Recently, I have investigated
+    how we can leverage (generative) AIs in PI systems to acknowledge and account for the lifelong challenges
+    of marginalized populations.
+  themes:
+    - AI for Health & Well-being
+    - AI for Marginalized Populations
+    - Personal Informatics
+
+education:
+  -
+    degree: "Ph.D. in Electrical Engineering & Computer Science (Now CSE)"
+    institution: Seoul National University
+    location: "Seoul, Korea"
+    from: 2012
+    to: 2019
+    from_month: 9
+    to_month: 2
+    gpa: "96.6"
+    award: Outstanding Dissertation Award
+    details:
+      - "Dept. of Computer Science & Engineering, College of Engineering"
+      - "Advisor: Dr. Jinwook Seo"
+      - "Dissertation: Designing Flexible Self-Tracking Technologies for Enhancing *In Situ* Data Collection Capability"
+  -
+    degree: "Bachelor of Fine Arts in Design"
+    institution: Seoul National University
+    location: "Seoul, Korea"
+    from: 2007
+    to: 2011
+    from_month: 3
+    to_month: 2
+    gpa: "94.3"
+    honor: Cum Laude
+    details:
+      - "Major of Visual Communication Design, Dept. of Craft & Design, College of Fine Arts"
+      - "Advisor: Prof. Suzung Kim"
+
+employment:
+  -
+    from: 2021
+    to: Now
+    position: Research Scientist
+    affiliation: NAVER AI Lab
+    cv_detail:
+      organization: "NAVER Corp. (Nov 2021 – Dec 2022) → NAVER Cloud (Jan 2023 – Jan 2026) → NAVER Corp. (Feb 2026 – Present) "
+      location: "Seongnam, Gyeonggi, Korea"
+      sub_roles:
+        - title: "Lead Research Scientist, HCI Research"
+          from: "Feb 2023"
+          to: Present
+        - title: "Affiliated with Language Research"
+          from: "Feb 2023"
+          to: Present
+        - title: "Affiliated with AI Safety Lab"
+          from: "Jan 2024"
+          to: Present
+        - title: "Research Scientist, AI Research"
+          from: "July 2022"
+          to: "Jan 2023"
+        - title: "Tech Lead, AI Research"
+          from: "July 2022"
+          to: "Jan 2023"
+  -
+    from: 2019
+    to: 2021
+    position: Postdoc
+    affiliation: Univ. of Maryland
+    cv_detail:
+      organization: University of Maryland
+      location: "College Park, MD, USA"
+      role: "Postdoctoral Associate, working with Dr. Eun Kyoung Choe"
+      department: "College of Information Studies & HCIL"
+      from_month: 9
+      to_month: 11
+  -
+    from: 2019
+    to: 2019
+    position: Postdoc
+    affiliation: Seoul Nat'l Univ.
+    cv_detail:
+      organization: Seoul National University
+      location: "Seoul, Korea"
+      role: "BK21 Postdoctoral Researcher, working with Dr. Jinwook Seo"
+      department: "Dept. of Computer Science & Engineering, College of Engineering"
+      from_month: 3
+      to_month: 7
+  -
+    from: 2012
+    to: 2019
+    position: PhD (CS)
+    affiliation: Seoul Nat'l Univ.
+  -
+    from: 2011
+    to: 2012
+    position: UI/UX Designer
+    affiliation: I-UM Socius
+    cv_detail:
+      organization: I-UM Socius
+      location: "Seoul, Korea"
+      role: "UI/UX Designer @ Brand Experience Design Team"
+      from_month: 4
+      to_month: 4
+  -
+    from: 2007
+    to: 2011
+    position: BFA (Design)
+    affiliation: Seoul Nat'l Univ.
