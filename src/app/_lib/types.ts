@@ -104,7 +104,9 @@ export interface TalkEntry {
     title: string,
     type: string,
     venue: string,
-    date: string
+    year: number,
+    month: number,
+    url?: string
 }
 
 export interface InternshipProgramInfo {

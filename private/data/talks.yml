@@ -1,185 +1,278 @@
 -
+  title: "Designing LLM-driven Conversational AIs for Marginalized Populations"
+  type: "Department Talk (Graduate School of AI)"
+  venue: Seoul National University
+  year: 2025
+  month: 12
+-
+  title: "Designing Conversational Interventions for Marginalized Populations"
+  type: "Invited Talk"
+  venue: Electronics and Telecommunications Research Institute (ETRI)
+  year: 2025
+  month: 11
+-
+  title: "Designing LLM-driven Conversational AIs for Marginalized Populations"
+  type: "Invited Talk at Underwood International College"
+  venue: Yonsei University
+  year: 2025
+  month: 11
+-
+  title: "Leveraging AI to Empower Parents, Children, and Adolescents facing Developmental, Emotional, and Social Challenges"
+  type: "Invited Talk at Graduate School of Medical Science"
+  venue: Sungkyunkwan University
+  year: 2025
+  month: 11
+-
   title: "Leveraging AI to Empower Parents, Children, and Adolescents facing Developmental, Emotional, and Social Challenges"
   type: "Invited Talk at Department of Psychiatry"
   venue: Yonsei University Severance Hospital
-  date: "Oct 2025"
+  year: 2025
+  month: 10
+-
+  title: "Inclusive AI"
+  type: "Featured Speaker on KBS N Show, AI-topia"
+  venue: KBS N
+  year: 2025
+  month: 10
+  url: "https://www.youtube.com/watch?v=lLtzosZj2KQ&t=280s"
+-
+  title: "Designing Inclusive AIs for and with Marginalized Populations"
+  type: "Workshop Talk at SNU-CMU Research Center"
+  venue: Seoul National University
+  year: 2025
+  month: 10
+-
+  title: "AI Ethics"
+  type: "Invited Instructor for AI Literacy Video Series"
+  venue: NAVER Connect Foundation
+  year: 2025
+  month: 9
+-
+  title: "Contributions and Future Strategies of AI Research toward Industry and Society"
+  type: "Panel Discussion at AI Transition Workshop for Faculty"
+  venue: KAIST
+  year: 2025
+  month: 8
+-
+  title: "AACessTalk"
+  type: "Featured Panelist on 'Sunsuda' Talk Show"
+  venue: Ministry of Science and ICT (YouTube)
+  year: 2025
+  month: 7
+  url: "https://www.youtube.com/watch?v=5S6C2nZp6_s&t=57s"
 -
   title: "Designing Non-Chatbot AI Interaction in Mental Health Contexts"
   type: "Panel Talk at Spring 2025 Conference"
   venue: Korean Academy of Child & Adolescent Psychiatry
-  date: "May 2025"
+  year: 2025
+  month: 5
 -
   title: "Designing LLM-driven Conversational AIs for Marginalized Populations"
   type: "Invited Talk at Social Computing Systems Lab"
   venue: University of Illinois, Urbana-Champaign
-  date: "Apr 2025"
+  year: 2025
+  month: 4
 -
   title: "Designing Non-Chatbot AI Interaction in Mental Health Contexts"
   type: "Invited Talk at Department of Visual Communication Design"
   venue: Hongik University
-  date: "Mar 2025"
+  year: 2025
+  month: 3
 -
   title: "Designing LLM-driven Conversational AIs for Marginalized Populations"
   type: "Invited Talk at AI/Computing Frontier Seminar"
   venue: Seoul National University
-  date: "Jan 2025"
+  year: 2025
+  month: 1
 -
   title: "Designing Inclusive AI for Marginalized Populations"
   type: "12th NULI Webinar"
   venue: NAVER
-  date: "Dec 2024"
+  year: 2024
+  month: 12
 -
   title: "Designing LLM-driven Personal Informatics Systems for Marginalized Populations"
   type: "Department Talk (Applied AI)"
   venue: Sungkyunkwan University
-  date: "Dec 2024"
+  year: 2024
+  month: 12
 -
   title: "Designing LLM-driven Conversational AIs for Marginalized Populations"
   type: "Department Talk (Graduate School of Communication)"
   venue: Yonsei University
-  date: "Nov 2024"
+  year: 2024
+  month: 11
 -
   title: "Designing LLM-driven Personal Informatics Systems for Marginalized Populations"
   type: "Department Talk (Graduate School of AI)"
   venue: POSTECH
-  date: "Nov 2024"
+  year: 2024
+  month: 11
 -
   title: "Designing LLM-driven Personal Informatics Systems for Marginalized Populations"
   type: "Panel Talk at Special Session for 'Design for Healthcare'"
   venue: Korean Society of Design and Science Fall Intl. Conference
-  date: "Nov 2024"
+  year: 2024
+  month: 11
 -
   title: "Designing LLM-driven Conversational AIs for Marginalized Populations"
   type: "Invited Talk (Graduate School of Information)"
   venue: Yonsei University
-  date: "Oct 2024"
+  year: 2024
+  month: 10
 -
   title: "Structuring Knowledge from Semi-Structured Personal Informatics Systems with Large Language Models"
   type: "Department Talk (Computer Science)"
   venue: Seoul National University
-  date: "Dec 2023"
+  year: 2023
+  month: 12
 -
   title: "HCI Research & Career Paths"
   type: "Panel Talk at the Introduction to HCI class (Instructor: Juho Kim)"
   venue: KAIST
-  date: "Jun 2023"
+  year: 2023
+  month: 6
 -
   title: "Case Study of CLOVA CareCall: Benefits and Challenges of Deploying Conversational AI Leveraging Large Language Models for Public Health Intervention"
   type: "Invited Talk at @TABLE seminar of Aging & Technology Policy Lab (Grad school of science and technology policy)"
   venue: KAIST
-  date: "May 2023"
+  year: 2023
+  month: 5
 -
   title: "Advancing Self-Tracking through Flexible Human-Data Interaction and AI"
   type: "Department Talk (Computer Science)"
   venue: Soongsil University
-  date: "Mar 2023"
+  year: 2023
+  month: 3
 -
   title: "How to Become a World-Leading HCI Researcher in Korea"
   type: "Panel Talk (with Prof. Jaeyeon Lee, Uran Oh, Auk Kim, Yoonji Kim, and Seongjae Oh)"
   venue: HCI Korea 2023
-  date: "Feb 2023"
+  year: 2023
+  month: 2
 -
   title: "Advancing Self-Tracking through Flexible Human-Data Interaction and AI"
   type: "Department Talk (Computer Science)"
   venue: Soongsil University
-  date: "Dec 2022"
+  year: 2022
+  month: 12
 -
   title: "Advancing Self-Tracking through Flexible Human-Data Interaction and AI"
   type: "Invited Talk at AI Colloquium (Dept. of Applied Artificial Intelligence)"
   venue: SEOULTECH
-  date: "Dec 2022"
+  year: 2022
+  month: 12
 -
   title: "Collecting, Visualizing, and Telling about Personal Data"
   type: "Invited Talk at Smart Health class (School of Computing)"
   venue: KAIST
-  date: "Nov 2022"
+  year: 2022
+  month: 11
 -
   title: "When Design Meets Engineering: HCI, Information Visualization, and Multimodal Interaction"
   type: "Department Talk (Visual Communication Design)"
   venue: Sangmyung University
-  date: "Oct 2022"
+  year: 2022
+  month: 10
 -
   title: "Advancing Self-Tracking through Flexible Human-Data Interaction"
   type: "Department Talk (Design)"
   venue: UNIST
-  date: "Apr 2022"
+  year: 2022
+  month: 4
 -
   title: "Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction"
   type: "Distinguished Research Seminar at HCI Korea 2022"
   venue: Online
-  date: "Feb 2022"
+  year: 2022
+  month: 2
 -
   title: "Advancing Self-Tracking through Flexible Human-Data Interaction"
   type: "Invited Talk, hosted by Dr. Hyunggu Jung (Dept. of Computer Science & Engineering)"
   venue: University of Seoul
-  date: "Dec 2021"
+  year: 2021
+  month: 12
 -
   title: "Advancing Self-Tracking through Flexible Human-Data Interaction"
   type: "Department Talk (Industrial Design)"
   venue: KAIST
-  date: "Oct 2021"
+  year: 2021
+  month: 10
 -
   title: "Advancing Personal Tracking through Flexible Human-Data Interaction"
   type: "EIRIC CHI 2021 Review Seminar"
   venue: EIRIC
-  date: "Jun 2021"
+  year: 2021
+  month: 6
 -
   title: "Advancing Self-Tracking through Flexible Human-Data Interaction"
   type: "AI Research Talk"
   venue: NAVER AI Lab
-  date: "Jun 2021"
+  year: 2021
+  month: 6
 -
   title: "Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction"
   type: "HCIL Symposium 2021"
   venue: Human-Computer Interaction Lab, University of Maryland
-  date: "May 2021"
+  year: 2021
+  month: 5
 -
   title: "Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction"
   type: "SoDa Research Roundtables"
   venue: Social Data Science Center, University of Maryland
-  date: "Apr 2021"
+  year: 2021
+  month: 4
 -
   title: "Advancing Self-Tracking through Flexible Human-Data Interaction"
   type: "Department Talk (Computer Science)"
   venue: Stevens Institute of Technology
-  date: "Mar 2021"
+  year: 2021
+  month: 3
 -
   title: "Visible Language Meets Engineering Language: Designing Interactive Information Visualization Systems to Nudge People"
   type: "'Dessert Seminar' (BBL)"
   venue: Korea Institute of Design Promotion
-  date: "Apr 2019"
+  year: 2019
+  month: 4
 -
   title: "HCI, Personal Informatics, and Information Visualization: Being (Surviving as) an HCI Researcher in Engineering Fields without Losing Designer's Soul"
   type: "Guest Lecture in Design Research Class (Dept. of Design), hosted by Mingu Lee"
   venue: Seoul National University
-  date: "Mar 2019"
+  year: 2019
+  month: 3
 -
   title: "Designing Flexible Self-Tracking Technologies to Enhance In Situ Data Collection"
   type: "Invited Talk, hosted by Dr. Gwang Uk Kim (Dept. of Computer Science)"
   venue: Hanyang University
-  date: "Mar 2019"
+  year: 2019
+  month: 3
 -
   title: "Understanding Personal Productivity: How Knowledge Workers Define, Evaluate, and Reflect on Productivity"
   type: "The 4th SNU HCI Group Summit"
   venue: Seoul National University
-  date: "Aug 2018"
+  year: 2018
+  month: 8
 -
   title: "Designing the HCI Technology for Flexible, Semi-Automated Personal Tracking Experience"
   type: "Invited Talk, hosted by Dr. Hwajung Hong (Dept. of Communication)"
   venue: Seoul National University
-  date: "Apr 2018"
+  year: 2018
+  month: 4
 -
   title: "Designing the HCI Technology for Flexible, Semi-Automated Personal Tracking Experience"
   type: "Invited Speaker at NAVER Tech Talk"
   venue: NAVER Corp., Korea
-  date: "Mar 2018"
+  year: 2018
+  month: 3
 -
   title: "A Flexible Self-Tracking Approach Leveraging Semi-Automated Tracking"
   type: "The 3rd SNU HCI Group Summit"
   venue: Seoul National University
-  date: "Aug 2017"
+  year: 2017
+  month: 8
 -
   title: "Leveraging Framing Effects to Enhance Personal Productivity"
   type: "The 2nd SNU HCI Group Summit"
   venue: Seoul National University
-  date: "Aug 2016"
+  year: 2016
+  month: 8

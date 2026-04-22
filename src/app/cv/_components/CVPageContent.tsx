@@ -3,6 +3,7 @@
 import { BioData, CVData, TalkEntry } from '@/app/_lib/types'
 import { MergedAward, CVPublicationCategory } from '../_lib/cv-utils'
 import { MainPanel } from '@/app/_components/layouts'
+import { LinkTag } from '@/app/_components/PublicationTag'
 import '../cv-print.css'
 
 const MY_NAME = 'Young-Ho Kim'
@@ -189,12 +190,20 @@ export function CVPageContent({ bio, cv, talks, awards, categories, mentorship, 
                                 <div className="italic text-sm whitespace-pre-line">
                                     {pub.cvVenue}
                                 </div>
-                                {(pub.doi || pub.links) && <div className="text-sm cv-no-print">
-                                    Links: {pub.doi && <a href={pub.doi} className="text-blue-700 hover:underline mr-2">DOI</a>}
-                                    {pub.links?.map((link, j) =>
-                                        <a key={j} href={link.url} className="text-blue-700 hover:underline mr-2">{link.label}</a>
-                                    )}
-                                </div>}
+                                {(pub.doi || pub.links) && <>
+                                    <div className="text-sm cv-no-print">
+                                        Links: {pub.doi && <a href={pub.doi} className="text-blue-700 hover:underline mr-2">DOI</a>}
+                                        {pub.links?.map((link, j) =>
+                                            <a key={j} href={link.url} className="text-blue-700 hover:underline mr-2">{link.label}</a>
+                                        )}
+                                    </div>
+                                    <div className="text-sm pdf-only">
+                                        Links: {pub.doi && <a href={pub.doi} className="text-blue-700 mr-2">DOI</a>}
+                                        {pub.links?.map((link, j) =>
+                                            <a key={j} href={link.url} className="text-blue-700 mr-2">{link.label}</a>
+                                        )}
+                                    </div>
+                                </>}
                             </div>
                         </div>
                     )}
@@ -268,11 +277,17 @@ export function CVPageContent({ bio, cv, talks, awards, categories, mentorship, 
                 <div key={i} className="cv-entry flex justify-between gap-4 mb-3">
                     <div className="flex-1">
                         <div className="font-bold">{talk.title}</div>
-                        <div className="text-sm">{talk.type}</div>
+                        <div className="text-sm flex items-center gap-1.5">
+                            <span>{talk.type}</span>
+                            {talk.url && <>
+                                <span className="cv-no-print"><LinkTag label="Link" url={talk.url} /></span>
+                                <a href={talk.url} className="pdf-only text-blue-700">Link</a>
+                            </>}
+                        </div>
                     </div>
                     <div className="text-right text-sm shrink-0 italic">
                         <div>{talk.venue}</div>
-                        <div>{talk.date}</div>
+                        <div>{['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][talk.month-1]} {talk.year}</div>
                     </div>
                 </div>
             )}

@@ -103,9 +103,9 @@ service:
     - venue: ACM CHI
       years: [2017, 2019, 2020, 2021, 2022, 2023]
     - venue: PACM IMWUT
-      details: "2017 Aug, 2019 Nov, 2020 Aug, 2022 Aug, 2022 Nov, 2023 Nov"
+      details: "2017 Aug, 2019 Nov, 2020 Aug, 2022 Aug, 2022 Nov, 2023 Nov, 2025 Nov"
     - venue: PACM HCI CSCW
-      details: "2022 July, 2023 Jan, 2024 Jul"
+      details: "2022 July, 2023 Jan, 2024 Jul, 2025 Jul"
     - venue: IEEE VIS
       years: [2021]
     - venue: IEEE Transactions on Visualization and Computer Graphics
