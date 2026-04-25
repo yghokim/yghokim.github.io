@@ -106,6 +106,8 @@ service:
       details: "2017 Aug, 2019 Nov, 2020 Aug, 2022 Aug, 2022 Nov, 2023 Nov, 2025 Nov"
     - venue: PACM HCI CSCW
       details: "2022 July, 2023 Jan, 2024 Jul, 2025 Jul"
+    - venue: ACM UIST
+      years: [2025, 2026]
     - venue: IEEE VIS
       years: [2021]
     - venue: IEEE Transactions on Visualization and Computer Graphics
@@ -127,6 +129,7 @@ service:
     - venue: PLOS Digital Health
       years: [2022]
   committee:
+    - "Advisory board member for AI - Public Institutional Review Board of Ministry of Health and Welfare (2026–2028)"
     - "The HCI Society of Korea, Co-Vice President (2026–2028)"
     - "ACM CSCW (Associate Chair in Program Committee) – January 2024 cycle"
     - "ACM CHI (Associate Chair in Program Committee) – Health subcommittee (2024, 2025), Computational Interaction subcommittee (2026)"
