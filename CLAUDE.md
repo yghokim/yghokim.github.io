@@ -47,6 +47,8 @@ Notable optional fields:
 - `thumbnail` — image or `.mp4` path for the paper card
 - `featured.video` — YouTube URL; appears in the home page video reel
 
+**Editing rule**: Whenever `publication.yml` is modified (new paper added, existing entry changed), update the `updated` field at the top of the file to the current year-month (e.g., `2026-5`).
+
 **Publication pipeline** (`publication/page.tsx` → `_libs/common.ts` → `PublicationPageContent.tsx`):
 1. `page.tsx` loads YAML, stamps each entry with its `section`, and calls `createPublicationTimelineData()`
 2. `_libs/common.ts` parses venue names via regex (CHI, CSCW, DIS, UbiComp, TVCG), groups papers by year, and separates primary vs. coauthor papers for the timeline
