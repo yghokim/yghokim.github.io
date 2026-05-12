@@ -43,6 +43,8 @@
         title: "Group Conversational Agents: A Review of Designs that Support and Shape Group Interaction"
         authors: [ShunYi Yeo, Tianyi Zhang, Scott Bateman, Gary Hsieh, Young-Ho Kim, Simon Tangi Perrault, Jiannan Li, Anthony Tang]
         venue: ACM DIS 2026
+        award: Honorable Mention Award
+        pdf: yeo-group-ca-dis26.pdf
       -
         key: PromptUncertainty-DIS26
         year: 2026
