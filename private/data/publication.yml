@@ -56,6 +56,16 @@
         authors: [Nazar Ponochevnyi, Young-Ho Kim, Michael Brudno, Anastasia Kuzminykh]
         venue: ACM DIS 2026
       -
+        key: ParalinguisticCues-TOCHI26
+        year: 2026
+        month: 5
+        selected: false
+        primary: false
+        type: full
+        title: "The Interplay of Paralinguistic Cues and Expressions of Certainty in Human-Human and Human-Agent Interactions"
+        authors: [Christina Wei, Emily Su, Manveer Kalirai, Annie Tan, Peter Dushniku, Brennan Jones, Young-Ho Kim, Anastasia Kuzminykh]
+        venue: ACM TOCHI
+      -
         key: Autiverse-CHI26
         year: 2026
         month: 4

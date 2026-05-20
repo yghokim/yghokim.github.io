@@ -458,6 +458,8 @@ publication_venue_meta:
     full_name: "Schizophrenia Bulletin Open"
   EAI PervasiveHealth 2019:
     full_name: "Proc. EAI Intl. Conference on Pervasive Computing Technologies for Healthcare"
+  ACM TOCHI:
+    full_name: "ACM Transactions on Computer-Human Interaction"
   ACM TiiS:
     full_name: "ACM Transactions on Intelligent & Interactive Systems"
   ACM HAI 2025 Poster:

@@ -49,6 +49,8 @@ Notable optional fields:
 
 **Editing rule**: Whenever `publication.yml` is modified (new paper added, existing entry changed), update the `updated` field at the top of the file to the current year-month (e.g., `2026-5`).
 
+**CV venue meta**: When adding a new publication, also check `private/data/cv.yml` under `publication_venue_meta`. If the venue doesn't have an entry there, add one with a `full_name` (and optionally `acceptance_rate`, `volume_issue`, or `presented_at`). The lookup key must be a substring of the `venue` string in `publication.yml`.
+
 **Publication pipeline** (`publication/page.tsx` → `_libs/common.ts` → `PublicationPageContent.tsx`):
 1. `page.tsx` loads YAML, stamps each entry with its `section`, and calls `createPublicationTimelineData()`
 2. `_libs/common.ts` parses venue names via regex (CHI, CSCW, DIS, UbiComp, TVCG), groups papers by year, and separates primary vs. coauthor papers for the timeline
