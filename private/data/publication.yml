@@ -34,6 +34,20 @@
             url: https://arxiv.org/abs/2509.17608
     Peer-reviewed Conferences and Journals:
       -
+        key: MAESTRO-UIST26
+        year: 2026
+        month: 11
+        selected: false
+        primary: false
+        type: full
+        title: "MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs"
+        authors: [Sangwook Lee, Sang Won Lee, Adnan Abbas, Young-Ho Kim, Yan Chen]
+        venue: ACM UIST 2026
+        links:
+          -
+            label: Web
+            url: https://sangwooklee.info/publications/maestro/
+      -
         key: GroupCA-DIS26
         year: 2026
         month: 6
