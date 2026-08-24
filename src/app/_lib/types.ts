@@ -9,6 +9,7 @@ export interface BioEntry {
     to: number | string,
     position: string,
     affiliation: string,
+    hide_in_short_bio?: boolean,
     cv_detail?: {
         organization?: string,
         location?: string,

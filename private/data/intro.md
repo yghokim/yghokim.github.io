@@ -28,6 +28,7 @@ I am a **Research Scientist** at <a href="https://clova.ai/ai-research" target="
 
 ### Academic Service
 * ACing - ACM CHI '26 (Computational Interaction), ACM CHI '25 (Health), ACM CSCW '24 (Jan), ACM CHI '24 (Health), IEEE PacificVis '23 
+* Adjunct Professor - <a href="https://gsai.kaist.ac.kr/" target="_blank">Kim Jaechul Graduate School of AI</a> at KAIST ("KAIST AI"), Sep 2026 – Present
 
 ### Miscellaneous Facts
 

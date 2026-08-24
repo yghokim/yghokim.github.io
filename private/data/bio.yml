@@ -48,6 +48,17 @@ education:
 
 employment:
   -
+    from: 2026
+    to: Now
+    position: Adjunct Professor
+    affiliation: KAIST AI
+    hide_in_short_bio: true
+    cv_detail:
+      organization: "Kim Jaechul Graduate School of AI, Korea Advanced Institute of Science and Technology (KAIST)"
+      location: "Seoul, Korea"
+      role: "Adjunct Professor"
+      from_month: 9
+  -
     from: 2021
     to: Now
     position: Research Scientist

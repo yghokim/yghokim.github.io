@@ -16,7 +16,7 @@ import removeMd from 'remove-markdown';
 
 const BioView = (props: {side: boolean, className?: string | undefined}) => {
 
-  const bioList = loadYAML<BioData>("bio.yml").employment
+  const bioList = loadYAML<BioData>("bio.yml").employment.filter(entry => entry.hide_in_short_bio !== true)
 
 
   return <div className={props.className}><SubTitle title="Short bio" size={props.side === true ? "small" : "large"} />
