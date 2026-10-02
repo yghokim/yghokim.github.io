@@ -1,5 +1,5 @@
 ---
-  updated: 2026-7
+  updated: 2026-9
   affiliation_years:
     - 
       affiliation: "NAVER AI"
@@ -41,7 +41,7 @@
         primary: false
         type: full
         title: "MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs"
-        authors: [Sangwook Lee, Sang Won Lee, Adnan Abbas, Young-Ho Kim, Yan Chen]
+        authors: [Sangwook Lee, Adnan Abbas, Sang Won Lee, Young-Ho Kim, Yan Chen]
         venue: ACM UIST 2026
         links:
           -
@@ -59,6 +59,7 @@
         venue: ACM DIS 2026
         award: Honorable Mention Award
         pdf: yeo-group-ca-dis26.pdf
+        doi: https://doi.org/10.1145/3800645.3812934
       -
         key: PromptUncertainty-DIS26
         year: 2026
@@ -69,6 +70,7 @@
         title: "When It's Hard to Explain: Strategies for Reducing Prompt Uncertainty In Multimodal Generative Systems"
         authors: [Nazar Ponochevnyi, Young-Ho Kim, Michael Brudno, Anastasia Kuzminykh]
         venue: ACM DIS 2026
+        doi: https://doi.org/10.1145/3800645.3813033
       -
         key: ParalinguisticCues-TOCHI26
         year: 2026
@@ -79,6 +81,7 @@
         title: "The Interplay of Paralinguistic Cues and Expressions of Certainty in Human-Human and Human-Agent Interactions"
         authors: [Christina Wei, Emily Su, Manveer Kalirai, Annie Tan, Peter Dushniku, Brennan Jones, Young-Ho Kim, Anastasia Kuzminykh]
         venue: ACM TOCHI
+        doi: https://doi.org/10.1145/3830401
       -
         key: Autiverse-CHI26
         year: 2026
@@ -179,6 +182,7 @@
         title: "\"Having Lunch Now\": Understanding How Users Engage with a Proactive Agent for Daily Planning and Self-Reflection"
         authors: [Adnan Abbas, Caleb Wohn, Arnav Jagtap, Eugenia H. Rho, Young-Ho Kim, Sang Won Lee]
         venue: ACM CHI 2026
+        doi: https://doi.org/10.1145/3772318.3790957
         links:
           -
             label: arXiv
@@ -194,6 +198,7 @@
         title: "CHOIR: A Chatbot-mediated Organizational Memory Leveraging Communication in University Research Labs"
         authors: [Sangwook Lee, Adnan Abbas, Yan Chen, Young-Ho Kim, Sang Won Lee]
         venue: ACM CHI 2026
+        doi: https://doi.org/10.1145/3772318.3791314
         links:
           -
             label: arXiv
@@ -208,6 +213,7 @@
         title: "An Empirical Study to Understand How Students Use ChatGPT for Writing Essays"
         authors: [Andrew Jelson, Daniel Manesh, Alice Jang, Daniel Dunlap, Young-Ho Kim, Sang Won Lee]
         venue: ACM CHI 2026
+        doi: https://doi.org/10.1145/3772318.3791056
         links:
           -
             label: arXiv
@@ -222,6 +228,7 @@
         title: "\"Are we writing an advice column for Spock here?\" Understanding Stereotypes in AI Advice for Autistic Users"
         authors: [Caleb Wohn, Buse Carik, Xiaohan Ding, Sang Won Lee, Young-Ho Kim, Eugenia H. Rho]
         venue: ACM CHI 2026
+        doi: https://doi.org/10.1145/3772318.3791319
         links:
           -
             label: arXiv
@@ -236,6 +243,7 @@
         title: "ClearFairy: Capturing Creative Workflows through Decision Structuring, In-Situ Questioning, and Rationale Inference"
         authors: [Kihoon Son, DaEun Choi, Tae Soo Kim, Young-Ho Kim, Sangdoo Yun, Juho Kim]
         venue: ACM CHI 2026
+        doi: https://doi.org/10.1145/3772318.3791680
         links:
           - 
             label: arXiv
@@ -250,6 +258,7 @@
         title: "Exploring Learners' Expectations and Engagement When Collaborating with Constructively Controversial Peer Agents"
         authors: [Thitaree Tanprasert, Young-Ho Kim, Sidney S. Fels, Dongwook Yoon]
         venue: ACM CHI 2026
+        doi: https://doi.org/10.1145/3772318.3790796
         links:
           -
             label: arXiv
@@ -278,6 +287,7 @@
         authors: [Colin Au Yeung, Jessi Stark, Jiannan Li, Fanny Chevalier, Joonsuk Park, Young-Ho Kim, Anthony Tang]
         venue: ICHEC 2025
         pdf: yeung2025supporting-ichec25.pdf
+        doi: https://doi.org/10.1145/3786995.3786998
 
       -
         key: CUPID-COLM25
@@ -1530,6 +1540,7 @@
         authors: [Takyoung Kim, Jamin Shin, Young-Ho Kim, Sanghwan Bae, Sungdong Kim]
         venue: ACL 2024 Workshop on NLP for Conversational AI
         pdf: open-goal-kim-arxiv.pdf
+        doi: https://doi.org/10.18653/v1/2024.nlp4convai-1.3
         award: Best Paper
         links:
           - 
