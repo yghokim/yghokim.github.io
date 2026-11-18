@@ -1,5 +1,5 @@
 ---
-  updated: 2026-9
+  updated: 2026-11
   affiliation_years:
     - 
       affiliation: "NAVER AI"
@@ -43,10 +43,33 @@
         title: "MAESTRO: Adapting GUIs and Guiding Navigation with User Preferences in Conversational Agents with GUIs"
         authors: [Sangwook Lee, Adnan Abbas, Sang Won Lee, Young-Ho Kim, Yan Chen]
         venue: ACM UIST 2026
+        doi: https://doi.org/10.1145/3830398.3830672
         links:
           -
             label: Web
             url: https://sangwooklee.info/publications/maestro/
+      -
+        key: AgentMemory-HAI26
+        year: 2026
+        month: 11
+        selected: false
+        primary: false
+        type: full
+        title: "What Does It Mean To Remember? Understanding Users' Perceptions and Practices with Long-Term Memory in AI Agents"
+        authors: [Nazar Ponochevnyi, Brennan Jones, Young-Ho Kim, Anastasia Kuzminykh]
+        venue: ACM HAI 2026
+        doi: https://doi.org/10.1145/3841580.3841621
+      -
+        key: SycophanticSlide-HAI26
+        year: 2026
+        month: 11
+        selected: false
+        primary: false
+        type: full
+        title: "The Sycophantic Slide: From Static Detection to Dynamic Trajectories in Multi-Turn LLM Conversations"
+        authors: [Christina Wei, Maren X. Lian, Young-Ho Kim, Anastasia Kuzminykh]
+        venue: ACM HAI 2026
+        doi: https://doi.org/10.1145/3841580.3841583
       -
         key: GroupCA-DIS26
         year: 2026

@@ -462,6 +462,8 @@ publication_venue_meta:
     full_name: "ACM Transactions on Computer-Human Interaction"
   ACM TiiS:
     full_name: "ACM Transactions on Intelligent & Interactive Systems"
+  ACM HAI 2026:
+    full_name: "Proc. ACM International Conference on Human-Agent Interaction"
   ACM HAI 2025 Poster:
     full_name: "ACM HAI 2025 Poster"
   ICHEC 2025:
