@@ -6,7 +6,7 @@ import { twMerge } from "tailwind-merge";
 import { StarIcon, TrophyIcon } from '@heroicons/react/16/solid';
 
 
-const VENUE_COLORS = ["#fb50a3", "#09A4DB", "#A45CB9", "#FEC606", "#018F9C"]
+const VENUE_COLORS = ["#fb50a3", "#09A4DB", "#A45CB9", "#FEC606", "#018F9C", "#6DBE45"]
 
 const VenueLegend = () => {
     return <div className="mt-1 mb-0.5">

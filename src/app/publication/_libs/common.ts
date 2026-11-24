@@ -12,6 +12,8 @@ function extractVenueName(venue: string): VenueType | null {
         return VenueType.TVCG
     }else if(/^ACM\sDIS\s\d{4}/g.test(venue)){
         return VenueType.DIS
+    }else if(/^ACM\sUIST\s\d{4}/g.test(venue)){
+        return VenueType.UIST
     }else return null
 }
 
