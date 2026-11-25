@@ -81,7 +81,9 @@ const PublicationItem = memo((props: {
 
 PublicationItem.displayName = "PublicationItem"
 
-const unitContainerClass = "flex items-center gap-0.5";
+// flex-wrap lets a busy year spill onto a second line instead of pushing the
+// table wider than the fixed-width sidebar.
+const unitContainerClass = "flex flex-wrap items-center gap-0.5";
 const primaryClass = "flex-row-reverse";
 const coauthorClass = "flex-row justify-start";
 
@@ -104,7 +106,9 @@ export const PublicationTimeline = (props: {
             <thead>
                 <tr>
                     <th></th>
-                    <th className="text-sm text-right">First/corresp.-authored</th>
+                    {/* Explicit break + nowrap keeps this column's min and max width equal,
+                        so the table gives leftover width to the co-authored column. */}
+                    <th className="text-sm text-right whitespace-nowrap">First/corresp.-<br/>authored</th>
                     <td></td>
                     <th className="text-sm text-left">Co-authored</th>
                 </tr>
